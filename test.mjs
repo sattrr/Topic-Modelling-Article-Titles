@@ -1,1 +1,0 @@
-const abiyyu = "halo, ini test buat branch"
