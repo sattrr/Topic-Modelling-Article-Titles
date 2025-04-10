@@ -1,0 +1,1228 @@
+[
+    {
+        "Topic": -1,
+        "Count": 67,
+        "Name": "-1_networks_data_based_model",
+        "Representation": [
+            "networks",
+            "data",
+            "based",
+            "model",
+            "generation",
+            "detection",
+            "optimization",
+            "diagnosis",
+            "field",
+            "technical"
+        ],
+        "Representative_Docs": [
+            "Simultaneous Dynamic Optimization of Technical Indicators and Mining Sequence in Metal Mines Using Hybrid Coding AADE",
+            "Understanding the Traffic Nature of Mobile Instantaneous Messaging in Cellular Networks: A Revisiting to  \\alpha  -Stable Models",
+            "Optimization of Idealized Quantum Dot Intermediate Band Solar Cells Considering Spatial Variation of Generation Rates"
+        ]
+    },
+    {
+        "Topic": 0,
+        "Count": 16,
+        "Name": "0_decision_complex_models_informative",
+        "Representation": [
+            "decision",
+            "complex",
+            "models",
+            "informative",
+            "complex systems",
+            "decision theory",
+            "interpretation decision",
+            "ratio",
+            "informative interpretation",
+            "theory"
+        ],
+        "Representative_Docs": [
+            "An Informative Interpretation of Decision Theory: Scalar Performance Measures for Binary Decisions",
+            "Valuing Information in Complex Systems: An Integrated Analytical Approach to Achieve Optimal Performance in the Beer Distribution Game",
+            "An Informative Interpretation of Decision Theory: The Information Theoretic Basis for Signal-to-Noise Ratio and Log Likelihood Ratio"
+        ]
+    },
+    {
+        "Topic": 1,
+        "Count": 14,
+        "Name": "1_control_frequency_fractionalslot_energy storage",
+        "Representation": [
+            "control",
+            "frequency",
+            "fractionalslot",
+            "energy storage",
+            "storage",
+            "stability analysis",
+            "stability",
+            "inverter",
+            "pv",
+            "motor"
+        ],
+        "Representative_Docs": [
+            "Torque Ripple Reduction and Flux-Droop Minimization of DTC With Improved Interleaving CSFTC of IM Fed by Three-Level NPC Inverter",
+            "MPC-Based Virtual Energy Storage System Using PV and Air Conditioner to Emulate Virtual Inertia and Frequency Regulation of the Low-Inertia Microgrid",
+            "Analysis of Output Characteristics of Electrically Excited Doubly Salient Generator Based on Back EMF Oriented Vector Control Strategy"
+        ]
+    },
+    {
+        "Topic": 2,
+        "Count": 13,
+        "Name": "2_things_internet_internet things_survey",
+        "Representation": [
+            "things",
+            "internet",
+            "internet things",
+            "survey",
+            "healthcare",
+            "smart",
+            "technologies challenges",
+            "survey internet",
+            "technologies",
+            "things smart"
+        ],
+        "Representative_Docs": [
+            "A Fog Based Middleware for Automated Compliance With OECD Privacy Principles in Internet of Healthcare Things",
+            "A Survey on Internet of Things From Industrial Market Perspective",
+            "Internet of Things for Smart Healthcare: Technologies, Challenges, and Opportunities"
+        ]
+    },
+    {
+        "Topic": 3,
+        "Count": 13,
+        "Name": "3_3d_reconstruction_images_regularization",
+        "Representation": [
+            "3d",
+            "reconstruction",
+            "images",
+            "regularization",
+            "3d reconstruction",
+            "maps",
+            "visualization",
+            "fusion",
+            "photogrammetric bundle",
+            "point"
+        ],
+        "Representative_Docs": [
+            "Super Resolution Reconstruction of Images Based on Interpolation and Full Convolutional Neural Network and Application in Medical Fields",
+            "Refining the Fusion of Pepper Robot and Estimated Depth Maps Method for Improved 3D Perception",
+            "The Impact of Solar Angle and Cloud Shadows on 3D Reconstruction of Rolling Stock Cargo"
+        ]
+    },
+    {
+        "Topic": 4,
+        "Count": 12,
+        "Name": "4_robots_autonomous_control_quadrotor",
+        "Representation": [
+            "robots",
+            "autonomous",
+            "control",
+            "quadrotor",
+            "quadrotor uavs",
+            "control quadrotor",
+            "controlled",
+            "uavs",
+            "robust",
+            "user"
+        ],
+        "Representative_Docs": [
+            "Enhancing User Satisfaction by Adapting Robot’s Perception of Uncertain Information Based on Environment and User Feedback",
+            "Robust Optimal Control of Quadrotor UAVs",
+            "Real-Time Local Obstacle Avoidance and Trajectory Tracking Control of Quadrotor UAVs With Suspended Payload in Complex Environments"
+        ]
+    },
+    {
+        "Topic": 5,
+        "Count": 12,
+        "Name": "5_channel_quantum_channels_decoding",
+        "Representation": [
+            "channel",
+            "quantum",
+            "channels",
+            "decoding",
+            "fading",
+            "error",
+            "design",
+            "sequence",
+            "coding",
+            "signals"
+        ],
+        "Representative_Docs": [
+            "Bit Error Floor Reduction for MQAM Signals in the Presence of Phase Error",
+            "Performance of OFDM-IM Under Joint Hardware Impairments and Channel Estimation Errors Over Correlated Fading Channels",
+            "Extrinsic Information Transfer Charts for Characterizing the Iterative Decoding Convergence of Fully Parallel Turbo Decoders"
+        ]
+    },
+    {
+        "Topic": 6,
+        "Count": 11,
+        "Name": "6_sensitivity_prediction_sensors_measurements",
+        "Representation": [
+            "sensitivity",
+            "prediction",
+            "sensors",
+            "measurements",
+            "monitoring",
+            "monitoring workers",
+            "method experiment",
+            "robotic hands",
+            "yolov8n",
+            "monitoring stamping"
+        ],
+        "Representative_Docs": [
+            "Performance Prediction and Sensitivity Analysis of SAW Gas Sensors",
+            "New Method and Experiment for Detecting Relative Position and Posture of the Hydraulic Support",
+            "Structural Design and Needle Deflection Prediction of Body-Mounted Breast Puncture Robot Modeled After a Compass"
+        ]
+    },
+    {
+        "Topic": 7,
+        "Count": 10,
+        "Name": "7_language_games_large language_tweets",
+        "Representation": [
+            "language",
+            "games",
+            "large language",
+            "tweets",
+            "news",
+            "large",
+            "identification",
+            "measure games",
+            "human bias",
+            "jerks"
+        ],
+        "Representative_Docs": [
+            "Knowledge-Enriched Recommendations: Bridging the Gap in Alloy Material Selection With Large Language Models",
+            "Extracting Unique Discussions of Interests for Entrepreneurs and Managers in a Set of Business Tweets Without Any Human Bias",
+            "Evaluating the Effectiveness of GPT Large Language Model for News Classification in the IPTC News Ontology"
+        ]
+    },
+    {
+        "Topic": 8,
+        "Count": 9,
+        "Name": "8_machine learning_machine_vehicle_learning",
+        "Representation": [
+            "machine learning",
+            "machine",
+            "vehicle",
+            "learning",
+            "characteristics",
+            "induced chili",
+            "hemodynamics",
+            "hemodynamics linear",
+            "impact cognitive",
+            "learning anodal"
+        ],
+        "Representative_Docs": [
+            "Dynamic Stiffness Characteristics Analysis of Bogie Suspension for Rail Vehicle Based on Big Data-Driven Bench Test",
+            "Anodal Electrical Stimulation Enhances the Perceived Piquancy Induced by Chili Peppers and Wasabi",
+            "The Impact of Cognitive Distraction on Driver Perception Response Time Under Different Levels of Situational Urgency"
+        ]
+    },
+    {
+        "Topic": 9,
+        "Count": 9,
+        "Name": "9_chain_problem_scheduling problem_pricing",
+        "Representation": [
+            "chain",
+            "problem",
+            "scheduling problem",
+            "pricing",
+            "supply",
+            "supply chain",
+            "segmentation",
+            "agricultural",
+            "scheduling",
+            "job shop"
+        ],
+        "Representative_Docs": [
+            "Pricing and Collecting Decision of a Closed-Loop Supply Chain Under Market Segmentation With Reward-Penalty Mechanism",
+            "A Constraint Programming Formulation of the Multi-Mode Resource-Constrained Project Scheduling Problem for the Flexible Job Shop Scheduling Problem",
+            "Research on Inventory Control and Pricing Decisions in the Supply Chain of Fresh Agricultural Products Under the Advertisement Delay Effect"
+        ]
+    },
+    {
+        "Topic": 10,
+        "Count": 8,
+        "Name": "10_mosfet_si_design_reduction",
+        "Representation": [
+            "mosfet",
+            "si",
+            "design",
+            "reduction",
+            "performance",
+            "multichannel",
+            "mosfets",
+            "modeling silicon",
+            "mosfet design",
+            "mosfet si"
+        ],
+        "Representative_Docs": [
+            "Confronting the Variability Issues Affecting the Performance of Next-Generation SRAM Design to Optimize and Predict the Speed and Yield",
+            "A Review of Inductive Power Transfer: Emphasis on Performance Parameters, Compensation Topologies and Coil Design Aspects",
+            "Effects of Current Commutation Methods on SiC MOSFET and Si IGBT Based 4-Quadrant Switches"
+        ]
+    },
+    {
+        "Topic": 11,
+        "Count": 7,
+        "Name": "11_radar_localization_coupling_xband marine",
+        "Representation": [
+            "radar",
+            "localization",
+            "coupling",
+            "xband marine",
+            "lpwan",
+            "radarbased",
+            "lpwan signals",
+            "radar mixed",
+            "radar image",
+            "radar coexistence"
+        ],
+        "Representative_Docs": [
+            "Coupling Scattering Characteristic Analysis of Dihedral Corner Reflectors in SAR Images",
+            "IR-UWB Radar-Based Contactless Silent Speech Recognition of Vowels, Consonants, Words, and Phrases",
+            "Fast PARAFAC Algorithm for Target Localization in Bistatic MIMO Radar in the Co-Existence of Unknown Mutual Coupling and Spatially Colored Noise"
+        ]
+    },
+    {
+        "Topic": 12,
+        "Count": 7,
+        "Name": "12_sdn_case_network_2020",
+        "Representation": [
+            "sdn",
+            "case",
+            "network",
+            "2020",
+            "wmnbased",
+            "resource",
+            "study xian",
+            "topology change",
+            "throughput linuxbased",
+            "resource sharing"
+        ],
+        "Representative_Docs": [
+            "Auto-Configuration of ACL Policy in Case of Topology Change in Hybrid SDN",
+            "Research on Bus and Metro Transfer From Perspective of Hypernetwork—A Case Study of Xi’an, China (December 2020)",
+            "Rethinking the Data Center Networking: Architecture, Network Protocols, and Resource Sharing"
+        ]
+    },
+    {
+        "Topic": 13,
+        "Count": 7,
+        "Name": "13_protocol_communication_vehicle_security",
+        "Representation": [
+            "protocol",
+            "communication",
+            "vehicle",
+            "security",
+            "learning security",
+            "platooning",
+            "theory applications",
+            "theorybased",
+            "qosawared",
+            "grid routing"
+        ],
+        "Representative_Docs": [
+            "A Localized Adaptive Strategy to Calculate the Backoff Interval in Contention-Based Vehicular Networks",
+            "Corrections to “Game and Contract Theory-Based Energy Transaction Management for Internet of Electric Vehicle”",
+            "A Novel QoS-Awared Grid Routing Protocol in the Sensing Layer of Internet of Vehicles Based on Reinforcement Learning"
+        ]
+    },
+    {
+        "Topic": 14,
+        "Count": 7,
+        "Name": "14_national_year term_flexibility_extension",
+        "Representation": [
+            "national",
+            "year term",
+            "flexibility",
+            "extension",
+            "extension holistic",
+            "mexico upgrading",
+            "mexico",
+            "managing electromobility",
+            "managing",
+            "interdisciplinary research"
+        ],
+        "Representative_Docs": [
+            "Impact of Interdisciplinary Research on Planning, Running, and Managing Electromobility as a Smart Grid Extension",
+            "Advancements in Carbon Dioxide Modeling: An Algorithm Incorporating In-Situ and Satellite Data for Improved Understanding of pCO Dynamics in the Bay of Bengal",
+            "Big Data Processing for Commercial Buildings and Assessing Flexibility in the Context of Citizen Energy Communities"
+        ]
+    },
+    {
+        "Topic": 15,
+        "Count": 7,
+        "Name": "15_insulation_flashover_effect_characteristics",
+        "Representation": [
+            "insulation",
+            "flashover",
+            "effect",
+            "characteristics",
+            "ag",
+            "monte carlo",
+            "investigation role",
+            "investigations",
+            "paper insulation",
+            "paper"
+        ],
+        "Representative_Docs": [
+            "Impulsive Flashover Characteristics and Weibull Statistical Analysis of Gas-Solid Interfaces With Varying Relative Humidity",
+            "Partial Discharge Characteristics and Growth Stage Recognition of Electrical Tree in XLPE Insulation",
+            "Insertion of Ag Layer in TiN/SiNx/TiN RRAM and Its Effect on Filament Formation Modeled by Monte Carlo Simulation"
+        ]
+    },
+    {
+        "Topic": 16,
+        "Count": 7,
+        "Name": "16_mimo_5g_subject randomness_randomness los",
+        "Representation": [
+            "mimo",
+            "5g",
+            "subject randomness",
+            "randomness los",
+            "characterization level",
+            "level",
+            "level 5g",
+            "mimo characterization",
+            "randomness",
+            "stations subject"
+        ],
+        "Representative_Docs": [
+            "In-situ Measurement Methodology for the Assessment of 5G NR Massive MIMO Base Station Exposure at Sub-6 GHz Frequencies",
+            "MIMO Characterization on System Level of 5G Microbase Stations Subject to Randomness in LOS",
+            "Correction to “MIMO Characterization on System Level of 5G Micro Base Stations Subject to Randomness in LOS”"
+        ]
+    },
+    {
+        "Topic": 17,
+        "Count": 7,
+        "Name": "17_blockchain_blockchainbased_management_mitigation cognitive",
+        "Representation": [
+            "blockchain",
+            "blockchainbased",
+            "management",
+            "mitigation cognitive",
+            "proof work",
+            "tiebreaking rule",
+            "radio networks",
+            "shardingbased blockchain",
+            "systems architecture",
+            "solution product"
+        ],
+        "Representative_Docs": [
+            "Development of a Severity-Based Attack Mitigation System in Cognitive Radio Networks Using Blockchain and GFHQDC",
+            "Optimizing Blockchain Querying: A Comprehensive Review of Techniques, Challenges, and Future Directions",
+            "Blockchain-Based Solution for Product Recall Management in the Automotive Supply Chain"
+        ]
+    },
+    {
+        "Topic": 18,
+        "Count": 6,
+        "Name": "18_training_adversarial_objective function_trials deep",
+        "Representation": [
+            "training",
+            "adversarial",
+            "objective function",
+            "trials deep",
+            "study ai",
+            "training restricted",
+            "training policy",
+            "reducing number",
+            "human performance",
+            "identification based"
+        ],
+        "Representative_Docs": [
+            "Enhancing Quality Control: A Study on AI and Human Performance in Flip Chip Defect Detection",
+            "Policy Return: A New Method for Reducing the Number of Experimental Trials in Deep Reinforcement Learning",
+            "Training Restricted Boltzmann Machines Using Modified Objective Function Based on Limiting the Free Energy Value"
+        ]
+    },
+    {
+        "Topic": 19,
+        "Count": 6,
+        "Name": "19_cloud_mobile_ecosystems lispbased_recent progress",
+        "Representation": [
+            "cloud",
+            "mobile",
+            "ecosystems lispbased",
+            "recent progress",
+            "social device",
+            "offloading",
+            "progress cran",
+            "offload",
+            "aided",
+            "sociallyaware"
+        ],
+        "Representative_Docs": [
+            "The Value Strength Aided Information Diffusion in Socially-Aware Mobile Networks",
+            "Analysis of Vector Code Offloading Framework in Heterogeneous Cloud and Edge Architectures",
+            "Offload Decision Models and the Price of Anarchy in Mobile Cloud Application Ecosystems"
+        ]
+    },
+    {
+        "Topic": 20,
+        "Count": 6,
+        "Name": "20_access_data_information leakage_type analysis",
+        "Representation": [
+            "access",
+            "data",
+            "information leakage",
+            "type analysis",
+            "trees sequence",
+            "prevention scope",
+            "sequential pattern",
+            "threadparallel",
+            "systems data",
+            "reading data"
+        ],
+        "Representative_Docs": [
+            "Optimization of Reading Data via Classified Block Access Patterns in File Systems",
+            "RL-Based Cache Replacement: A Modern Interpretation of Belady’s Algorithm With Bypass Mechanism and Access Type Analysis",
+            "Efficiently Maintaining the Fast Updated Sequential Pattern Trees With Sequence Deletion"
+        ]
+    },
+    {
+        "Topic": 21,
+        "Count": 5,
+        "Name": "21_threedimensional_mixtures_electromagnetic_field calculation",
+        "Representation": [
+            "threedimensional",
+            "mixtures",
+            "electromagnetic",
+            "field calculation",
+            "regular irregular",
+            "revolution",
+            "permittivity 3d",
+            "regular",
+            "periodic composites",
+            "nanoslit manipulation"
+        ],
+        "Representative_Docs": [
+            "Effective Permittivity of 3-D Periodic Composites With Regular and Irregular Inclusions",
+            "Automated Creation of Complex Three-Dimensional Composite Mixtures for Use in Electromagnetic Simulation",
+            "Scattered Field Calculation From Microstrip Arrays Using the Combination of Discrete Bodies of Revolution and Domain Decomposition Methods"
+        ]
+    },
+    {
+        "Topic": 22,
+        "Count": 5,
+        "Name": "22_microwave_moisture_sensing survey_study planar",
+        "Representation": [
+            "microwave",
+            "moisture",
+            "sensing survey",
+            "study planar",
+            "signal",
+            "technology electromagnetic",
+            "stage detection",
+            "radiative elements",
+            "survey study",
+            "radiation environments"
+        ],
+        "Representative_Docs": [
+            "Research Progress and Prospects of Pre-Training Technology for Electromagnetic Signal Analysis",
+            "Electromagnetically Induced Absorption in the Near-Field of Microwave Radiative Elements With Application to Foliage Moisture Sensing",
+            "Microwave System for the Early Stage Detection of Congestive Heart Failure"
+        ]
+    },
+    {
+        "Topic": 23,
+        "Count": 5,
+        "Name": "23_relay_transmission_impact_information scheduling",
+        "Representation": [
+            "relay",
+            "transmission",
+            "impact",
+            "information scheduling",
+            "interconnected transmission",
+            "shared",
+            "relay transmission",
+            "relays interconnected",
+            "impact cochannel",
+            "railway communication"
+        ],
+        "Representative_Docs": [
+            "Data Exchange of Relay Transmission and Information Scheduling in Shared Networks",
+            "Impact of Co-Channel Interference on the Outage Performance Under Multiple Type II Relay Environments",
+            "Comprehensive Analysis of the Impact of the TCSC on Distance Relays in Interconnected Transmission Networks"
+        ]
+    },
+    {
+        "Topic": 24,
+        "Count": 4,
+        "Name": "24_channel_diffraction_28ghz_human blockage",
+        "Representation": [
+            "channel",
+            "diffraction",
+            "28ghz",
+            "human blockage",
+            "propagation channel",
+            "parameters experimental",
+            "rf jamming",
+            "physical optics",
+            "novel automatic",
+            "radio channel"
+        ],
+        "Representative_Docs": [
+            "JamRF: Performance Analysis, Evaluation, and Implementation of RF Jamming Over Wi-Fi",
+            "Performance of a Novel Automatic Identification Algorithm for the Clustering of Radio Channel Parameters",
+            "Scalable Modeling of Human Blockage at Millimeter-Wave: A Comparative Analysis of Knife-Edge Diffraction, the Uniform Theory of Diffraction, and Physical Optics Against 60 GHz Channel Measurements"
+        ]
+    },
+    {
+        "Topic": 25,
+        "Count": 4,
+        "Name": "25_smart grid_grid_distribution_load",
+        "Representation": [
+            "smart grid",
+            "grid",
+            "distribution",
+            "load",
+            "uncertainties",
+            "networks transmission",
+            "radial distribution",
+            "power electricity",
+            "simultaneous power",
+            "propagation interdependence"
+        ],
+        "Representative_Docs": [
+            "Transmission Contingency Analysis Based on Data-Driven Equivalencing of Radial Distribution Networks Considering Uncertainties",
+            "Cascading failures in smart grid: Joint effect of load propagation and interdependence",
+            "Monthly Probability Theoretical Line Loss Calculation Method of Low Voltage Distribution Network Based on Simultaneous Power and Electricity"
+        ]
+    },
+    {
+        "Topic": 26,
+        "Count": 4,
+        "Name": "26_852_wavelength_spectroscopy enhancement_transition iotbased",
+        "Representation": [
+            "852",
+            "wavelength",
+            "spectroscopy enhancement",
+            "transition iotbased",
+            "sulfate",
+            "valley spacing",
+            "transition",
+            "spacing wavelength",
+            "valley",
+            "source separation"
+        ],
+        "Representative_Docs": [
+            "A Voigt Laser Lasing on Cs 852 nm Transition",
+            "Improvement of Concentration Inversion Model Based on Second Harmonic Valley Spacing in Wavelength Modulation Spectroscopy",
+            "Enhancement of an Optical Fiber Sensor: Source Separation Based on Brillouin Spectrum"
+        ]
+    },
+    {
+        "Topic": 27,
+        "Count": 4,
+        "Name": "27_ms_unveiling power_effective methods_genomescale metabolic",
+        "Representation": [
+            "ms",
+            "unveiling power",
+            "effective methods",
+            "genomescale metabolic",
+            "metabolic",
+            "voting techniques",
+            "metabolic network",
+            "methods fingerprint",
+            "mobile trace",
+            "ms data"
+        ],
+        "Representative_Docs": [
+            "Tensor Voting Techniques and Applications in Mobile Trace Inference",
+            "Classification of Proteomic MS Data as Bayesian Solution of an Inverse Problem",
+            "Unveiling the Power of Simplicity: Two Remarkably Effective Methods for Fingerprint Segmentation"
+        ]
+    },
+    {
+        "Topic": 28,
+        "Count": 4,
+        "Name": "28_smart_worlds report_forum domain_adaptation binary",
+        "Representation": [
+            "smart",
+            "worlds report",
+            "forum domain",
+            "adaptation binary",
+            "computing internet",
+            "alignment semantic",
+            "challenges smart",
+            "world challenges",
+            "challenges emergence",
+            "environments activity"
+        ],
+        "Representative_Docs": [
+            "Semantic Interoperability Architecture for Pervasive Computing and Internet of Things",
+            "Top Challenges for Smart Worlds: A Report on the Top10Cs Forum",
+            "Domain Adaptation of Binary Sensors in Smart Environments Through Activity Alignment"
+        ]
+    },
+    {
+        "Topic": 29,
+        "Count": 4,
+        "Name": "29_mobile phone_molecular communications_relationship pssar_successful aging",
+        "Representation": [
+            "mobile phone",
+            "molecular communications",
+            "relationship pssar",
+            "successful aging",
+            "resistance testing",
+            "tablet",
+            "successful",
+            "radiationthe relationship",
+            "survey tablet",
+            "pssar age"
+        ],
+        "Representative_Docs": [
+            "The Multi-Scale Impact of the Alzheimer’s Disease on the Topology Diversity of Astrocytes Molecular Communications Nanonetworks",
+            "Dosimetric Simulations of Brain Absorption of Mobile Phone Radiation–The Relationship Between psSAR and Age",
+            "A Survey of Tablet Applications for Promoting Successful Aging in Older Adults"
+        ]
+    },
+    {
+        "Topic": 30,
+        "Count": 4,
+        "Name": "30_identification_htls ringdown_process grassland_static dynamic",
+        "Representation": [
+            "identification",
+            "htls ringdown",
+            "process grassland",
+            "static dynamic",
+            "sound",
+            "quality ergonomics",
+            "static",
+            "pencil htls",
+            "tuning",
+            "tuning sound"
+        ],
+        "Representative_Docs": [
+            "Equivalence of Matrix Pencil and HTLS Ring-Down Electromechanical Mode Identification Algorithms",
+            "Smoke and Flame Identification Method for the Entire Process of Grassland Fire Based on YOLOv5m-D and Static and Dynamic Characteristics",
+            "Optimization Method on the Tuning, Sound Quality, and Ergonomics of the Ancient Guitar Using a DSP-FEM Simulation"
+        ]
+    },
+    {
+        "Topic": 31,
+        "Count": 4,
+        "Name": "31_5g_systemlevel simulations_comparative study_challenges systemlevel",
+        "Representation": [
+            "5g",
+            "systemlevel simulations",
+            "comparative study",
+            "challenges systemlevel",
+            "5g mobile",
+            "enhancing standard",
+            "challenges cran",
+            "limits lte",
+            "multirats 5g",
+            "lte"
+        ],
+        "Representative_Docs": [
+            "Potentials and Challenges of C-RAN Supporting Multi-RATs Toward 5G Mobile Networks",
+            "On the Road to 5G: Comparative Study of Physical Layer in MTC Context",
+            "Pushing the Limits of LTE: A Survey on Research Enhancing the Standard"
+        ]
+    },
+    {
+        "Topic": 32,
+        "Count": 3,
+        "Name": "32_neural_trackingcontrol problem_locus synchronous_chaotic neural",
+        "Representation": [
+            "neural",
+            "trackingcontrol problem",
+            "locus synchronous",
+            "chaotic neural",
+            "based differential",
+            "chaotic",
+            "differential flatness",
+            "differential",
+            "creep",
+            "creep chaotic"
+        ],
+        "Representative_Docs": [
+            "Neural Networks for the Output Tracking-Control Problem of Nonlinear Strict-Feedback System",
+            "Synchronous Control of Hysteretic Creep Chaotic Neural Network",
+            "Linear State Feedback Regulation of a Furuta Pendulum: Design Based on Differential Flatness and Root Locus"
+        ]
+    },
+    {
+        "Topic": 33,
+        "Count": 3,
+        "Name": "33_education_ai_review_terrain aigenerated",
+        "Representation": [
+            "education",
+            "ai",
+            "review",
+            "terrain aigenerated",
+            "personalized",
+            "disabilities scoping",
+            "deployment",
+            "ethical terrain",
+            "use ai",
+            "higher education"
+        ],
+        "Representative_Docs": [
+            "Navigating the Ethical Terrain of AI-Generated Text Tools: A Review",
+            "Corrections to “Could the Use of AI in Higher Education Hinder Students With Disabilities? A Scoping Review”",
+            "End-to-End Deployment of the Educational AI Hub for Personalized Learning and Engagement: A Case Study on Environmental Science Education"
+        ]
+    },
+    {
+        "Topic": 34,
+        "Count": 3,
+        "Name": "34_industry_electronics_taiwan_chinese hightech",
+        "Representation": [
+            "industry",
+            "electronics",
+            "taiwan",
+            "chinese hightech",
+            "data internet",
+            "brain health",
+            "collaboration patent",
+            "forecast monitoring",
+            "universityindustry collaboration",
+            "health based"
+        ],
+        "Representative_Docs": [
+            "Industrial Agglomeration, University-Industry Collaboration and Patent Output: Evidence From the Chinese High-Tech Industry",
+            "Strengthening Modern Electronics Industry Through the National Program for Intelligent Electronics in Taiwan",
+            "Air Quality Forecast Monitoring and Its Impact on Brain Health Based on Big Data and the Internet of Things"
+        ]
+    },
+    {
+        "Topic": 35,
+        "Count": 3,
+        "Name": "35_panorama stateoftheart_outofsequence measurements_measurement technology_based noise",
+        "Representation": [
+            "panorama stateoftheart",
+            "outofsequence measurements",
+            "measurement technology",
+            "based noise",
+            "discharge pulse",
+            "estimation partial",
+            "energy estimation",
+            "effect outofsequence",
+            "time delay",
+            "technology power"
+        ],
+        "Representative_Docs": [
+            "Random Time Delay Effect on Out-of-Sequence Measurements",
+            "Energy Estimation of Partial Discharge Pulse Signals Based on Noise Parameters",
+            "Synchrophasor Measurement Technology in Power Systems: Panorama and State-of-the-Art"
+        ]
+    },
+    {
+        "Topic": 36,
+        "Count": 3,
+        "Name": "36_wireless_fully cooperative_social wireless_cooperative",
+        "Representation": [
+            "wireless",
+            "fully cooperative",
+            "social wireless",
+            "cooperative",
+            "connectivity selfish",
+            "communication wbans",
+            "connectivity",
+            "dissemination",
+            "comprehensive performance",
+            "cellular opportunistic"
+        ],
+        "Representative_Docs": [
+            "The Connectivity of Selfish Wireless Networks",
+            "Comprehensive Performance Analysis of Fully Cooperative Communication in WBANs",
+            "Bridging the Social and Wireless Networking Divide: Information Dissemination in Integrated Cellular and Opportunistic Networks"
+        ]
+    },
+    {
+        "Topic": 37,
+        "Count": 3,
+        "Name": "37_piezoelectric_actuator_irradiation tests_harvester",
+        "Representation": [
+            "piezoelectric",
+            "actuator",
+            "irradiation tests",
+            "harvester",
+            "ceramic elements",
+            "composite cantilever",
+            "dependence",
+            "freeend",
+            "vibration energy",
+            "gamma"
+        ],
+        "Representative_Docs": [
+            "Electromechanical Evaluation of a Double-Core Motor With Ceramic Elements",
+            "Performance Dependence on Initial Free-End Levitation of a Magnetically Levitated Piezoelectric Vibration Energy Harvester With a Composite Cantilever Beam",
+            "Gamma and Proton Irradiation Tests on a Piezoelectric Actuator"
+        ]
+    },
+    {
+        "Topic": 38,
+        "Count": 3,
+        "Name": "38_internet things_things_internet_amplifyandforward",
+        "Representation": [
+            "internet things",
+            "things",
+            "internet",
+            "amplifyandforward",
+            "wsnbased",
+            "compressed",
+            "based amplifyandforward",
+            "amplifyandforward compressed",
+            "generator securing",
+            "capacity wireless"
+        ],
+        "Representative_Docs": [
+            "Intrusion Prevention Framework for Secure Routing in WSN-Based Mobile Internet of Things",
+            "Study on Secrecy Capacity of Wireless Sensor Networks in Internet of Things Based on the Amplify-and-Forward Compressed Sensing Scheme",
+            "A Lightweight Pseudorandom Number Generator for Securing the Internet of Things"
+        ]
+    },
+    {
+        "Topic": 39,
+        "Count": 3,
+        "Name": "39_lanka_tunnels 3d_highly accurate_vector estimation",
+        "Representation": [
+            "lanka",
+            "tunnels 3d",
+            "highly accurate",
+            "vector estimation",
+            "humans heritage",
+            "india",
+            "india sri",
+            "lightning",
+            "lightning hazards",
+            "locating"
+        ],
+        "Representative_Docs": [
+            "3-D Low Earth Orbit Vector Estimation of Faraday Rotation and Path Delay",
+            "Modeling and Assessment of Lightning Hazards to Humans in Heritage Monuments in India and Sri Lanka",
+            "A Highly Accurate Method of Locating Microseismic Events Associated With Rockburst Development Processes in Tunnels"
+        ]
+    },
+    {
+        "Topic": 40,
+        "Count": 3,
+        "Name": "40_encryption_symmetric encryption_ransomware intercepting_subset",
+        "Representation": [
+            "encryption",
+            "symmetric encryption",
+            "ransomware intercepting",
+            "subset",
+            "encryption detection",
+            "blind",
+            "backward privacy",
+            "subset modulation",
+            "antenna subset",
+            "antenna"
+        ],
+        "Representative_Docs": [
+            "Detection and Elimination of Spyware and Ransomware by Intercepting Kernel-Level System Routines",
+            "Analyzing Physical Layer Security of Antenna Subset Modulation as Block Encryption Ciphers",
+            "Shedding Light on Blind Spot of Backward Privacy in Dynamic Searchable Symmetric Encryption"
+        ]
+    },
+    {
+        "Topic": 41,
+        "Count": 3,
+        "Name": "41_mechanism_tray seedling_culling_decoupled motions",
+        "Representation": [
+            "mechanism",
+            "tray seedling",
+            "culling",
+            "decoupled motions",
+            "visionguided integrated",
+            "machining",
+            "machining mechanism",
+            "visionguided",
+            "mechanism dual",
+            "mechanism flying"
+        ],
+        "Representative_Docs": [
+            "Design and Experiments of a Vision-Guided Integrated Cavity Tray Seedling Culling and Replanting System",
+            "Topology Synthesis for In-Situ Machining Mechanism With Dual Platforms and Decoupled Motions of Position and Rotation",
+            "Aerodynamic Characteristics and Pitching Adjusting Mechanism of the Flying Squirrel With Deployed Patagium"
+        ]
+    },
+    {
+        "Topic": 42,
+        "Count": 3,
+        "Name": "42_consumer_antecedents_intention_consumer wearables",
+        "Representation": [
+            "consumer",
+            "antecedents",
+            "intention",
+            "consumer wearables",
+            "innovation communities",
+            "consumer purchasing",
+            "commerce antecedents",
+            "continuance intention",
+            "commerce",
+            "factors driving"
+        ],
+        "Representative_Docs": [
+            "The Factors Driving the Consumer Purchasing Intentions in Social Commerce",
+            "Antecedents of Trust and the Continuance Intention in IoT-Based Smart Products: The Case of Consumer Wearables",
+            "Research on the Impact of Implicit Contracts on User Knowledge Contribution in Open Innovation Communities"
+        ]
+    },
+    {
+        "Topic": 43,
+        "Count": 3,
+        "Name": "43_manufacturing_links software_development alignment_devops",
+        "Representation": [
+            "manufacturing",
+            "links software",
+            "development alignment",
+            "devops",
+            "devops smes",
+            "cyberphysical manufacturing",
+            "analysis cyberphysical",
+            "alignment model",
+            "effect traceability",
+            "exploratory"
+        ],
+        "Representative_Docs": [
+            "Trustworthiness Modeling and Analysis of Cyber-physical Manufacturing Systems",
+            "Development of an Alignment Model for the Implementation of DevOps in SMEs: An Exploratory Study",
+            "A Study on the Effect of Traceability Links in Software Maintenance"
+        ]
+    },
+    {
+        "Topic": 44,
+        "Count": 3,
+        "Name": "44_optimal_power_accuracy_computational",
+        "Representation": [
+            "optimal",
+            "power",
+            "accuracy",
+            "computational",
+            "docr protection",
+            "dispatching",
+            "wind power",
+            "hybrid energy",
+            "integrated energy",
+            "integrating"
+        ],
+        "Representative_Docs": [
+            "Optimal Operation of an Islanded Hybrid Energy System Integrating Power and Gas Systems",
+            "Research on Collaborative Optimal Dispatching of Electric Heating Integrated Energy Based on Wind Power Prediction Accuracy",
+            "The Recent Development of Optimal DOCR Protection Strategies for Sustainable Power Systems via Computational Intelligence Techniques"
+        ]
+    },
+    {
+        "Topic": 45,
+        "Count": 3,
+        "Name": "45_cnn_text_xcorrection classification_fourstream model",
+        "Representation": [
+            "cnn",
+            "text",
+            "xcorrection classification",
+            "fourstream model",
+            "using cnn",
+            "cnn audio",
+            "classification poetry",
+            "cnn xcorrection",
+            "reduction kernelbased",
+            "spoken"
+        ],
+        "Representative_Docs": [
+            "Diagnosis of Depression Based on Four-Stream Model of Bi-LSTM and CNN From Audio and Text Information",
+            "xCorrection to “Classification of Poetry Text Into the Emotional States Using Deep Learning Technique”",
+            "Exploring the Effectiveness of Feature Reduction and Kernel-Based Matching for Query-by- Example Spoken Term Detection Using CNN"
+        ]
+    },
+    {
+        "Topic": 46,
+        "Count": 3,
+        "Name": "46_mental_disorders_hugging_engineering",
+        "Representation": [
+            "mental",
+            "disorders",
+            "hugging",
+            "engineering",
+            "disorder",
+            "harnessing power",
+            "transformers predicting",
+            "health disorders",
+            "higherorder",
+            "higherorder qanalysis"
+        ],
+        "Representative_Docs": [
+            "Feature Engineering: Toward Identification of Symptom Clusters of Mental Disorders",
+            "Corrections to “Harnessing the Power of Hugging Face Transformers for Predicting Mental Health Disorders in Social Networks”",
+            "Beyond Pairwise Interactions: Higher-Order Q-Analysis of fMRI-Based Brain Functional Networks in Patients With Major Depressive Disorder"
+        ]
+    },
+    {
+        "Topic": 47,
+        "Count": 3,
+        "Name": "47_key_leakageresilient_voting process_attack kish",
+        "Representation": [
+            "key",
+            "leakageresilient",
+            "voting process",
+            "attack kish",
+            "authenticated",
+            "exchange standard",
+            "estonian internet",
+            "ballot integrity",
+            "detection new",
+            "internet voting"
+        ],
+        "Representative_Docs": [
+            "Provably Leakage-Resilient Password-Based Authenticated Key Exchange in the Standard Model",
+            "A New Transient Attack on the Kish Key Distribution System",
+            "Identifying and Solving a Vulnerability in the Estonian Internet Voting Process: Subverting Ballot Integrity Without Detection"
+        ]
+    },
+    {
+        "Topic": 48,
+        "Count": 3,
+        "Name": "48_digital_evidence information_overview decade_link creation",
+        "Representation": [
+            "digital",
+            "evidence information",
+            "overview decade",
+            "link creation",
+            "link",
+            "information forensics",
+            "forensics overview",
+            "forensics",
+            "production",
+            "digital twins"
+        ],
+        "Representative_Docs": [
+            "Information Forensics: An Overview of the First Decade",
+            "Automated Production of Predetermined Digital Evidence",
+            "Data Link for the Creation of Digital Twins"
+        ]
+    },
+    {
+        "Topic": 49,
+        "Count": 2,
+        "Name": "49_iris recognition_detection textured_textured_signs european",
+        "Representation": [
+            "iris recognition",
+            "detection textured",
+            "textured",
+            "signs european",
+            "signs",
+            "robust detection",
+            "recognition using",
+            "lenses iris",
+            "lenses",
+            "traffic signs"
+        ],
+        "Representative_Docs": [
+            "Classification of Traffic Signs: The European Dataset",
+            "Robust Detection of Textured Contact Lenses in Iris Recognition Using BSIF"
+        ]
+    },
+    {
+        "Topic": 50,
+        "Count": 2,
+        "Name": "50_hybrid transfer_transfer algorithm_deepfakes visual_deepfakes",
+        "Representation": [
+            "hybrid transfer",
+            "transfer algorithm",
+            "deepfakes visual",
+            "deepfakes",
+            "based convolutional",
+            "algorithm based",
+            "convolution restricted",
+            "convolution",
+            "boltzmann machine",
+            "audio textual"
+        ],
+        "Representative_Docs": [
+            "A Survey on the Detection and Impacts of Deepfakes in Visual, Audio, and Textual Formats",
+            "The Application of a Hybrid Transfer Algorithm Based on a Convolutional Neural Network Model and an Improved Convolution Restricted Boltzmann Machine Model in Facial Expression Recognition"
+        ]
+    },
+    {
+        "Topic": 51,
+        "Count": 2,
+        "Name": "51_microservices kubernetes_mapping knowledge_study aging_structure research",
+        "Representation": [
+            "microservices kubernetes",
+            "mapping knowledge",
+            "study aging",
+            "structure research",
+            "safety studies",
+            "research evolution",
+            "aging fault",
+            "transit safety",
+            "tolerance microservices",
+            "microservices"
+        ],
+        "Representative_Docs": [
+            "A Study on the Aging and Fault Tolerance of Microservices in Kubernetes",
+            "Mapping the Knowledge Structure and Research Evolution of Urban Rail Transit Safety Studies"
+        ]
+    },
+    {
+        "Topic": 52,
+        "Count": 2,
+        "Name": "52_transform_iris presentation_using hybridization_haar transform",
+        "Representation": [
+            "transform",
+            "iris presentation",
+            "using hybridization",
+            "haar transform",
+            "histogram transform",
+            "hybridization",
+            "haar",
+            "ensembles",
+            "detection iris",
+            "cosine transform"
+        ],
+        "Representative_Docs": [
+            "Text-Independent Speaker Identification Using the Histogram Transform Model",
+            "Detection of Iris Presentation Attacks Using Hybridization of Discrete Cosine Transform and Haar Transform With Machine Learning Classifiers and Ensembles"
+        ]
+    },
+    {
+        "Topic": 53,
+        "Count": 2,
+        "Name": "53_similarity_aesthetic_impact fingerprint_fingerprint vector",
+        "Representation": [
+            "similarity",
+            "aesthetic",
+            "impact fingerprint",
+            "fingerprint vector",
+            "examining impact",
+            "determination clustering",
+            "examining",
+            "metric",
+            "determination",
+            "clustering performance"
+        ],
+        "Representative_Docs": [
+            "Probabilistic Modeling of Image Aesthetic Assessment Toward Measuring Subjectivity",
+            "Examining the Impact of Fingerprint Vector Size on Similarity Determination and Clustering Performance of a Pattern-Based Similarity Metric"
+        ]
+    },
+    {
+        "Topic": 54,
+        "Count": 2,
+        "Name": "54_kidney stones_detection smartphone_color_chronic",
+        "Representation": [
+            "kidney stones",
+            "detection smartphone",
+            "color",
+            "chronic",
+            "applications corrections",
+            "color detection",
+            "vivo recognition",
+            "algorithms size",
+            "chronic wounds",
+            "wounds healthcare"
+        ],
+        "Representative_Docs": [
+            "Corrections to “On the In Vivo Recognition of Kidney Stones Using Machine Learning”",
+            "Algorithms for Size and Color Detection of Smartphone Images of Chronic Wounds for Healthcare Applications"
+        ]
+    }
+]
