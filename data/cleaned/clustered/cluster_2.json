@@ -140,6 +140,13 @@
         "cluster": 2
     },
     {
+        "article": "machine learningbased anomaly detection multivariate time series correlation dependency",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Shashank Chauhan, , Shashank Chauhan, Sudong Lee",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
         "article": "study deep learning model online estimation chlorophyll content based near ground multispectral feature band",
         "Tahun": "Publication Year: 2022",
         "Author": "Jiaxing Gao, , Zhibin Zhang, Jiaxing Gao",
@@ -462,6 +469,13 @@
         "cluster": 2
     },
     {
+        "article": "automatic acne detection model based improved yolov",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Zhidong Zhang, Delong Zhang, , Xiyuan Cao, Chunyang Jin, Chunyang Jin, Zhidong Zhang, Xiyuan Cao, Chenyang Xue, Delong Zhang",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
         "article": "contextual knowledgeinformed deep domain generalization bearing fault diagnosis",
         "Tahun": "Publication Year: 2024",
         "Author": "Mattias O’Nils, Faisal Z. Qureshi, Adam Lundström, Adam Lundström, , Mattias O’Nils",
@@ -480,6 +494,13 @@
         "Tahun": "Publication Year: 2024",
         "Author": "Abdul Sami, Mohammed Elaffendi, Naveed Ahmad, Nadeem Ahmad, Fazila Malik, Qazi Waqas Khan, Sajid Shah, , Fazila Malik, Abdul Sami, Qazi Waqas Khan, Sajid Shah, Nadeem Ahmad, Mohammed Elaffendi",
         "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "object recognition deep convolutional feature transformed recursive network structure",
+        "Tahun": "Publication Year: 2016",
+        "Author": "Eva Cheng, Margaret Lech, , Eva Cheng, Katrina Neville, Hieu Minh Bui, Hieu Minh Bui, Katrina Neville, Margaret Lech, Ian S. Burnett",
+        "word_count": 9,
         "cluster": 2
     },
     {
@@ -532,10 +553,24 @@
         "cluster": 2
     },
     {
+        "article": "robust detection textured contact lens iris recognition bsif",
+        "Tahun": "Publication Year: 2015",
+        "Author": "James S. Doyle, , Kevin W. Bowyer, James S. Doyle",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
         "article": "overlapping community detection method based network representation learning density peak",
         "Tahun": "Publication Year: 2020",
         "Author": "Gege Li, Hongtao Liu, Hongtao Liu",
         "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "hybrid deep learningbased model wind speed forecasting based dwpt bidirectional lstm network",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Amirhossein Dolatabadi, , Amirhossein Dolatabadi, Yasser Abdel-Rady I. Mohamed, Hussein Abdeltawab, Hussein Abdeltawab",
+        "word_count": 12,
         "cluster": 2
     },
     {
@@ -557,6 +592,13 @@
         "Tahun": "Publication Year: 2020",
         "Author": "Binh Tran, Diem Pham, , Su Nguyen, Binh Tran, Damminda Alahakoon, Diem Pham, Su Nguyen",
         "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "residual bilstm model named entity recognition",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Gang Yang, , Gang Yang, Hongzhe Xu",
+        "word_count": 6,
         "cluster": 2
     },
     {
