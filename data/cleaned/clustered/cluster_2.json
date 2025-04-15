@@ -1,0 +1,800 @@
+[
+    {
+        "article": "learning cluster pattern abstractive summarization",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Seung-Hyeok Park, Jeong-Jae Kim, , Jeong-Jae Kim, Byung-Won On, Sung-Guk Jo, Seung-Hyeok Park, Sung-Guk Jo",
+        "word_count": 5,
+        "cluster": 2
+    },
+    {
+        "article": "deep selfsupervised diversity promoting learning hierarchical hyperspheres regularization",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Yoonsuk Hyun, , Sung Ju Hwang, Yoonsuk Hyun, Youngsung Kim, Jinwoo Shin, Jae-Joon Han, Youngsung Kim, Sung Ju Hwang, Jae-Joon Han, Eunho Yang, Eunho Yang",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "onthefly learning mixedmode spiking neural network passive memristive array application neuromorphic camera",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Jean Tomas, , Pierre Lewden, Sylvain Saïghi, Adrien F. Vincent, Jean Tomas, Pierre Lewden, Adrien F. Vincent",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "machine learning healthcareiot security review risk mitigation",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Mirza Akhi Khatun, Mirza Akhi Khatun, Sanober Farheen Memon, Sanober Farheen Memon, Ciarán Eising, Lubna Luxmi Dhirani, Ciarán Eising",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "blockchainenabled federated learning reference architecture design implementation verification",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Do-Yup Kim, Jong-Eui Chae, Suyeong Oh, Jong-Eui Chae, , Suyeong Oh, Dae-Yeol Kim, Eunsu Goh, Eunsu Goh, Dae-Yeol Kim, Kwangkee Lee, Kwangkee Lee",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "analysis technical characteristic badminton sport neurorobotics machine learning",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Huan Chen, Fan Wu, , Fan Wu",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "importanceweighted variational inference model estimation offline bayesian modelbased reinforcement learning",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Toru Hishinuma, Kei Senda, Toru Hishinuma",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "linkfnd simple framework false negative detection recommendation task graph contrastive learning",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Sanghun Kim, Hyeryung Jang, Sanghun Kim",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "deepmetaforge deep visiontransformer metadatafusion network automatic skin lesion classification",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Suppawong Tuarob, Waritsara Piyanonpong, , Sirawich Vachmanus, Teerapong Rattananukrom, Thanapon Noraset, Thanapon Noraset, Waritsara Piyanonpong, Teerapong Rattananukrom, Sirawich Vachmanus",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "urban water supply forecasting based cnnlstmam spatiotemporal deep learning model",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Yaxin Zhao, Zuqiang Long, Yuebing Xu, Yuebing Xu, Jiadong Ye, Xiaowu Zhang, Xiaowu Zhang, Jiadong Ye, Yaxin Zhao",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "survey blockchainenhanced machine learning",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Kenji Yoshigoe, Ozgur Ural, Ozgur Ural",
+        "word_count": 4,
+        "cluster": 2
+    },
+    {
+        "article": "application selfsupervised learning biomedical signal survey",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Federico Del Pup, , Federico Del Pup, Manfredo Atzori",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "classification companion animal ocular disease domain adversarial learning imbalanced data",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Mary G. Nam, Mary G. Nam, , Suh-Yeon Dong",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "zeroshot transfer learning framework plant leaf disease classification",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Rakesh Kumar Sanodiya, , R. Satya Rajendra Singh, R. Satya Rajendra Singh",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "speech enhancement dynamic learning knowledge distillation via reinforcement learning",
+        "Tahun": "Publication Year: 2023",
+        "Author": "Chung-Hsien Wu, Tsai-Wei Su, Shih-Chuan Chu, Chung-Hsien Wu, Shih-Chuan Chu",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "comment correction correction dataaware adaptive pruning model compression algorithm based group attention mechanism reinforcement learning",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Yuan Zhai, Zhi Yang, , Yi Xiang, Yi Xiang, Yuan Zhai, Jinliang Shi, Jianquan Wu, Jianquan Wu, Zhi Yang, Jinliang Shi, Ying Wu",
+        "word_count": 15,
+        "cluster": 2
+    },
+    {
+        "article": "deep survival learning approach cardiovascular risk estimation patient sleep apnea",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Frédéric Gagnadoux, Frédéric Gagnadoux, Chloé Gervès-Pinquié, Jean-Marc Girault, Abdelkebir Sabil, , Abdelkebir Sabil, Chloé Gervès-Pinquié, Margaux Blanchard, Mathieu Feuilloy, Margaux Blanchard, Mathieu Feuilloy",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "efficient detection spam internet telephony machine learning algorithm",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Filip Rezac, Ladislav Behan, , Jakub Safarik, Miroslav Voznak, Jakub Safarik, Jan Rozhon, Jan Rozhon, Filip Rezac, Ladislav Behan",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "deepfake audio detection via mfcc feature machine learning",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Abdul Rehman Rehman Javed, Abdul Rehman Rehman Javed, Farkhund Iqbal, Farkhund Iqbal, Natalia Kryvinska, , Zunera Jalil, Rouba Borghol, Natalia Kryvinska, Ahmad S. Almadhor, Ahmad S. Almadhor, Ameer Hamza, Zunera Jalil, Ameer Hamza",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "systematic literature review machine learning deep learning method semantic segmentation",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Ali Sohail, Naeem A. Nawaz, Saim Rasheed, Sheeba Ilyas, , Asghar Ali Shah, Muhammad Khurram Ehsan, Ali Sohail, Saim Rasheed, Sheeba Ilyas, Naeem A. Nawaz, Asghar Ali Shah",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "study deep learning model online estimation chlorophyll content based near ground multispectral feature band",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Jiaxing Gao, , Zhibin Zhang, Jiaxing Gao",
+        "word_count": 14,
+        "cluster": 2
+    },
+    {
+        "article": "assessment vehicle handling performance driver machine learning algorithm",
+        "Tahun": "Publication Year: 2022",
+        "Author": "D. Saravanakumar, , J. Lakshmi Pathi, R. Jegadeeshwaran, M. Muthu Kumar, J. Lakshmi Pathi, R. Jegadeeshwaran, G. Sakthivel, D. Saravanakumar, G. Sakthivel, T. Muthuramalingam, M. Muthu Kumar",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "ogsgg ontologyguided scene graph generationa case study transfer learning telepresence robotics",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Natalia Díaz-Rodríguez, Fernando Amodeo, Luis Merino, , Fernando Caballero, Fernando Amodeo, Natalia Díaz-Rodríguez, Fernando Caballero",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "twostage incentive mechanism design quality optimization hierarchical federated learning",
+        "Tahun": "Publication Year: 2022",
+        "Author": "Zhuo Li, Xin Chen, Zhuo Li, , Hui Du, Hui Du",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "system design perspective humanlevel agent deep reinforcement learning survey",
+        "Tahun": "Publication Year: 2017",
+        "Author": "Thanh Nguyen, , Saeid Nahavandi, Ngoc Duy Nguyen, Ngoc Duy Nguyen, Thanh Nguyen",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "deepmec mobile edge caching deep learning",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Nguyen H. Tran, , Choong Seon Hong, Thant Zin Oo, Kyi Thar, Kyi Thar, Nguyen H. Tran, Thant Zin Oo",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "wind speed extrapolation machine learning method lidar measurement",
+        "Tahun": "Publication Year: 2018",
+        "Author": "S. Rehman, , M. A. Mohandes, M. A. Mohandes",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "person reidentification hybrid representation reinforced metric learning",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Muhammad Moazam Fraz, Nazia Perwaiz, Muhammad Moazam Fraz, , Muhammad Shahzad, Nazia Perwaiz",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "improving transfer learning squeeze andexcitation network smallscale finegrained fish image classification",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Chao Wang, Zhibin Yu, Shaoyong Zhang, Bing Zheng, , Chenchen Qiu, Zhibin Yu, Chao Wang, Haiyong Zheng, Shaoyong Zhang, Chenchen Qiu, Haiyong Zheng",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "elitist learning particle swarm optimization scaling mutation ring topology",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Xinchao Zhao, Xinchao Zhao, Rui Li, Tong Wu, Xingmei Li, Guangzhi Xu, Rui Li, Tong Wu, Guangzhi Xu",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "vector grouping learning brain storm optimization algorithm global optimization problem",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Dujuan Hu, Chunquan Li, Zu Luo, Zu Luo, , Feng Yang, Zhenshou Song, Chunquan Li, Zhenshou Song, Feng Yang, Jinghui Fan, Peter X. Liu, Jinghui Fan, Dujuan Hu",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "supervised learning via unsupervised sparse autoencoder",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Jianran Liu, Wenyuan Yang, , Chan Li, Jianran Liu, Chan Li",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "plugandplay prior based gaussian mixture model learning image restoration sensor network",
+        "Tahun": "Publication Year: 2018",
+        "Author": "Mingzhu Shi, , Liang Feng, Mingzhu Shi",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "novel qosawared grid routing protocol sensing layer internet vehicle based reinforcement learning",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Jian Liu, , Jian Liu, Denghui Wang, Denghui Wang, Qingmiao Zhang, Qingmiao Zhang, Dezhong Yao",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "efficient hardware implementation reinforcement learning qlearning algorithm",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Luca Di Nunzio, Gian Carlo Cardarilli, , Daniele Giardino, Marco Matta, Alberto Nannarelli, Rocco Fazzolari, Daniele Giardino, Luca Di Nunzio, Alberto Nannarelli, Gian Carlo Cardarilli, Marco Matta, Marco Re, Sergio Spanò, Rocco Fazzolari, Sergio Spanò",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "deepcpdp deep learning based crossproject defect prediction",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Xiang Chen, Yanzhou Mu, , Xiang Chen, Hao Li, Deyu Chen, Hao Li, Junfeng Xie, Junfeng Xie, Deyu Chen",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "intelligent path planning auvs dynamic environment edabased learning fixed height histogram approach",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Zi-Jia Wang, Zi-Jia Wang, , Run-Dong Liu, Zhi-Hui Zhan, Zong-Gan Chen, Zong-Gan Chen, Run-Dong Liu",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "imagebased hierarchical deep learning framework coal gangue detection",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Dongjun Li, Dongjun Li, Guoying Meng, Zhihua Xu, Guoying Meng, Zhen Li, Siyun Chen, , Zhenxin Zhang, Lili Xu, Lili Xu, Zhenxin Zhang, Zhihua Xu, Zhen Li",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "machine learning based dynamic correlation marine environmental data crossrecurrence strategy",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Di Cai, , Huixin Liu, Yingqi Li, Yingqi Li, Ning Wang, Jiabo Zhang, Huixin Liu, Guan Gui, Jialin Wang, Zhigang Li, Di Cai, Xiaochuan Sun, Zhigang Li, Gang Wang, Jiabo Zhang, Jialin Wang, Xiaochuan Sun, Ning Wang, Guan Gui",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "dynamic multiswarm particle swarm optimization based elite learning",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Bo Wei, , Ling Gui, Yichao Tang, Xuewen Xia, Xuewen Xia, Yichao Tang, Bo Wei",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "incremental learning multitasking network aesthetic radar map prediction",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Xinghui Zhou, Xinghui Zhou, Xiqiao Li, Hongbo Sun, Xin Jin, , Hongbo Sun, Xin Jin, Xiaodong Li, Xiqiao Li, Xiaodong Li, Xiaokun Zhang, Ruijun Liu, Xiaokun Zhang",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "shakedrop regularization deep residual learning",
+        "Tahun": "Publication Year: 2019",
+        "Author": "Yoshihiro Yamada, Masakazu Iwamura, Takuya Akiba, Koichi Kise, , Masakazu Iwamura, Yoshihiro Yamada, Takuya Akiba",
+        "word_count": 5,
+        "cluster": 2
+    },
+    {
+        "article": "risassisted crmec system deep reinforcement learning approach",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Pham Duy Thanh, Hoang Thi Huong Giang, , Pham Duy Thanh, Hoang Thi Huong Giang, Ic-Pyo Hong",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "cmle multilayer ensemble deep learning approach covid detection cough sound xray imaging",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Shabir Hussain, , Amerah Alabrah, Amerah Alabrah, Shabir Hussain, Gehad Abdullah Amran, Lubna Alkhalil, Lubna Alkhalil, Gehad Abdullah Amran, Ali A. Al-Bakhrani",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "deep model stroke segmentation complex architecture always perform better",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Amr Mohamed, Ahmed Ibrahim, , Essam A. Rashed, Amr Mohamed, Yousif Yousif, Yousif Yousif, Mohamed A. Mabrok, Essam A. Rashed, Yalda Zafari-Ghadim, Yalda Zafari-Ghadim, Ahmed Soliman, Ahmed Ibrahim, Ahmed Soliman",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "miroberta mental illness text classification transfer learning subreddits",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Mavin Sao, Hoi-Jeong Lim, Mavin Sao",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "comprehensive review deep learningbased anomaly detection method precision agriculture",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Konstantinos Gkountakos, , Konstantinos Gkountakos, Konstantinos Demestichas, Stefanos Vrochidis, Konstantinos Ioannidis, Ioannis Kompatsiaris, Stefanos Vrochidis, Konstantinos Ioannidis, Konstantinos Demestichas",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "hybrid attentionbased transformer model arabic news classification text embedding deep learning",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Md. Shakil Hossain, Mejdl Safran, Md. Mithun Hossain, Mejdl Safran, , Meshal Alfarhood, Md. Shakil Hossain, Md. Mithun Hossain, Sultan Alfarhood, Meshal Alfarhood, Sultan Alfarhood, M. F. Mridha",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "ensemble convolutional recursive neural network based deep reinforcement learning traffic volume forecasting",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Xiaomin Pu, Chengming Yu, Pancheng Liu, , Wei Kang, Xiaomin Pu, Pancheng Liu, Wei Kang",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "correction review recent advance challenge opportunity malicious insider threat detection machine learning method",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Fatima Rashed Alzaabi, Fatima Rashed Alzaabi, Abid Mehmood",
+        "word_count": 13,
+        "cluster": 2
+    },
+    {
+        "article": "correction secure biometric identification orca predator algorithm deep learning retinal iris image analysis",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Mohammed Altwijri, Louai A. Maghrabi, Fouad Shoie Alallah, , Louai A. Maghrabi, Diaa Hamed, Fouad Shoie Alallah, Diaa Hamed, Sami Saeed Binyamin, Mahmoud Ragab, Mohammed Altwijri, Sami Saeed Binyamin",
+        "word_count": 13,
+        "cluster": 2
+    },
+    {
+        "article": "ispil interactive subgoalplanning imitation learning longhorizon task diverse goal",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Hanbit Oh, , Yukiyasu Domae, Yukiyasu Domae, Cynthia Ochoa, Yuhwan Kwon, Cynthia Ochoa, Hanbit Oh, Takamitsu Matsubara, Yuhwan Kwon",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "predicting patientspecific epileptic seizure scalp eeg signal knn model transfer learning",
+        "Tahun": "Publication Year: 2024",
+        "Author": "T. Premavathi, Madhu Shukla, T. Premavathi, , Rajendrasinh Jadeja, Madhu Shukla",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "asynchronous federated learning online linear regression",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Taiga Kashima, , Ayako Amma, Taiga Kashima, Ayako Amma, Hideki Nakayama",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "balancing predictive performance interpretability machine learning scoring system empirical study traffic prediction",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Andreas Humpe, Fabian Obster, , Monica I. Ciolacu, Monica I. Ciolacu, Fabian Obster",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "unmasking fake machine learning approach deepfake voice detection",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Kashif Munir, , Kashif Munir, Atiq Ur Rehman, Amine Bermak, Madiha Amjad, Madiha Amjad, Muhammad Usama Tanveer Gujjar, Atiq Ur Rehman, Muhammad Usama Tanveer Gujjar",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "deep learning telecom selfoptimized network benefit implication",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Farah Alhaqui, Farah Alhaqui, , Mariam Elkhechafi, Iyad Lahsen-Cherif, Mariam Elkhechafi, Iyad Lahsen-Cherif, Ahmed Elkhadimi",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "thinkscnd reinforcement learning thinking model dynamic supply chain network design",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Pan Li, Pan Li, , Qun Zhang, Qun Zhang, Yang Liu, Shaochen Ren, Shaochen Ren, Xuran Wang, Xuran Wang",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "deeptwin deep reinforcement learning supported digital twin model microgrids",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Erol Özkan, , İbrahım Kök, Suat Özdemır, Erol Özkan, İbrahım Kök",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "hybrid centralizeddistributed resource allocation based deep reinforcement learning cooperative dd communication",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Yang Yu, , Xiaoqing Tang, Yang Yu",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "ensemble approach image recompressionbased forgery detection",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Van-Ha Hoang, Chun-Su Park, Se-Jun Ham, Se-Jun Ham, Van-Ha Hoang",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "lithium battery terminal voltage collapse detection via kalman filtering machine learning approach",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Jeevan Kanesan, , Ali Qahtan Tameemi, Jeevan Kanesan, Anis Salwa Mohd Khairuddin, Ali Qahtan Tameemi",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "physicallybased detection algorithm buried archaeological remains spectral signature",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Elias Gravanis, , Athos Agapiou, Elias Gravanis",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "novel deep learningbased approach defect detection synthetic leather gaussian filtering",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Christopher Mai, , Pascal Penava, Ricardo Buettner, Pascal Penava, Christopher Mai",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "epyolo pipeline leak detection algorithm based improved yolov",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Shaofeng Wang, Wenjing Liu, Xiaowen Lan, , Jiali Zhang, Jiali Zhang, Xiaowen Lan, Shaofeng Wang",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "dynamic pricing strategy data product deep reinforcement learning",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Yashi Wang, Junxin Shen, , Junxin Shen, Yashi Wang, Fanghao Xiao",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "contextual knowledgeinformed deep domain generalization bearing fault diagnosis",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Mattias O’Nils, Faisal Z. Qureshi, Adam Lundström, Adam Lundström, , Mattias O’Nils",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "hybrid optimization machine learning framework enhancing trust security cloud network",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Sunil Saini, Niyaz Ahmad Wani, Vikram Chopra, Gopal Singh, , Niyaz Ahmad Wani, Shahid Ahmad Bhat, Gopal Singh, Himani Saini, Vikram Chopra, Zahid Akhtar, Sunil Saini, Himani Saini, Amrinder Kaur, Amrinder Kaur, Zahid Akhtar",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "federated learning sarcasm detection study attentionenhanced bilstm gru lstm architecture",
+        "Tahun": "Publication Year: 2024",
+        "Author": "Abdul Sami, Mohammed Elaffendi, Naveed Ahmad, Nadeem Ahmad, Fazila Malik, Qazi Waqas Khan, Sajid Shah, , Fazila Malik, Abdul Sami, Qazi Waqas Khan, Sajid Shah, Nadeem Ahmad, Mohammed Elaffendi",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "deep dictionary learning",
+        "Tahun": "Publication Year: 2016",
+        "Author": "Mayank Vatsa, Richa Singh, , Richa Singh, Angshul Majumdar, Angshul Majumdar, Snigdha Tariyal, Snigdha Tariyal",
+        "word_count": 3,
+        "cluster": 2
+    },
+    {
+        "article": "regularized deep learning face recognition weight variation",
+        "Tahun": "Publication Year: 2015",
+        "Author": "Shruti Nagpal, Mayank Vatsa, Maneet Singh, Richa Singh, , Shruti Nagpal, Richa Singh, Maneet Singh",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "heuristically accelerated reinforcement learning dynamic secondary spectrum sharing",
+        "Tahun": "Publication Year: 2015",
+        "Author": "Nils Morozs, David Grace, Tim Clarke, Nils Morozs, Tim Clarke",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "regularized weighted circular complexvalued extreme learning machine imbalanced learning",
+        "Tahun": "Publication Year: 2015",
+        "Author": "Sanyam Shukla, , Ram Narayan Yadav, Sanyam Shukla",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "multiple projective dictionary learning detect plastic surgery face verification",
+        "Tahun": "Publication Year: 2015",
+        "Author": "Naman Kohli, Daksha Yadav, Daksha Yadav, , Afzel Noore, Naman Kohli",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "deep awareness framework pervasive video cloud",
+        "Tahun": "Publication Year: 2015",
+        "Author": "Wenjuan Gong, Wenjuan Gong, Weishan Zhang, Qinghua Lu, , Pengcheng Duan, Su Yang, Weishan Zhang, Pengcheng Duan, Zhongwei Li, Zhongwei Li, Qinghua Lu",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "channellevel acceleration deep face representation",
+        "Tahun": "Publication Year: 2015",
+        "Author": "Adam Polyak, , Lior Wolf, Adam Polyak",
+        "word_count": 5,
+        "cluster": 2
+    },
+    {
+        "article": "overlapping community detection method based network representation learning density peak",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Gege Li, Hongtao Liu, Hongtao Liu",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "learning gps point representation detect anomalous bus trajectory",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Michael Cruz, Michael Cruz, , Luciano Barbosa",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "machine learning approach backoff manipulation attack detection cognitive radio",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Wassim Fassi Fihri, Hassan El Ghazi, , Wassim Fassi Fihri, Badr Abou El Majd, Hassan El Ghazi, Badr Abou El Majd, Faissal El Bouanani",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "swarmbased machine learning algorithm building interpretable classifier",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Binh Tran, Diem Pham, , Su Nguyen, Binh Tran, Damminda Alahakoon, Diem Pham, Su Nguyen",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "autonomous control combat unmanned aerial vehicle evade surfacetoair missile deep reinforcement learning",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Chang Ouk Kim, Gyeong Taek Lee, Gyeong Taek Lee",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "clinical microct empowered interior tomography robotic scanning deep learning",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Mengzhou Li, James Bennett, Chuang Niu, Zheng Fang, Jay T. Rubinstein, Zheng Fang, , Wenxiang Cong, Chuang Niu, Jay T. Rubinstein, Weiwen Wu, Josef Uher, James Bennett, Josef Uher, Mengzhou Li, Weiwen Wu, Wenxiang Cong, Ge Wang",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "xcorrection classification poetry text emotional state deep learning technique",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Muhammad Zubair Asghar, Shakeel Ahmad, , Sherafzal Khan, Fahad Mazaed Alotaibi, Muhammad Zubair Asghar, Shakeel Ahmad, Fahad Mazaed Alotaibi",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "swot analysis human machine learning based embryo assessment",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Huy Phuong Tran, Linh Nguyen-Hoang Tran, Huy Phuong Tran, Tuan Dinh Vu, , Huyen Thi Dang, Bao The Pham, Huyen Thi Dang, Tuan Dinh Vu, Bao The Pham, Dat Tan Trinh, Linh Nguyen-Hoang Tran, Dat Tan Trinh, Vu Ngoc Thanh Sang",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "policy return new method reducing number experimental trial deep reinforcement learning",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Shuling Dai, Feng Liu, , Yongjia Zhao, Shuling Dai, Feng Liu",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "hybrid heuristic algorithm based improved rule reinforcement learning strip packing problem",
+        "Tahun": "Publication Year: 2020",
+        "Author": "Naihua Ji, , Kai Zhu, Xiang Dong Li, Kai Zhu, Naihua Ji",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "big data deep learning challenge perspective",
+        "Tahun": "Publication Year: 2014",
+        "Author": "Xiaotong Lin, , Xue-Wen Chen, Xue-Wen Chen",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "largescale deep belief net mapreduce",
+        "Tahun": "Publication Year: 2014",
+        "Author": "Kunlei Zhang, Kunlei Zhang, Xue-Wen Chen",
+        "word_count": 5,
+        "cluster": 2
+    },
+    {
+        "article": "team learning healthcare quality improvement",
+        "Tahun": "Publication Year: 2013",
+        "Author": "Narine Manukyan, , Narine Manukyan, Margaret J. Eppstein, Margaret J. Eppstein, Jeffrey D. Horbar",
+        "word_count": 5,
+        "cluster": 2
+    },
+    {
+        "article": "correction vivo recognition kidney stone machine learning",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Vincent Estrade, Christian Daul, , Miguel Gonzalez-Mendoza, Vincent Estrade, Francisco Lopez-Tiro, Daniel Flores-Araiza, Jacques Hubert, Miguel Gonzalez-Mendoza, Daniel Flores-Araiza, Gilberto Ochoa-Ruiz, Gilberto Ochoa-Ruiz, Jacques Hubert, Francisco Lopez-Tiro",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "correction smarter world living lab integrated approach learning improve quality life",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Rezky Kinanda, Hendra Sandhi Firmansyah, Irma Rizkia, , Suhono Harso Supangkat, Rezky Kinanda, Hendra Sandhi Firmansyah, Suhono Harso Supangkat",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "endtoend deployment educational ai hub personalized learning engagement case study environmental science education",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Yusuf Sermet, , Yusuf Sermet, Ramteja Sajja, Ibrahim Demir, Ramteja Sajja",
+        "word_count": 13,
+        "cluster": 2
+    },
+    {
+        "article": "improving investment forecasting comparative analysis machine learning model key gdp indicator",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Ting-Jen Hsueh, Tshimologo Molefyane, Cheng-Hong Yang, , Borcy Lee, Yu-da Lin, Ting-Jen Hsueh, Tshimologo Molefyane, Borcy Lee, Cheng-Hong Yang",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "modalityguided refinement learning multimodal emotion recognition",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Sunyoung Cho",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "learning observer gaze dynamic efficient mobile sport scenery recognition pipeline",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Hongcheng Li, Huiting Lv, Yu Li, Huiting Lv, , Yu Li, Jiashun Gao, Jiashun Gao",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "deep learningbased rapid fire detection building acoustic wave travel time information",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Mengyao Sun, , Mengyao Sun, Cewen Liu",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "evaluating coding proficiency large language model investigation machine learning problem",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Eunbi Ko, Pilsung Kang, Eunbi Ko",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "understanding flaky test linguistic diversity crosslanguage comparative machine learning study",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Azeem Ahmad, Xin Sun, Muhammad Rashid Naeem, Mohammad Akour, , Xin Sun, Azeem Ahmad, Muhammad Rashid Naeem, Yasir Javed, Yasir Javed, Mohammad Akour, Kristian Sandahl",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "federated learning fall detection multimodal residual fusion paretooptimized client selection",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Yi Wang, Yu-Peng Ma, , Bao-Quan Wang, Yun-Fei Han, Fan Yang, Yi Wang, Yun-Fei Han, Fan Zhao, Bao-Quan Wang, Fan Zhao, Fan Yang",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "effidensegenop ensemble transfer learning hyperparameter tuning genetic algorithm optimization pcos detection ultrasound sonography image",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Kathiravan Srinivasan, , Ananya Ghosh, Ananya Ghosh",
+        "word_count": 14,
+        "cluster": 2
+    },
+    {
+        "article": "performance analysis machine learning technique server health monitoring time series data ddos attack",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Sajja Ratan Kumar, Sajja Ratan Kumar, Valli Kumari Vatsavayi",
+        "word_count": 13,
+        "cluster": 2
+    },
+    {
+        "article": "fetalmovnet novel deep learning model based attention mechanism fetal movement classification u",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Emre Dandil, Musa Turkan, , Furkan Erturk Urfali, Furkan Erturk Urfali, Mehmet Korkmaz, Musa Turkan, Emre Dandil",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "federated learning sailfishoptimized ensemble model anomaly detection iot edge computing environment",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Aravam Babu, Aravam Babu, A. Bagubali",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "correction deep shallow learning modelbased sleep apnea diagnosis system comprehensive study",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Akm Azad, Roksana Akter Raisa, Salem A. Alyami, Pietro Liò, Salem A. Alyami, Roksana Akter Raisa, , Ayesha Siddika Rodela, Mohammad Abu Yousuf, Pietro Liò, Ayesha Siddika Rodela, Mohammad Ali Moni, Md Zahidul Islam, Akm Azad, Ganna Pogrebna, Ganna Pogrebna, Mohammad Abu Yousuf, Md Zahidul Islam",
+        "word_count": 11,
+        "cluster": 2
+    },
+    {
+        "article": "handwritten amharic character recognition transfer learning integrating cnn model machine learning classifier",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Zefree Lazarus Mayaluri, Natenaile Asmamaw Shiferaw, Zefree Lazarus Mayaluri, , Prabodh Kumar Sahoo, Adyasha Rath, Md. Shabiul Islam, Ganapati Panda, Mohammad Tariqul Islam, Ganapati Panda, Md. Shabiul Islam, Adyasha Rath, Prince Jain, Natenaile Asmamaw Shiferaw, Prince Jain, Prabodh Kumar Sahoo",
+        "word_count": 12,
+        "cluster": 2
+    },
+    {
+        "article": "machine learning approach code similarity measurement systematic review",
+        "Tahun": "Publication Year: 2025",
+        "Author": "Zixian Zhang, , Zixian Zhang, Takfarinas Saber",
+        "word_count": 8,
+        "cluster": 2
+    },
+    {
+        "article": "speaks like style vitamin towards syntaxaware dialogue summarization multitask learning",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Kisu Yang, Kisu Yang, , João Sedoc, Seolhwa Lee, Chanjun Park, Chanjun Park, João Sedoc, Seolhwa Lee, Heuiseok Lim",
+        "word_count": 10,
+        "cluster": 2
+    },
+    {
+        "article": "detection iris presentation attack hybridization discrete cosine transform haar transform machine learning classifier ensemble",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Sudeep D. Thepade, Smita Khade, , Sudeep D. Thepade, Biswajeet Pradhan, Biswajeet Pradhan, Shilpa Gite, Abdullah Alamri, Shilpa Gite, Smita Khade",
+        "word_count": 14,
+        "cluster": 2
+    },
+    {
+        "article": "selfcompetence learning bandwidth slicing confidential computing requirement",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Yen-Hung Chen",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "deep learning strategy braille character recognition",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Adeeba Kausar, Tasleem Kausar, , Adeeba Kausar, Tasleem Kausar, Sajjad Manzoor, Muhammad Wasif, Yun Lu, Muhammad Wasif, Sajjad Manzoor, Yun Lu, M. Adnan Ashraf",
+        "word_count": 6,
+        "cluster": 2
+    },
+    {
+        "article": "efficient deep learning framework distracted driver detection",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Faiqa Sajid, Asma Basharat, Natalia Kryvinska, , Asma Basharat, Natalia Kryvinska, Adil Afzal, Abdul Rehman Javed, Muhammad Rizwan, Adil Afzal, Faiqa Sajid, Abdul Rehman Javed",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "novelette usable visual storytelling digital learning environment",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Luigi Serra, Agnese Addone, , Agnese Addone, Giuseppina Palmieri, Maria Angela Pellegrino, Vittorio Scarano, Andrea Petta, Renato De Donato, Andrea Petta, Vittorio Scarano, Renato De Donato, Giuseppina Palmieri, Maria Angela Pellegrino",
+        "word_count": 7,
+        "cluster": 2
+    },
+    {
+        "article": "bootstrap equilibrium probabilistic speaker representation learning selfsupervised speaker verification",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Jihwan Kim, Nam Soo Kim, , Sung Hwan Mun, Jihwan Kim, Dongjune Lee, Sung Hwan Mun, Min Hyun Han, Min Hyun Han, Dongjune Lee",
+        "word_count": 9,
+        "cluster": 2
+    },
+    {
+        "article": "federated learning sparseadaptive model selection embedded edge computing",
+        "Tahun": "Publication Year: 2021",
+        "Author": "Shan Ullah, Shan Ullah, , Deok-Hwan Kim",
+        "word_count": 8,
+        "cluster": 2
+    }
+]

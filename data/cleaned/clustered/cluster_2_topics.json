@@ -1,0 +1,177 @@
+[
+    {
+        "Topic": -1,
+        "Count": 8,
+        "Name": "-1_section editorial_access special_section_editorial",
+        "Representation": [
+            "section editorial",
+            "access special",
+            "section",
+            "editorial",
+            "special section",
+            "special",
+            "ieee access",
+            "ieee",
+            "access",
+            "research"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial smart grid hub interdisciplinary research",
+            "ieee access special section editorial latest advance emerging application data hiding",
+            "ieee access special section editorial energy efficient wireless communication energy harvesting wireless power transfer"
+        ]
+    },
+    {
+        "Topic": 0,
+        "Count": 16,
+        "Name": "0_network ieee_network_access_section editorial",
+        "Representation": [
+            "network ieee",
+            "network",
+            "access",
+            "section editorial",
+            "access special",
+            "special section",
+            "editorial",
+            "section",
+            "special",
+            "ieee"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial recent advance software defined networking g network",
+            "ieee access special section editorial recent advance radio access security method g network",
+            "ieee access special section editorial recent advance cloud radio access network"
+        ]
+    },
+    {
+        "Topic": 1,
+        "Count": 12,
+        "Name": "1_access_ieee access_ieee_health",
+        "Representation": [
+            "access",
+            "ieee access",
+            "ieee",
+            "health",
+            "editorial",
+            "board",
+            "access associate",
+            "associate editor",
+            "associate",
+            "editor"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial health informatics developing world",
+            "ieee access special section editorial big data analytics smart connected health",
+            "ieee access special section editorialcomplex system health management based condition monitoring test data"
+        ]
+    },
+    {
+        "Topic": 2,
+        "Count": 5,
+        "Name": "2_enabled networking_enabled_future_architecture",
+        "Representation": [
+            "enabled networking",
+            "enabled",
+            "future",
+            "architecture",
+            "access special",
+            "section",
+            "special section",
+            "special",
+            "application ieee",
+            "networking"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial artificial intelligence enabled networking",
+            "ieee access special section editorial mission critical publicsafety communication architecture enabling technology future application",
+            "ieee access special section editorial future network architecture protocol application"
+        ]
+    },
+    {
+        "Topic": 3,
+        "Count": 5,
+        "Name": "3_intelligent_sensing_mobile_era",
+        "Representation": [
+            "intelligent",
+            "sensing",
+            "mobile",
+            "era",
+            "intelligent sensing",
+            "special section",
+            "section",
+            "special",
+            "computing",
+            "ieee access"
+        ],
+        "Representative_Docs": [
+            "ieee access special section intelligent data sensing collection dissemination mobile computing",
+            "ieee access special section editorial emergent topic mobile ubiquitous system smartphone iot cloud computing era",
+            "ieee access special section editorial intelligent sensing mobile social medium analytics"
+        ]
+    },
+    {
+        "Topic": 4,
+        "Count": 3,
+        "Name": "4_security_internet energy_energy architecture_architecture cyber",
+        "Representation": [
+            "security",
+            "internet energy",
+            "energy architecture",
+            "architecture cyber",
+            "cyber",
+            "cyber security",
+            "editorial internet",
+            "internet",
+            "architecture",
+            "energy"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial industrial sensor network advanced data management design security",
+            "ieee access special section editorial internet energy architecture cyber security application",
+            "ieee access special section editorial internet energy architecture cyber security applicationspart ii"
+        ]
+    },
+    {
+        "Topic": 5,
+        "Count": 3,
+        "Name": "5_big data_big_data_intelligence",
+        "Representation": [
+            "big data",
+            "big",
+            "data",
+            "intelligence",
+            "special",
+            "ambient intelligence",
+            "point view",
+            "data service",
+            "view big",
+            "ambient"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial special section big data green communication computing",
+            "ieee access special section editorial ambient intelligence environment wireless sensor network point view big data smart sustainable city",
+            "ieee access special session editorial big data service computational intelligence industrial system"
+        ]
+    },
+    {
+        "Topic": 6,
+        "Count": 2,
+        "Name": "6_challenge_privacy_editorial challenge_smart world",
+        "Representation": [
+            "challenge",
+            "privacy",
+            "editorial challenge",
+            "smart world",
+            "security privacy",
+            "research challenge",
+            "privacy blockchain",
+            "opportunity",
+            "editorial research",
+            "opportunity security"
+        ],
+        "Representative_Docs": [
+            "ieee access special section editorial challenge smart world",
+            "ieee access special section editorial research challenge opportunity security privacy blockchain technology"
+        ]
+    }
+]

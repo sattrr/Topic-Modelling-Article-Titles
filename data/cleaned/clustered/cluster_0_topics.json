@@ -1,0 +1,3747 @@
+[
+    {
+        "Topic": -1,
+        "Count": 280,
+        "Name": "-1_novel_method_network_integrated",
+        "Representation": [
+            "novel",
+            "method",
+            "network",
+            "integrated",
+            "data",
+            "analysis",
+            "learningbased",
+            "based",
+            "control",
+            "modeling"
+        ],
+        "Representative_Docs": [
+            "monthly probability theoretical line loss calculation method low voltage distribution network based simultaneous power electricity",
+            "insitu measurement methodology assessment g nr massive mimo base station exposure sub ghz frequency",
+            "comparing kalman filter observer power system dynamic state estimation model uncertainty malicious cyber attack"
+        ]
+    },
+    {
+        "Topic": 0,
+        "Count": 29,
+        "Name": "0_sdn_networking_virtualization_dd",
+        "Representation": [
+            "sdn",
+            "networking",
+            "virtualization",
+            "dd",
+            "network function",
+            "multicast",
+            "access control",
+            "selforganizing",
+            "function",
+            "caching"
+        ],
+        "Representative_Docs": [
+            "enhanced flow table management scheme lrubased caching algorithm sdn",
+            "dmwm approach caching based optimal dd pairing channel allocation centralized distributed algorithm design",
+            "dynamic noncentric networking approach virtual gateway platform low power wide area system"
+        ]
+    },
+    {
+        "Topic": 1,
+        "Count": 20,
+        "Name": "1_face_person_face recognition_face image",
+        "Representation": [
+            "face",
+            "person",
+            "face recognition",
+            "face image",
+            "subspace",
+            "recognition",
+            "poseaware",
+            "jointly",
+            "triplet",
+            "person reidentification"
+        ],
+        "Representative_Docs": [
+            "poseaware disentangled multiscale transformer pose guided person image generation",
+            "gradientorientationbased pca subspace novel face recognition",
+            "discovering domaininvariant subspace depression recognition jointly exploiting appearance dynamic feature representation"
+        ]
+    },
+    {
+        "Topic": 2,
+        "Count": 20,
+        "Name": "2_uavs_trajectory_trajectory tracking_path",
+        "Representation": [
+            "uavs",
+            "trajectory",
+            "trajectory tracking",
+            "path",
+            "planning",
+            "control quadrotor",
+            "optimal control",
+            "quadrotor uavs",
+            "path planning",
+            "quadrotor"
+        ],
+        "Representative_Docs": [
+            "missionoriented path planning highaltitude longendurance solarpowered uavs optimal energy management",
+            "combined mpc dynamic neural networkbased uavs trajectory tracking control",
+            "realtime local obstacle avoidance trajectory tracking control quadrotor uavs suspended payload complex environment"
+        ]
+    },
+    {
+        "Topic": 3,
+        "Count": 19,
+        "Name": "3_quantum_code_partially degradable_degradable",
+        "Representation": [
+            "quantum",
+            "code",
+            "partially degradable",
+            "degradable",
+            "atomic",
+            "entanglement",
+            "routing optimization",
+            "lowcomplexity",
+            "lattice",
+            "pg"
+        ],
+        "Representative_Docs": [
+            "new quantum code constructed quantum cap pg pg",
+            "structure quantum capacity partially degradable quantum channel",
+            "quantum search algorithm quantum wireless lowcomplexity maximum likelihood iterative quantum multiuser detector design"
+        ]
+    },
+    {
+        "Topic": 4,
+        "Count": 17,
+        "Name": "4_blockchain_blockchainbased_management_supply",
+        "Representation": [
+            "blockchain",
+            "blockchainbased",
+            "management",
+            "supply",
+            "supply chain",
+            "chain",
+            "solution",
+            "payment channel",
+            "prevent",
+            "permissionless blockchains"
+        ],
+        "Representative_Docs": [
+            "tripartite accounting framework novel blockchainbased model recording bb transaction",
+            "blockchainbased solution product recall management automotive supply chain",
+            "tokenizing renewable energy certificate recsa blockchain approach rec issuance trading"
+        ]
+    },
+    {
+        "Topic": 5,
+        "Count": 15,
+        "Name": "5_remote sensing_remote_segmentation_semantic segmentation",
+        "Representation": [
+            "remote sensing",
+            "remote",
+            "segmentation",
+            "semantic segmentation",
+            "semantic",
+            "aerial",
+            "sensing",
+            "cotton",
+            "feature",
+            "sensing image"
+        ],
+        "Representative_Docs": [
+            "qrstrs style transferbased imagetoimage translation carbon stock estimation quantitative remote sensing",
+            "remote sensing image road segmentation method integrating cnntransformer unet",
+            "remote sensing image registration based phase congruency feature detection spatial constraint matching"
+        ]
+    },
+    {
+        "Topic": 6,
+        "Count": 15,
+        "Name": "6_cloud_offloading_edge_edge computing",
+        "Representation": [
+            "cloud",
+            "offloading",
+            "edge",
+            "edge computing",
+            "computing",
+            "computing infrastructure",
+            "cloud edge",
+            "mobile edge",
+            "mobile cloud",
+            "mobile"
+        ],
+        "Representative_Docs": [
+            "analysis vector code offloading framework heterogeneous cloud edge architecture",
+            "mobile edge computing based task offloading resource allocation g ultradense network",
+            "dynamic computation offloading based graph partitioning mobile edge computing"
+        ]
+    },
+    {
+        "Topic": 7,
+        "Count": 14,
+        "Name": "7_big_big data_data_analytics",
+        "Representation": [
+            "big",
+            "big data",
+            "data",
+            "analytics",
+            "data analytics",
+            "tutorial",
+            "tutorial big",
+            "health",
+            "quality",
+            "digital communication"
+        ],
+        "Representative_Docs": [
+            "cfbda conceptual framework big data analytics application cloud",
+            "toward scalable system big data analytics technology tutorial",
+            "mathematical model simulating coded digital communication comprehensive tutorial big data analytics cyberphysical system"
+        ]
+    },
+    {
+        "Topic": 8,
+        "Count": 14,
+        "Name": "8_recommendation_collaborative filtering_collaborative_filtering",
+        "Representation": [
+            "recommendation",
+            "collaborative filtering",
+            "collaborative",
+            "filtering",
+            "recommender",
+            "item",
+            "recommendation model",
+            "filtering recommender",
+            "rating",
+            "userbased"
+        ],
+        "Representative_Docs": [
+            "recommendation model based probabilistic matrix factorization integrating user trust relationship interest mining item correlation",
+            "efficient similarity measure userbased collaborative filtering recommender system inspired physical resonance principle",
+            "matrix factorization rating completion enhanced svd model collaborative filtering recommender system"
+        ]
+    },
+    {
+        "Topic": 9,
+        "Count": 13,
+        "Name": "9_ct_tomography_xray_lowdose ct",
+        "Representation": [
+            "ct",
+            "tomography",
+            "xray",
+            "lowdose ct",
+            "computed",
+            "computed tomography",
+            "lowdose",
+            "ct image",
+            "imaging",
+            "fluorescence"
+        ],
+        "Representative_Docs": [
+            "novel fractionalorder differentiation model lowdose ct image processing",
+            "xray fluorescence computed tomography polycapillary focusing",
+            "xray luminescence xray fluorescence computed tomography new molecular imaging modality"
+        ]
+    },
+    {
+        "Topic": 10,
+        "Count": 13,
+        "Name": "10_neuromorphic_gnns_neural_equivalence",
+        "Representation": [
+            "neuromorphic",
+            "gnns",
+            "neural",
+            "equivalence",
+            "networkbased",
+            "computing",
+            "hardware memory",
+            "enhancing dnn",
+            "single shift",
+            "electronics hetergenmap"
+        ],
+        "Representative_Docs": [
+            "hardwareaware iterative oneshot neural architecture search adaptable knowledge distillation efficient edge computing",
+            "equivalence canonical form recursive systematic convolutional transducer based single shift register",
+            "ultralow power alwayson keyword spotting accelerator quantized convolutional neural network voltagedomain analog switching networkbased approximate computing"
+        ]
+    },
+    {
+        "Topic": 11,
+        "Count": 13,
+        "Name": "11_radar_mimo radar_radar multiple_target",
+        "Representation": [
+            "radar",
+            "mimo radar",
+            "radar multiple",
+            "target",
+            "coupling",
+            "mimo",
+            "sparse",
+            "radar sludge",
+            "parafac",
+            "optimization transmit"
+        ],
+        "Representative_Docs": [
+            "joint optimization transmit waveform receive filter target detection mimo radar",
+            "sparse parameter estimation imaging mmwave mimo radar system multiple stationary mobile target",
+            "fast parafac algorithm target localization bistatic mimo radar coexistence unknown mutual coupling spatially colored noise"
+        ]
+    },
+    {
+        "Topic": 12,
+        "Count": 12,
+        "Name": "12_cancer_tumor_feature selection_prostate",
+        "Representation": [
+            "cancer",
+            "tumor",
+            "feature selection",
+            "prostate",
+            "hybrid feature",
+            "cancer detection",
+            "breast cancer",
+            "classification",
+            "selection",
+            "breast"
+        ],
+        "Representative_Docs": [
+            "hybrid feature selection method based neural network crossvalidation liver cancer microarray",
+            "hybrid intelligence approach circulating tumor cell enumeration digital pathology cnn weak annotation",
+            "hybrid feature selection ensemble classification imbalanced healthcare data case study brain tumor diagnosis"
+        ]
+    },
+    {
+        "Topic": 13,
+        "Count": 12,
+        "Name": "13_isolation_antenna_stopband_high isolation",
+        "Representation": [
+            "isolation",
+            "antenna",
+            "stopband",
+            "high isolation",
+            "array antenna",
+            "wide",
+            "passive",
+            "dualband",
+            "dielectric",
+            "microstrip"
+        ],
+        "Representative_Docs": [
+            "rigorous analysis investigation bandwidth broadening mechanism compact power divider physical port isolation",
+            "dense dielectric patch array antenna improved radiation characteristic ebg ground structure dielectric superstrate future g cellular network",
+            "design dualband bandpass filter high isolation wide stopband"
+        ]
+    },
+    {
+        "Topic": 14,
+        "Count": 12,
+        "Name": "14_stereo_point_odometry_stereo matching",
+        "Representation": [
+            "stereo",
+            "point",
+            "odometry",
+            "stereo matching",
+            "stereo visual",
+            "lidar",
+            "slam",
+            "optical flow",
+            "line",
+            "optical"
+        ],
+        "Representative_Docs": [
+            "forward backward propagation stereo matching cost incremental refinement multiview disparity map",
+            "accurate line reconstruction point linebased stereo visual odometry",
+            "dymroslam robust stereo visual slam dynamic environment leveraging mask rcnn optical flow"
+        ]
+    },
+    {
+        "Topic": 15,
+        "Count": 12,
+        "Name": "15_spectrum_radio_access_scheme based",
+        "Representation": [
+            "spectrum",
+            "radio",
+            "access",
+            "scheme based",
+            "heterogeneous network",
+            "cognitive",
+            "cloud radio",
+            "radio access",
+            "interference",
+            "access network"
+        ],
+        "Representative_Docs": [
+            "threestage precoding scheme based nullforming subarray partitioning aerialterrestrial spectrum sharing",
+            "hierarchical spectrum access scheme tv white space coexistence heterogeneous network",
+            "interference mitigation user association receiver field view optimization multiuser indoor hybrid rfvlc illuminanceconstrained network"
+        ]
+    },
+    {
+        "Topic": 16,
+        "Count": 12,
+        "Name": "16_sensor network_wireless sensor_sensor_wireless",
+        "Representation": [
+            "sensor network",
+            "wireless sensor",
+            "sensor",
+            "wireless",
+            "routing",
+            "industrial wireless",
+            "maximization",
+            "network",
+            "location privacy",
+            "named data"
+        ],
+        "Representative_Docs": [
+            "crossdomain finegrained data usage control service industrial wireless sensor network",
+            "geographic routing dutycycled industrial wireless sensor network radio irregularity",
+            "achieving source location privacy network lifetime maximization treebased diversionary routing wireless sensor network"
+        ]
+    },
+    {
+        "Topic": 17,
+        "Count": 12,
+        "Name": "17_backstepping_uncertain_nonlinear_nonlinear uncertain",
+        "Representation": [
+            "backstepping",
+            "uncertain",
+            "nonlinear",
+            "nonlinear uncertain",
+            "adaptive backstepping",
+            "output",
+            "tracking control",
+            "adaptive",
+            "class",
+            "feedback"
+        ],
+        "Representative_Docs": [
+            "adaptive fuzzy output feedback simultaneous posture stabilization tracking control wheeled mobile robot kinematic dynamic disturbance",
+            "fuzzy adaptive backstepping control nonlinear uncertain system unmeasured state input saturation",
+            "global adaptive practical output tracking control class genuinely nonlinear uncertain system adding universal power integrator approach"
+        ]
+    },
+    {
+        "Topic": 18,
+        "Count": 11,
+        "Name": "18_eeg_eeg signal_sleep_emotion recognition",
+        "Representation": [
+            "eeg",
+            "eeg signal",
+            "sleep",
+            "emotion recognition",
+            "cerebral",
+            "emotion",
+            "signal",
+            "genre",
+            "function neural",
+            "iaware realtime"
+        ],
+        "Representative_Docs": [
+            "hemodynamic analysis mean arterial pressure cerebral artery embolic ischemic stroke lumped parameter model",
+            "hybrid control visionguided robot arm eog emg eeg biosignals head movement acquired via consumergrade wearable device",
+            "vmdrim rician modeling temporal feature variation extracted variational mode decomposed eeg signal automatic sleep apnea detection"
+        ]
+    },
+    {
+        "Topic": 19,
+        "Count": 11,
+        "Name": "19_resource_resource allocation_network resource_access",
+        "Representation": [
+            "resource",
+            "resource allocation",
+            "network resource",
+            "access",
+            "lte",
+            "communication network",
+            "uplink",
+            "devicetodevice communication",
+            "devicetodevice",
+            "evaluation"
+        ],
+        "Representative_Docs": [
+            "resource management intercellinterference coordination lte uplink system random neural network optimization",
+            "resource allocation underlay devicetodevice communication network reducedconstraints approach",
+            "deep reinforcement learningbased access class barring energyefficient mmtc random access lte network"
+        ]
+    },
+    {
+        "Topic": 20,
+        "Count": 11,
+        "Name": "20_healthcare_medical_iotbased_smart healthcare",
+        "Representation": [
+            "healthcare",
+            "medical",
+            "iotbased",
+            "smart healthcare",
+            "medical data",
+            "body",
+            "health",
+            "secure",
+            "thing",
+            "internet"
+        ],
+        "Representative_Docs": [
+            "secure medical data unauthorized access decoy technology distributed edge computing network",
+            "fog based middleware automated compliance oecd privacy principle internet healthcare thing",
+            "roifuzzy based medical data authentication scheme smart healthcare system"
+        ]
+    },
+    {
+        "Topic": 21,
+        "Count": 10,
+        "Name": "21_mimo_massive mimo_massive_subject randomness",
+        "Representation": [
+            "mimo",
+            "massive mimo",
+            "massive",
+            "subject randomness",
+            "randomness",
+            "grouping massive",
+            "grouping",
+            "mimo characterization",
+            "station subject",
+            "randomness los"
+        ],
+        "Representative_Docs": [
+            "generalized spatial modulation transmit antenna grouping massive mimo",
+            "mimo characterization system level g microbase station subject randomness los",
+            "correction mimo characterization system level g micro base station subject randomness los"
+        ]
+    },
+    {
+        "Topic": 22,
+        "Count": 10,
+        "Name": "22_planning_smart grid_grid_demand",
+        "Representation": [
+            "planning",
+            "smart grid",
+            "grid",
+            "demand",
+            "reliability",
+            "smart",
+            "response",
+            "managing",
+            "managing electromobility",
+            "method demand"
+        ],
+        "Representative_Docs": [
+            "demand response management residential smart grid theory practice",
+            "impact interdisciplinary research planning running managing electromobility smart grid extension",
+            "enhanced transmission expansion planning high confidence strategy considering fluctuation solar pv generation electricity demand"
+        ]
+    },
+    {
+        "Topic": 23,
+        "Count": 10,
+        "Name": "23_evolutionary_evolutionary algorithm_differential evolution_manyobjective",
+        "Representation": [
+            "evolutionary",
+            "evolutionary algorithm",
+            "differential evolution",
+            "manyobjective",
+            "colony",
+            "algorithm",
+            "optimization",
+            "evolution",
+            "selection",
+            "multiobjective"
+        ],
+        "Representative_Docs": [
+            "balancing problem stochastic largescale utype assembly line modified evolutionary algorithm",
+            "whmoea multiobjective evolutionary algorithm wienerhammerstein system identification novel approach tradeoff analysis complexity accuracy",
+            "towards intelligent food waste prevention approach scalable flexible harvest schedule optimization evolutionary algorithm"
+        ]
+    },
+    {
+        "Topic": 24,
+        "Count": 10,
+        "Name": "24_motor_piezoelectric_vibration_fractionalslot",
+        "Representation": [
+            "motor",
+            "piezoelectric",
+            "vibration",
+            "fractionalslot",
+            "piezoelectric actuator",
+            "electromechanical",
+            "actuator",
+            "linear",
+            "electromagnetic",
+            "yokeless"
+        ],
+        "Representative_Docs": [
+            "investigation noise source fractionalslot concentrated winding motor considering highorder radialtangential electromagnetic force combination modulation",
+            "research design method electromagnetic vibration sixphase fractionalslot concentratedwinding pm motor suitable ship propulsion",
+            "performance dependence initial freeend levitation magnetically levitated piezoelectric vibration energy harvester composite cantilever beam"
+        ]
+    },
+    {
+        "Topic": 25,
+        "Count": 10,
+        "Name": "25_adversarial_generative_compression_image compression",
+        "Representation": [
+            "adversarial",
+            "generative",
+            "compression",
+            "image compression",
+            "generative adversarial",
+            "attack",
+            "adversarial network",
+            "adversarial attack",
+            "conditional generative",
+            "sample"
+        ],
+        "Representative_Docs": [
+            "evaluating differentially private generative adversarial network membership inference attack",
+            "development conditional generative adversarial network model television spectrum radio environment mapping",
+            "conditional generative adversarial networkbased image denoising defending adversarial attack"
+        ]
+    },
+    {
+        "Topic": 26,
+        "Count": 10,
+        "Name": "26_privacypreserving_privacy_aggregation_encryption",
+        "Representation": [
+            "privacypreserving",
+            "privacy",
+            "aggregation",
+            "encryption",
+            "metering",
+            "search",
+            "image search",
+            "infrastructure confidentialitypreserving",
+            "iot privacypreserving",
+            "knearest"
+        ],
+        "Representative_Docs": [
+            "enhanced privacy communication efficiency noniid federated learning adaptive quantization differential privacy",
+            "depsa decentralized efficient privacypreserving selective aggregation scheme advanced metering infrastructure",
+            "shedding light blind spot backward privacy dynamic searchable symmetric encryption"
+        ]
+    },
+    {
+        "Topic": 27,
+        "Count": 10,
+        "Name": "27_power_twin approach_golden_power quality",
+        "Representation": [
+            "power",
+            "twin approach",
+            "golden",
+            "power quality",
+            "recent development",
+            "functionlevel power",
+            "geometric framework",
+            "recognition power",
+            "multiphase power",
+            "multiphase"
+        ],
+        "Representative_Docs": [
+            "systematic comprehensive geometric framework multiphase power system analysis computing time domain",
+            "recent development optimal docr protection strategy sustainable power system via computational intelligence technique",
+            "correction new power interface based multidimensional golden section search algorithm powerhardwareintheloop application"
+        ]
+    },
+    {
+        "Topic": 28,
+        "Count": 10,
+        "Name": "28_summarization_topic_text_news",
+        "Representation": [
+            "summarization",
+            "topic",
+            "text",
+            "news",
+            "document",
+            "text summarization",
+            "scientific",
+            "language",
+            "tool",
+            "label"
+        ],
+        "Representative_Docs": [
+            "evaluating effectiveness gpt large language model news classification iptc news ontology",
+            "language modeldriven topic clustering summarization news article",
+            "extractive multidocument arabic text summarization evolutionary multiobjective optimization kmedoid clustering"
+        ]
+    },
+    {
+        "Topic": 29,
+        "Count": 10,
+        "Name": "29_smart world_world_localization_challenge",
+        "Representation": [
+            "smart world",
+            "world",
+            "localization",
+            "challenge",
+            "internet",
+            "smart",
+            "localization challenge",
+            "piecemeal development",
+            "project emerging",
+            "replicability"
+        ],
+        "Representative_Docs": [
+            "localization service online common operational picture situation awareness",
+            "localization challenge emergence smart world",
+            "top challenge smart world report topcs forum"
+        ]
+    },
+    {
+        "Topic": 30,
+        "Count": 10,
+        "Name": "30_traffic_traffic flow_sensor data_prediction",
+        "Representation": [
+            "traffic",
+            "traffic flow",
+            "sensor data",
+            "prediction",
+            "forecasting",
+            "flow",
+            "data",
+            "prediction graph",
+            "interpretable",
+            "markov model"
+        ],
+        "Representative_Docs": [
+            "map reducebased nearest neighbor approach bigdatadriven traffic flow prediction",
+            "truck rest stop imputation gps data interpretable activitybased continuous hidden markov model",
+            "hybrid traffic forecasting model fusion multiple spatial toll collection data remote microwave sensor data"
+        ]
+    },
+    {
+        "Topic": 31,
+        "Count": 10,
+        "Name": "31_soft_nonnegative matrix_nonnegative_iterative",
+        "Representation": [
+            "soft",
+            "nonnegative matrix",
+            "nonnegative",
+            "iterative",
+            "factorization",
+            "matrix factorization",
+            "matrix",
+            "matching method",
+            "inference minsum",
+            "perturbationbased"
+        ],
+        "Representative_Docs": [
+            "stratum p swave q factor estimation via improved spectral envelope matching method",
+            "majorizationminimization algorithm discriminative nonnegative matrix factorization",
+            "iterative method identifying essential protein based nonnegative matrix factorization"
+        ]
+    },
+    {
+        "Topic": 32,
+        "Count": 9,
+        "Name": "32_robot_sensor fusion_navigation_robotic",
+        "Representation": [
+            "robot",
+            "sensor fusion",
+            "navigation",
+            "robotic",
+            "map",
+            "fusion",
+            "active",
+            "tourguide",
+            "method experiment",
+            "immkf error"
+        ],
+        "Representative_Docs": [
+            "enhancing object estimation cameralidar sensor fusion immkf error characteristic autonomous robot system",
+            "structural design needle deflection prediction bodymounted breast puncture robot modeled compass",
+            "lowcost environmentinteractive patrol inspection system navigation based sensorfusion robotic arm contact pose feedback"
+        ]
+    },
+    {
+        "Topic": 33,
+        "Count": 9,
+        "Name": "33_underwater_underwater acoustic_acoustic_acoustic communication",
+        "Representation": [
+            "underwater",
+            "underwater acoustic",
+            "acoustic",
+            "acoustic communication",
+            "modulation classification",
+            "minimum symbolerror",
+            "joint synchronization",
+            "malicious node",
+            "internal wave",
+            "localization acoustically"
+        ],
+        "Representative_Docs": [
+            "automatic network slicing admission control routing resource allocation underwater acoustic communication system",
+            "automatic modulation classification short burst underwater acoustic communication signal based hybrid neural network",
+            "evaluation nodemetastasis sparse underwater acoustic sensor network localization acoustically stratified malicious node condition"
+        ]
+    },
+    {
+        "Topic": 34,
+        "Count": 9,
+        "Name": "34_clustering algorithm_similarity_kmeans_clustering",
+        "Representation": [
+            "clustering algorithm",
+            "similarity",
+            "kmeans",
+            "clustering",
+            "measure application",
+            "score link",
+            "similarity method",
+            "novel similartomultiplepoint",
+            "fullyunsupervised possibilistic",
+            "novel similarity"
+        ],
+        "Representative_Docs": [
+            "improved nsgaiii algorithm genetic kmeans clustering algorithm",
+            "measuring class cohesion based client similarity method pair improved approach support refactoring",
+            "novel similarity score link prediction approach financial transaction network firm attribute"
+        ]
+    },
+    {
+        "Topic": 35,
+        "Count": 9,
+        "Name": "35_chaotic_timedelay_chaotic neural_synchronization",
+        "Representation": [
+            "chaotic",
+            "timedelay",
+            "chaotic neural",
+            "synchronization",
+            "hysteretic creep",
+            "modeling bernstein",
+            "dynamical multilayer",
+            "observer fpga",
+            "novel chaotic",
+            "nonlinear modeling"
+        ],
+        "Representative_Docs": [
+            "electrocardiogram signal secure transmission via wireless communication protocol chaotic system based adaptive sliding mode control disturbance observer",
+            "simultaneous scrambling diffusion color image encryption algorithm based hopfield chaotic neural network",
+            "fpga realization two different fractional order timedelay chaotic system predefined synchronization time"
+        ]
+    },
+    {
+        "Topic": 36,
+        "Count": 8,
+        "Name": "36_energy_isolated_microgrids_isolated microgrids",
+        "Representation": [
+            "energy",
+            "isolated",
+            "microgrids",
+            "isolated microgrids",
+            "hybrid energy",
+            "energy storage",
+            "microgrid",
+            "storage",
+            "distributed",
+            "control strategy"
+        ],
+        "Representative_Docs": [
+            "optimized hybrid renewable energy system sustainable electric vehicle charging integration photovoltaic wind power advanced control strategy",
+            "application condition bounded rationality microgrid energy management control strategy combining realtime power price demandside response",
+            "mpcbased virtual energy storage system pv air conditioner emulate virtual inertia frequency regulation lowinertia microgrid"
+        ]
+    },
+    {
+        "Topic": 37,
+        "Count": 8,
+        "Name": "37_inverter_pwm_threelevel_induction",
+        "Representation": [
+            "inverter",
+            "pwm",
+            "threelevel",
+            "induction",
+            "design implementation",
+            "fed",
+            "implementation",
+            "predictive control",
+            "predictive",
+            "nineswitch"
+        ],
+        "Representative_Docs": [
+            "analysis implementation mnrv dpwm method applied singlephase diodeclamped fourlevel pwm inverter",
+            "modeling analysis evaluation modified model predictive control method parallel threelevel simplified neutral point clamped inverter",
+            "torque ripple reduction fluxdroop minimization dtc improved interleaving csftc im fed threelevel npc inverter"
+        ]
+    },
+    {
+        "Topic": 38,
+        "Count": 8,
+        "Name": "38_contrast_image_influence factor_restoring image",
+        "Representation": [
+            "contrast",
+            "image",
+            "influence factor",
+            "restoring image",
+            "reconstruction icenet",
+            "smoothing truncated",
+            "restoring",
+            "multiplicative noise",
+            "smoothing",
+            "model restoring"
+        ],
+        "Representative_Docs": [
+            "dualchannel contrast prior blind image deblurring",
+            "dual model restoring image corrupted mixture additive multiplicative noise",
+            "multitask image restoration algorithm different weather influence factor"
+        ]
+    },
+    {
+        "Topic": 39,
+        "Count": 8,
+        "Name": "39_fuzzy_segmentation_classifier_fuzzy subfield",
+        "Representation": [
+            "fuzzy",
+            "segmentation",
+            "classifier",
+            "fuzzy subfield",
+            "substation random",
+            "preclustering",
+            "fuzzy rulebased",
+            "pixel",
+            "new algebraic",
+            "mussel classifier"
+        ],
+        "Representative_Docs": [
+            "adaptive image contrast enhancement computing distance dimensional fuzzy unit hypercube",
+            "adaptive semisupervised fuzzy cmeans method local spatial information preclustering image segmentation",
+            "efficient voxelbased segmentation algorithm based hierarchical clustering extract lidar power equipment data transformer substation"
+        ]
+    },
+    {
+        "Topic": 40,
+        "Count": 7,
+        "Name": "40_relay_outage performance_power allocation_outage",
+        "Representation": [
+            "relay",
+            "outage performance",
+            "power allocation",
+            "outage",
+            "maximization relayassisted",
+            "multiple type",
+            "performance twohop",
+            "modulation benefit",
+            "information scheduling",
+            "wpcn joint"
+        ],
+        "Representative_Docs": [
+            "outage performance twohop ofdm system spatially random decodeandforward relay",
+            "robust beamforming power allocation secrecy df relay network imperfect channel state information",
+            "impact cochannel interference outage performance multiple type ii relay environment"
+        ]
+    },
+    {
+        "Topic": 41,
+        "Count": 7,
+        "Name": "41_multiagent_consensus_formation_nonlinear multiagent",
+        "Representation": [
+            "multiagent",
+            "consensus",
+            "formation",
+            "nonlinear multiagent",
+            "saturation",
+            "tracking",
+            "tracking control",
+            "rous",
+            "platoon actuator",
+            "ron"
+        ],
+        "Representative_Docs": [
+            "sampleddata mathcal lmathcal linfty consensus control nonlinear multiagent system",
+            "multigroup formation tracking control secondorder nonlinear multiagent system adaptive neural network",
+            "unified mean square consensus criterion stochastic multiagent system rous ron impulse time window"
+        ]
+    },
+    {
+        "Topic": 42,
+        "Count": 7,
+        "Name": "42_conversion_converter_analogtodigital_hdrtv",
+        "Representation": [
+            "conversion",
+            "converter",
+            "analogtodigital",
+            "hdrtv",
+            "swinhdr sdrtv",
+            "squeeze excitation",
+            "swinhdr",
+            "professional",
+            "gan integration",
+            "nonisolated multiinput"
+        ],
+        "Representative_Docs": [
+            "lookup tablebased digital calibration correction pipeline analogtodigital converter nonidealities",
+            "expandable nonisolated multiinput singleoutput dcdc converter high voltage gain zeroripple input current",
+            "dense swinhdr sdrtv hdrtv conversion densely connected swin transformer squeeze excitation module"
+        ]
+    },
+    {
+        "Topic": 43,
+        "Count": 7,
+        "Name": "43_millimeterwave_ghz_ghz channel_diffraction",
+        "Representation": [
+            "millimeterwave",
+            "ghz",
+            "ghz channel",
+            "diffraction",
+            "channel measurement",
+            "channel",
+            "measurement",
+            "propagation",
+            "summer winter",
+            "theory diffraction"
+        ],
+        "Representative_Docs": [
+            "indoor office wideband millimeterwave propagation measurement channel model ghz ultradense g wireless network",
+            "raytracing digital foliage millimeterwave case study calibration ghz channel measurement summer winter tree",
+            "scalable modeling human blockage millimeterwave comparative analysis knifeedge diffraction uniform theory diffraction physical optic ghz channel measurement"
+        ]
+    },
+    {
+        "Topic": 44,
+        "Count": 7,
+        "Name": "44_harvesting_energy harvesting_energyefficient_sensing",
+        "Representation": [
+            "harvesting",
+            "energy harvesting",
+            "energyefficient",
+            "sensing",
+            "intelligent cooperative",
+            "multiradio highdatarate",
+            "multiradio",
+            "iot backpacking",
+            "optimal savethentransmit",
+            "optimal stopping"
+        ],
+        "Representative_Docs": [
+            "erdt energyefficient reliable decision transmission intelligent cooperative spectrum sensing industrial iot",
+            "optimal savethentransmit random energy harvesting communication optimal stopping approach",
+            "timedivisionmultiplexed energy harvesting quasidistributed fiber bragg grating array fbgas sensing network"
+        ]
+    },
+    {
+        "Topic": 45,
+        "Count": 7,
+        "Name": "45_antenna_electrically small_planar_electrically",
+        "Representation": [
+            "antenna",
+            "electrically small",
+            "planar",
+            "electrically",
+            "small",
+            "low",
+            "monopole antenna",
+            "generation cylinder",
+            "nearfieldresonantparasitic antenna",
+            "profile broadside"
+        ],
+        "Representative_Docs": [
+            "orbital angular momentum oam generation cylinder dielectric resonator antenna future wireless communication",
+            "low profile broadside radiating electrically small huygens source antenna",
+            "simple design procedure broadband circularly polarized slot monopole antenna assisted characteristic mode analysis"
+        ]
+    },
+    {
+        "Topic": 46,
+        "Count": 7,
+        "Name": "46_convolutional_convolutional neural_neural network_neural",
+        "Representation": [
+            "convolutional",
+            "convolutional neural",
+            "neural network",
+            "neural",
+            "fully",
+            "prediction ground",
+            "oracle",
+            "novel convolutional",
+            "radar endtoend",
+            "svm"
+        ],
+        "Representative_Docs": [
+            "convolutional neural network water content classification prediction ground penetrating radar",
+            "oracle bone inscription character recognition based novel convolutional neural network architecture",
+            "fully connected quantum convolutional neural network classifying ischemic cardiopathy"
+        ]
+    },
+    {
+        "Topic": 47,
+        "Count": 7,
+        "Name": "47_mosfet_si_mosfets_effect",
+        "Representation": [
+            "mosfet",
+            "si",
+            "mosfets",
+            "effect",
+            "work function",
+            "mosfet si",
+            "sic",
+            "sic mosfet",
+            "patterndependent threshold",
+            "igbt based"
+        ],
+        "Representative_Docs": [
+            "ingaas stacked multichannel mosfet design improve electrostatic performance selfheating effect reduction",
+            "effect current commutation method sic mosfet si igbt based quadrant switch",
+            "nanosizedmetalgrain patterndependent threshold voltage model work function fluctuation gaa si nw mosfets"
+        ]
+    },
+    {
+        "Topic": 48,
+        "Count": 7,
+        "Name": "48_object detection_object_fusion_rgbd",
+        "Representation": [
+            "object detection",
+            "object",
+            "fusion",
+            "rgbd",
+            "salient object",
+            "saliency",
+            "detection method",
+            "multimodal fusion",
+            "detection",
+            "salient"
+        ],
+        "Representative_Docs": [
+            "heightadaptive deformable multimodal fusion object detection",
+            "rgbd salient object detection method based multimodal fusion contour guidance",
+            "salient object detection accurate efficient method complex shape object"
+        ]
+    },
+    {
+        "Topic": 49,
+        "Count": 7,
+        "Name": "49_cardiac_ecg_heart_monitoring",
+        "Representation": [
+            "cardiac",
+            "ecg",
+            "heart",
+            "monitoring",
+            "photoplethysmography",
+            "neoreflective wrist",
+            "pulse oximeter",
+            "robotaided",
+            "photoplethysmography estimation",
+            "wrist pulse"
+        ],
+        "Representative_Docs": [
+            "uncertainty measurement noncontact neonatal heart rate monitoring",
+            "robotaided contactless monitoring worker cardiac activity hazardous environment",
+            "open source ecg clock generator visualization longterm cardiac monitoring data"
+        ]
+    },
+    {
+        "Topic": 50,
+        "Count": 7,
+        "Name": "50_metasurface_periodic_mixture_threedimensional",
+        "Representation": [
+            "metasurface",
+            "periodic",
+            "mixture",
+            "threedimensional",
+            "electromagnetic",
+            "composite",
+            "active",
+            "metamaterial structure",
+            "permittivity",
+            "permittivity periodic"
+        ],
+        "Representative_Docs": [
+            "effective permittivity periodic composite regular irregular inclusion",
+            "wideangle beam steering based active conformal metasurface lens",
+            "automated creation complex threedimensional composite mixture use electromagnetic simulation"
+        ]
+    },
+    {
+        "Topic": 51,
+        "Count": 6,
+        "Name": "51_channel modeling_indoor_channel_jamming",
+        "Representation": [
+            "channel modeling",
+            "indoor",
+            "channel",
+            "jamming",
+            "lstm model",
+            "hybrid markov",
+            "implementation rf",
+            "indoor localization",
+            "indoor location",
+            "indoor scenario"
+        ],
+        "Representative_Docs": [
+            "jamrf performance analysis evaluation implementation rf jamming wifi",
+            "dynamic channel modeling indoor scenario ghz",
+            "channel diversity indoor localization bluetooth low energy extended advertisement"
+        ]
+    },
+    {
+        "Topic": 52,
+        "Count": 6,
+        "Name": "52_memory_dram_nonvolatile_cell",
+        "Representation": [
+            "memory",
+            "dram",
+            "nonvolatile",
+            "cell",
+            "mb ddr",
+            "nand flash",
+            "sigebased separated",
+            "stack model",
+            "power compact",
+            "key challenge"
+        ],
+        "Representative_Docs": [
+            "memristorbased nonvolatile random access memory hybrid architecture low power compact memory design",
+            "impact memory address mapping scheme reducing dram selfrefresh power mobile computing device",
+            "mb ddr nand flash memory multichip package sourcesynchronous interface pointtopoint ring topology"
+        ]
+    },
+    {
+        "Topic": 53,
+        "Count": 6,
+        "Name": "53_swarm optimization_particle swarm_particle_swarm",
+        "Representation": [
+            "swarm optimization",
+            "particle swarm",
+            "particle",
+            "swarm",
+            "optimization",
+            "adoption",
+            "hybrid firefly",
+            "multisubdomain",
+            "multisubdomain groupingbased",
+            "smart tour"
+        ],
+        "Representative_Docs": [
+            "modified multiobjective particle swarm optimization based levy flight doublearchive mechanism",
+            "dynamic virtual machine resource consolidation strategy based gray model improved discrete particle swarm optimization",
+            "segment particle swarm optimization adoption largescale kinetic parameter identification escherichia coli metabolic network model"
+        ]
+    },
+    {
+        "Topic": 54,
+        "Count": 6,
+        "Name": "54_voltage source_voltage_controller design_stability",
+        "Representation": [
+            "voltage source",
+            "voltage",
+            "controller design",
+            "stability",
+            "controller",
+            "converter",
+            "source",
+            "magnet synchronous",
+            "strategy vsc",
+            "wind energy"
+        ],
+        "Representative_Docs": [
+            "passivitybased robust controller design loadindependent voltage source inverter",
+            "optimized interval typeii fuzzy controllerbased statcom voltage regulation power system photovoltaic farm",
+            "controller design variablespeed directdrive permanent magnet synchronous generatorbased gridinterfaced wind energy conversion system dpartition technique"
+        ]
+    },
+    {
+        "Topic": 55,
+        "Count": 6,
+        "Name": "55_healthcare application_tablet_snack_smartphone",
+        "Representation": [
+            "healthcare application",
+            "tablet",
+            "snack",
+            "smartphone",
+            "individual camera",
+            "successful",
+            "size color",
+            "survey tablet",
+            "tablet application",
+            "tablet image"
+        ],
+        "Representative_Docs": [
+            "smartphonebased diagnosis parasitic infection colorimetric assay centrifuge tube",
+            "overview jpeg snack novel international standard snack culture",
+            "algorithm size color detection smartphone image chronic wound healthcare application"
+        ]
+    },
+    {
+        "Topic": 56,
+        "Count": 6,
+        "Name": "56_yolov_improved yolov_detection model_based improved",
+        "Representation": [
+            "yolov",
+            "improved yolov",
+            "detection model",
+            "based improved",
+            "detection",
+            "surface defect",
+            "yolo network",
+            "yolo",
+            "focusing small",
+            "vehicle detection"
+        ],
+        "Representative_Docs": [
+            "epyolo pipeline leak detection algorithm based improved yolov",
+            "automatic acne detection model based improved yolov",
+            "efficient detection model steel strip surface defect based yolov"
+        ]
+    },
+    {
+        "Topic": 57,
+        "Count": 6,
+        "Name": "57_forecasting_series_time series_load forecasting",
+        "Representation": [
+            "forecasting",
+            "series",
+            "time series",
+            "load forecasting",
+            "recurrent",
+            "time",
+            "load",
+            "autoformer",
+            "multiscaler hybrid",
+            "level multihorizon"
+        ],
+        "Representative_Docs": [
+            "cumulative load forecasting microgrid cluster enhancedgated recurrent unit model",
+            "stable forecasting environmental time series via long short term memory recurrent neural network",
+            "neural hierarchical interpolation time series nhits reservoir level multihorizon forecasting hydroelectric power plant"
+        ]
+    },
+    {
+        "Topic": 58,
+        "Count": 6,
+        "Name": "58_security_layer security_physical_physical layer",
+        "Representation": [
+            "security",
+            "layer security",
+            "physical",
+            "physical layer",
+            "layer",
+            "aid",
+            "waveform collection",
+            "subset modulation",
+            "study amprmdr",
+            "sei"
+        ],
+        "Representative_Docs": [
+            "safeguarding ultradense network aid physical layer security review case study",
+            "physical layerbased iot security investigation improving preamblebased sei performance multiple waveform collection",
+            "analyzing physical layer security antenna subset modulation block encryption cipher"
+        ]
+    },
+    {
+        "Topic": 59,
+        "Count": 6,
+        "Name": "59_audio_cnn_speech_restoration historical",
+        "Representation": [
+            "audio",
+            "cnn",
+            "speech",
+            "restoration historical",
+            "vowel",
+            "silent",
+            "textindependent speaker",
+            "textual format",
+            "textual",
+            "speaker"
+        ],
+        "Representative_Docs": [
+            "diagnosis depression based fourstream model bilstm cnn audio text information",
+            "iruwb radarbased contactless silent speech recognition vowel consonant word phrase",
+            "exploring effectiveness feature reduction kernelbased matching queryby example spoken term detection cnn"
+        ]
+    },
+    {
+        "Topic": 60,
+        "Count": 6,
+        "Name": "60_datadriven_braking_multiphysics_vehicle",
+        "Representation": [
+            "datadriven",
+            "braking",
+            "multiphysics",
+            "vehicle",
+            "fault diagnosis",
+            "electric",
+            "motor",
+            "fault",
+            "electric vehicle",
+            "accumulation"
+        ],
+        "Representative_Docs": [
+            "multiphysics dataset generation procedure datadriven modeling traction electric motor",
+            "dynamic stiffness characteristic analysis bogie suspension rail vehicle based big datadriven bench test",
+            "datadriven onboard interturn short circuit fault diagnosis electric vehicle realtime simulation environment"
+        ]
+    },
+    {
+        "Topic": 61,
+        "Count": 6,
+        "Name": "61_cloud_cloud computing_metering virtual_policy heterogeneous",
+        "Representation": [
+            "cloud",
+            "cloud computing",
+            "metering virtual",
+            "policy heterogeneous",
+            "cloud computingchallenges",
+            "angle cloud",
+            "computingchallenges opportunity",
+            "costoptimized resource",
+            "cargo",
+            "workflow cloud"
+        ],
+        "Representative_Docs": [
+            "power metering virtual machine cloud computingchallenges opportunity",
+            "costoptimized resource provisioning policy heterogeneous cloud environment",
+            "impact solar angle cloud shadow reconstruction rolling stock cargo"
+        ]
+    },
+    {
+        "Topic": 62,
+        "Count": 6,
+        "Name": "62_image classification_classification_medical image_medical",
+        "Representation": [
+            "image classification",
+            "classification",
+            "medical image",
+            "medical",
+            "synthetic oversampling",
+            "oversampling method",
+            "unet model",
+            "transformer model",
+            "tool detection",
+            "method multiclass"
+        ],
+        "Representative_Docs": [
+            "mkcsmote novel synthetic oversampling method multiclass imbalanced data classification",
+            "effresnetvit fusionbased convolutional vision transformer model explainable medical image classification",
+            "realtime surgical tool detection minimally invasive surgery based attentionguided convolutional neural network"
+        ]
+    },
+    {
+        "Topic": 63,
+        "Count": 6,
+        "Name": "63_innovation_foundation_open_model implementation",
+        "Representation": [
+            "innovation",
+            "foundation",
+            "open",
+            "model implementation",
+            "transformation higher",
+            "supporting multiissue",
+            "negotiation",
+            "sociotheoretic",
+            "strategy responsible",
+            "sociotheoretic foundation"
+        ],
+        "Representative_Docs": [
+            "identifying relevant sociotheoretic foundation supporting multiissue cloudsourcing negotiation",
+            "research impact implicit contract user knowledge contribution open innovation community",
+            "open data foundation innovation enabling effect free public sector information entrepreneur"
+        ]
+    },
+    {
+        "Topic": 64,
+        "Count": 6,
+        "Name": "64_mobile network_mobile_alpha_messaging",
+        "Representation": [
+            "mobile network",
+            "mobile",
+            "alpha",
+            "messaging",
+            "stable model",
+            "softwarization",
+            "predicting high",
+            "potential challenge",
+            "standard predicting",
+            "supporting multirats"
+        ],
+        "Representative_Docs": [
+            "potential challenge cran supporting multirats toward g mobile network",
+            "energy efficiency benefit ranasaservice concept cloudbased g mobile network infrastructure",
+            "understanding traffic nature mobile instantaneous messaging cellular network revisiting alpha stable model"
+        ]
+    },
+    {
+        "Topic": 65,
+        "Count": 6,
+        "Name": "65_fog_fog computing_computing_scheduling technique",
+        "Representation": [
+            "fog",
+            "fog computing",
+            "computing",
+            "scheduling technique",
+            "secure deployment",
+            "task scheduling",
+            "security fog",
+            "technique cloud",
+            "tackle impersonation",
+            "review task"
+        ],
+        "Representative_Docs": [
+            "fog computing iot secure deployment formal verification",
+            "security fog computing novel technique tackle impersonation attack",
+            "review task scheduling technique cloud fog computing taxonomy tool open issue challenge future direction"
+        ]
+    },
+    {
+        "Topic": 66,
+        "Count": 5,
+        "Name": "66_papr_papr reduction_recovery_signal",
+        "Representation": [
+            "papr",
+            "papr reduction",
+            "recovery",
+            "signal",
+            "reduction",
+            "ofdm",
+            "referencebased successive",
+            "receiverbased",
+            "reduction ofdm",
+            "receiverbased recovery"
+        ],
+        "Representative_Docs": [
+            "papr reduction multicarrier fasterthannyquist signal partial transmit sequence",
+            "receiverbased recovery clipped ofdm signal papr reduction bayesian approach",
+            "signal interest recovery multiple receiver referencebased successive interference cancellation signal collection application"
+        ]
+    },
+    {
+        "Topic": 67,
+        "Count": 5,
+        "Name": "67_mobile social_caching_social_mobile",
+        "Representation": [
+            "mobile social",
+            "caching",
+            "social",
+            "mobile",
+            "placement user",
+            "aided information",
+            "device caching",
+            "eventbased mobile",
+            "value strength",
+            "failureaware"
+        ],
+        "Representative_Docs": [
+            "value strength aided information diffusion sociallyaware mobile network",
+            "failureaware mobile crowd sensing social relationshipbased transfer approach",
+            "joint caching placement user association minimizing user download delay"
+        ]
+    },
+    {
+        "Topic": 68,
+        "Count": 5,
+        "Name": "68_anomaly_anomaly detection_random forest_forest",
+        "Representation": [
+            "anomaly",
+            "anomaly detection",
+            "random forest",
+            "forest",
+            "dataset",
+            "urban",
+            "uasppk",
+            "indepth uasppk",
+            "indepth",
+            "urban impervious"
+        ],
+        "Representative_Docs": [
+            "selfsupervised anomaly detection outlier multivariate time series",
+            "anomaly detection workflow random forest regressor largescale photovoltaic power plant",
+            "wireless anomaly signal dataset wasd open dataset wireless cellular spectrum monitoring anomaly detection"
+        ]
+    },
+    {
+        "Topic": 69,
+        "Count": 5,
+        "Name": "69_scheduling problem_jobshop scheduling_jobshop_makespan",
+        "Representation": [
+            "scheduling problem",
+            "jobshop scheduling",
+            "jobshop",
+            "makespan",
+            "scheduling",
+            "problem",
+            "solving",
+            "flexible",
+            "mechanism fair",
+            "realworld fastener"
+        ],
+        "Representative_Docs": [
+            "hybrid discrete imperialist competition algorithm fuzzy jobshop scheduling problem",
+            "solving flexible job shop scheduling problem makespan optimization hybrid taguchigenetic algorithm",
+            "solving distributed flexible jobshop scheduling problem realworld fastener manufacturer"
+        ]
+    },
+    {
+        "Topic": 70,
+        "Count": 5,
+        "Name": "70_visible light_visible_light_light communication",
+        "Representation": [
+            "visible light",
+            "visible",
+            "light",
+            "light communication",
+            "multiuser mimo",
+            "mimo visible",
+            "multiuser",
+            "mimo",
+            "ofdm",
+            "communication"
+        ],
+        "Representative_Docs": [
+            "layered adaptive collaborative constellation mimo visible light communication",
+            "robust transceivers design multistream multiuser mimo visible light communication",
+            "photodetector selection aided multiuser mimo optical ofdm imaging visible light communication system"
+        ]
+    },
+    {
+        "Topic": 71,
+        "Count": 5,
+        "Name": "71_video_coding_filtering highdefinition_phy mac",
+        "Representation": [
+            "video",
+            "coding",
+            "filtering highdefinition",
+            "phy mac",
+            "versatile video",
+            "quality estimation",
+            "mixpred video",
+            "versatile",
+            "mixpred",
+            "video analytics"
+        ],
+        "Representative_Docs": [
+            "mathematical bottomtoup approach video quality estimation based phy mac parameter",
+            "framelevel constant bitrate control recursive bayesian estimation versatile video coding",
+            "realtime contextaware early filtering highdefinition video analytics commodity edge device genai data augmentation"
+        ]
+    },
+    {
+        "Topic": 72,
+        "Count": 5,
+        "Name": "72_vehicular_vehicular ad_hoc network_vanets",
+        "Representation": [
+            "vehicular",
+            "vehicular ad",
+            "hoc network",
+            "vanets",
+            "ad hoc",
+            "hoc",
+            "ad",
+            "vanets fuzzy",
+            "strategy calculate",
+            "sizeaware broadcasting"
+        ],
+        "Representative_Docs": [
+            "packet sizeaware broadcasting vanets fuzzy logic rlbased parameter adaptation",
+            "hierarchical routing scheme load balancing software defined vehicular ad hoc network",
+            "rsucoordinated synchronous multichannel mac scheme vehicular ad hoc network"
+        ]
+    },
+    {
+        "Topic": 73,
+        "Count": 5,
+        "Name": "73_tidak_judul tidak_judul_tidak ditemukan",
+        "Representation": [
+            "tidak",
+            "judul tidak",
+            "judul",
+            "tidak ditemukan",
+            "ditemukan",
+            "ditemukan judul",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Representative_Docs": [
+            "judul tidak ditemukan",
+            "judul tidak ditemukan",
+            "judul tidak ditemukan"
+        ]
+    },
+    {
+        "Topic": 74,
+        "Count": 5,
+        "Name": "74_secure_key_accountable_locality",
+        "Representation": [
+            "secure",
+            "key",
+            "accountable",
+            "locality",
+            "single signon",
+            "signcryption scheme",
+            "resilient public",
+            "signon authentication",
+            "public key",
+            "standard model"
+        ],
+        "Representative_Docs": [
+            "provably leakageresilient passwordbased authenticated key exchange standard model",
+            "accountable bootstrapping based attack resilient public key infrastructure secure zero touch provisioning",
+            "efficient anonymous certificateless multireceiver signcryption scheme without bilinear pairing"
+        ]
+    },
+    {
+        "Topic": 75,
+        "Count": 5,
+        "Name": "75_error_error evolution_principle design_noise channel",
+        "Representation": [
+            "error",
+            "error evolution",
+            "principle design",
+            "noise channel",
+            "physicallayer",
+            "mqam signal",
+            "presence phase",
+            "mqam",
+            "pulse extrinsic",
+            "receiver architecture"
+        ],
+        "Representative_Docs": [
+            "bit error floor reduction mqam signal presence phase error",
+            "extrinsic information transfer chart characterizing iterative decoding convergence fully parallel turbo decoder",
+            "finite length analysis lowdensity paritycheck code impulsive noise channel"
+        ]
+    },
+    {
+        "Topic": 76,
+        "Count": 5,
+        "Name": "76_knowledge_regulation theory_reasoning_parallelism",
+        "Representation": [
+            "knowledge",
+            "regulation theory",
+            "reasoning",
+            "parallelism",
+            "corrosion evaluation",
+            "semantic cohesion",
+            "ontological knowledge",
+            "distribution application",
+            "domainspecific",
+            "domainspecific collaborative"
+        ],
+        "Representative_Docs": [
+            "common sensebased reasoning external knowledge question answering",
+            "machine learningdriven ontological knowledge base bridge corrosion evaluation",
+            "individual semantics building hflts possibility distribution application domainspecific collaborative decision making"
+        ]
+    },
+    {
+        "Topic": 77,
+        "Count": 5,
+        "Name": "77_game_addictive_investigating_twitterbased analysis",
+        "Representation": [
+            "game",
+            "addictive",
+            "investigating",
+            "twitterbased analysis",
+            "understanding multimodal",
+            "student",
+            "twitterbased",
+            "scoping review",
+            "remote work",
+            "use ai"
+        ],
+        "Representative_Docs": [
+            "investigating remote work trend postcovid twitterbased analysis",
+            "implication jerk measure game entertainment discovering potentially addictive game",
+            "correction could use ai higher education hinder student disability scoping review"
+        ]
+    },
+    {
+        "Topic": 78,
+        "Count": 5,
+        "Name": "78_rf_highcodingcapacity chipless_mem perforated_technology advance",
+        "Representation": [
+            "rf",
+            "highcodingcapacity chipless",
+            "mem perforated",
+            "technology advance",
+            "flexible display",
+            "frequency doubling",
+            "highcodingcapacity",
+            "kstate",
+            "kstate resonator",
+            "liquid"
+        ],
+        "Representative_Docs": [
+            "continuous electrowetting nontoxic liquid metal rf application",
+            "enabling ondemand frequency doubling mechanism capacitively loaded miniaturized diplexer",
+            "fabrication characterization capacitive rf mem perforated switch"
+        ]
+    },
+    {
+        "Topic": 79,
+        "Count": 5,
+        "Name": "79_key sequence_improve crispr_sgrna_signaling inhibition",
+        "Representation": [
+            "key sequence",
+            "improve crispr",
+            "sgrna",
+            "signaling inhibition",
+            "sinensis",
+            "sequence feature",
+            "sgrna efficacy",
+            "repurposing power",
+            "repurposing",
+            "sinensis hepatopancreas"
+        ],
+        "Representative_Docs": [
+            "hiding secret message living cell age nextgeneration sequencing",
+            "identify key sequence feature improve crispr sgrna efficacy",
+            "benchmarking smalldataset structureactivityrelationship model prediction wnt signaling inhibition"
+        ]
+    },
+    {
+        "Topic": 80,
+        "Count": 5,
+        "Name": "80_radial distribution_radial_transmission_grid",
+        "Representation": [
+            "radial distribution",
+            "radial",
+            "transmission",
+            "grid",
+            "impedancebased",
+            "impedancebased fault",
+            "synchrophasors",
+            "grid cascading",
+            "protocol synchrophasors",
+            "transmission grid"
+        ],
+        "Representative_Docs": [
+            "transmission contingency analysis based datadriven equivalencing radial distribution network considering uncertainty",
+            "drtp disruption resilient hopbyhop transport protocol synchrophasors measurement electric transmission grid",
+            "ac mathematical model solving complex restoration problem radial distribution system treatable runtime"
+        ]
+    },
+    {
+        "Topic": 81,
+        "Count": 5,
+        "Name": "81_battery_electric vehicle_iot operational_planning perspective",
+        "Representation": [
+            "battery",
+            "electric vehicle",
+            "iot operational",
+            "planning perspective",
+            "stateofcharge estimation",
+            "relaxation",
+            "point lithiumion",
+            "swapping wireless",
+            "technology multidisciplinary",
+            "transmitter control"
+        ],
+        "Representative_Docs": [
+            "control hardwareintheloop simulation community energy storage system based repurposed electric vehicle battery",
+            "bias correction based stateofcharge estimation method multicell battery pack different working condition",
+            "capacity fade estimation single relaxation point lithiumion battery electric vehicle application"
+        ]
+    },
+    {
+        "Topic": 82,
+        "Count": 5,
+        "Name": "82_supply_supply chain_chain_pricing",
+        "Representation": [
+            "supply",
+            "supply chain",
+            "chain",
+            "pricing",
+            "inventory",
+            "strategy",
+            "strategy omnichannel",
+            "pricing customer",
+            "experience investment",
+            "product advertisement"
+        ],
+        "Representative_Docs": [
+            "pricing collecting decision closedloop supply chain market segmentation rewardpenalty mechanism",
+            "optimal pricing customer experience investment strategy omnichannel supply chain bop",
+            "research inventory control pricing decision supply chain fresh agricultural product advertisement delay effect"
+        ]
+    },
+    {
+        "Topic": 83,
+        "Count": 5,
+        "Name": "83_problem_scheduling_scheduling problem_multimode",
+        "Representation": [
+            "problem",
+            "scheduling",
+            "scheduling problem",
+            "multimode",
+            "problem metaheuristic",
+            "programming formulation",
+            "resourceconstrained project",
+            "project scheduling",
+            "scheduling screw",
+            "refined genetic"
+        ],
+        "Representative_Docs": [
+            "developing multiobjective optimization scheduling system screw manufacturer refined genetic algorithm approach",
+            "metaheuristic approach onedimensional bin packing problem comparative performance study",
+            "constraint programming formulation multimode resourceconstrained project scheduling problem flexible job shop scheduling problem"
+        ]
+    },
+    {
+        "Topic": 84,
+        "Count": 5,
+        "Name": "84_polarization_antenna_polarized_nanosatellite",
+        "Representation": [
+            "polarization",
+            "antenna",
+            "polarized",
+            "nanosatellite",
+            "array antennainpackage",
+            "highpower combining",
+            "application dual",
+            "dualband antenna",
+            "synthesis dualband",
+            "dualcircular polarization"
+        ],
+        "Representative_Docs": [
+            "dual linearly polarized endfire antenna array g application",
+            "dualband antenna dualcircular polarization nanosatellite payload application",
+            "dband multifeed array antennainpackage highpower combining polarization synthesis"
+        ]
+    },
+    {
+        "Topic": 85,
+        "Count": 5,
+        "Name": "85_disorder_mental_functional_brain",
+        "Representation": [
+            "disorder",
+            "mental",
+            "functional",
+            "brain",
+            "predicting",
+            "disease",
+            "symptom",
+            "mental health",
+            "predicting mental",
+            "qanalysis fmribased"
+        ],
+        "Representative_Docs": [
+            "correction harnessing power hugging face transformer predicting mental health disorder social network",
+            "beyond pairwise interaction higherorder qanalysis fmribased brain functional network patient major depressive disorder",
+            "predicting disease severity child attention deficit hyperactivity disorder dualbranch hypothesis network"
+        ]
+    },
+    {
+        "Topic": 86,
+        "Count": 4,
+        "Name": "86_frequent_frequent itemset_itemset_itemset mining",
+        "Representation": [
+            "frequent",
+            "frequent itemset",
+            "itemset",
+            "itemset mining",
+            "subgraph",
+            "mining",
+            "intelligent massivescale",
+            "massivescale",
+            "subgraph query",
+            "graph inverted"
+        ],
+        "Representative_Docs": [
+            "top k subgraph query based frequent structure largescale dynamic graph",
+            "multimodalgraphsearch intelligent massivescale subgraph discovery multicategory financial pattern mining",
+            "inverted index automaton frequent itemset mining large dataset frequent itemset mining"
+        ]
+    },
+    {
+        "Topic": 87,
+        "Count": 4,
+        "Name": "87_agricultural_agriculture_multicrop_agriculture intelligent",
+        "Representation": [
+            "agricultural",
+            "agriculture",
+            "multicrop",
+            "agriculture intelligent",
+            "design performance",
+            "evaluation model",
+            "vehicle agricultural",
+            "evaluation novel",
+            "field trial",
+            "index agricultural"
+        ],
+        "Representative_Docs": [
+            "revisiting control system autonomous vehicle agricultural sector systematic literature review",
+            "design performance evaluation novel variable rate multicrop seed metering unit precision agriculture",
+            "sigfox energy consumption model via field trial case smart agriculture"
+        ]
+    },
+    {
+        "Topic": 88,
+        "Count": 4,
+        "Name": "88_ransomware_heterogeneous mobile_malware propagation_dynamic taint",
+        "Representation": [
+            "ransomware",
+            "heterogeneous mobile",
+            "malware propagation",
+            "dynamic taint",
+            "dynamic analysis",
+            "xrguard modelagnostic",
+            "generalize",
+            "generalize heterogeneous",
+            "xrguard",
+            "impact detection"
+        ],
+        "Representative_Docs": [
+            "study formal method generalize heterogeneous mobile malware propagation impact",
+            "detection elimination spyware ransomware intercepting kernellevel system routine",
+            "xrguard modelagnostic approach ransomware detection dynamic analysis explainable ai"
+        ]
+    },
+    {
+        "Topic": 89,
+        "Count": 4,
+        "Name": "89_humanrobot_humanrobot collaboration_collaboration_fusion data",
+        "Representation": [
+            "humanrobot",
+            "humanrobot collaboration",
+            "collaboration",
+            "fusion data",
+            "driven model",
+            "environment robust",
+            "working review",
+            "collaboration industrial",
+            "collaboration autonomous",
+            "robot sp"
+        ],
+        "Representative_Docs": [
+            "towards robust humanrobot collaborative manufacturing multimodal fusion",
+            "working together review safe humanrobot collaboration industrial environment",
+            "data driven model human motion prediction humanrobot collaboration"
+        ]
+    },
+    {
+        "Topic": 90,
+        "Count": 4,
+        "Name": "90_fingerprint_latent fingerprint_latent_similarity",
+        "Representation": [
+            "fingerprint",
+            "latent fingerprint",
+            "latent",
+            "similarity",
+            "method fingerprint",
+            "determination clustering",
+            "effective method",
+            "crime scene",
+            "distorted latent",
+            "vector size"
+        ],
+        "Representative_Docs": [
+            "unveiling power simplicity two remarkably effective method fingerprint segmentation",
+            "examining impact fingerprint vector size similarity determination clustering performance patternbased similarity metric",
+            "coarsetofine approach rectifying distorted latent fingerprint crime scene"
+        ]
+    },
+    {
+        "Topic": 91,
+        "Count": 4,
+        "Name": "91_high performance_electronics_alumina_transistor",
+        "Representation": [
+            "high performance",
+            "electronics",
+            "alumina",
+            "transistor",
+            "igzo thinfilm",
+            "electronics high",
+            "amorphous",
+            "electrical interconnect",
+            "amorphous igzo",
+            "ceramic printing"
+        ],
+        "Representative_Docs": [
+            "printing rapid prototyping structural electronics",
+            "high performance amorphous igzo thinfilm transistor based alumina ceramic",
+            "printed electronics high performance multilayered electrical interconnect"
+        ]
+    },
+    {
+        "Topic": 92,
+        "Count": 4,
+        "Name": "92_discrete_verification_verification class_inversion compared",
+        "Representation": [
+            "discrete",
+            "verification",
+            "verification class",
+            "inversion compared",
+            "constructive",
+            "gmdsznn model",
+            "compared",
+            "class modular",
+            "timevariant",
+            "alvis language"
+        ],
+        "Representative_Docs": [
+            "discretetime system modeling verification alvis language tool",
+            "gmdsznn model teninstant discrete algorithm timevariant matrix inversion compared multipleinstant one",
+            "opacity verification class modular discrete event system"
+        ]
+    },
+    {
+        "Topic": 93,
+        "Count": 4,
+        "Name": "93_ancient_twin truss_control grinding_crane optimization",
+        "Representation": [
+            "ancient",
+            "twin truss",
+            "control grinding",
+            "crane optimization",
+            "controllability symbolic",
+            "crane",
+            "gantry crane",
+            "webbased digital",
+            "grinding process",
+            "guitar"
+        ],
+        "Representative_Docs": [
+            "configurable platform optimalsetting control grinding process",
+            "optimization method tuning sound quality ergonomics ancient guitar dspfem simulation",
+            "establishment webbased digital twin system truss gantry crane"
+        ]
+    },
+    {
+        "Topic": 94,
+        "Count": 4,
+        "Name": "94_stream_intelligent service_microprocessorbased centralization_visible dns",
+        "Representation": [
+            "stream",
+            "intelligent service",
+            "microprocessorbased centralization",
+            "visible dns",
+            "fluctuating big",
+            "framework distributed",
+            "function stable",
+            "globally",
+            "globally visible",
+            "injection"
+        ],
+        "Representative_Docs": [
+            "novel framework distributed datacenter network support intelligent service architecture operation solution",
+            "stable online scheduling strategy realtime stream computing fluctuating big data stream",
+            "development algorithm national microprocessorbased centralization system modular architecture kzmpcma featuring advanced intelligent control function"
+        ]
+    },
+    {
+        "Topic": 95,
+        "Count": 4,
+        "Name": "95_manufacturing_petri net_petri_net",
+        "Representation": [
+            "manufacturing",
+            "petri net",
+            "petri",
+            "net",
+            "net intelligent",
+            "net flexible",
+            "manufacturing tcadassisted",
+            "automated manufacturing",
+            "industrial process",
+            "automatic generation"
+        ],
+        "Representative_Docs": [
+            "intelligent manufacturing tcadassisted adaptive weighting neural network",
+            "partial reachability graph analysis petri net flexible manufacturing system",
+            "robust prevention method automated manufacturing system unreliable resource petri net"
+        ]
+    },
+    {
+        "Topic": 96,
+        "Count": 4,
+        "Name": "96_ranking_lda fuzzy_multisensory_fuzzy criticmabac",
+        "Representation": [
+            "ranking",
+            "lda fuzzy",
+            "multisensory",
+            "fuzzy criticmabac",
+            "city ranking",
+            "bikeway",
+            "bikeway multisensory",
+            "track urban",
+            "data large",
+            "multiple criterion"
+        ],
+        "Representative_Docs": [
+            "hybrid lda fuzzy criticmabac model smart city ranking",
+            "bikeway multisensory fuzzybased quality metric bike path track urban area",
+            "mixedchoicestrategybased consensus ranking method multiple criterion decision analysis involving pythagorean fuzzy information"
+        ]
+    },
+    {
+        "Topic": 97,
+        "Count": 4,
+        "Name": "97_sequence_pattern_search_maintaining",
+        "Representation": [
+            "sequence",
+            "pattern",
+            "search",
+            "maintaining",
+            "indexing search",
+            "updated sequential",
+            "largescale genomic",
+            "updated",
+            "maintaining fast",
+            "matching application"
+        ],
+        "Representative_Docs": [
+            "indexing search orderpreserving submatrix gene expression data",
+            "efficiently maintaining fast updated sequential pattern tree sequence deletion",
+            "sstmacro effective analysis mpibased application evaluating largescale genomic sequence search"
+        ]
+    },
+    {
+        "Topic": 98,
+        "Count": 4,
+        "Name": "98_cognitive_response_abilitydemand_urgency",
+        "Representation": [
+            "cognitive",
+            "response",
+            "abilitydemand",
+            "urgency",
+            "cognitive abilitydemand",
+            "action enhanced",
+            "collective action",
+            "analysis latent",
+            "identification potential",
+            "cognitive distraction"
+        ],
+        "Representative_Docs": [
+            "cognitive abilitydemand gap analysis latent response model",
+            "impact cognitive distraction driver perception response time different level situational urgency",
+            "identification potential collective action enhanced gray system theory social medium"
+        ]
+    },
+    {
+        "Topic": 99,
+        "Count": 4,
+        "Name": "99_multiplication_accelerating_soc postquantum_accelerating secure",
+        "Representation": [
+            "multiplication",
+            "accelerating",
+            "soc postquantum",
+            "accelerating secure",
+            "accelerator riscv",
+            "digitserial",
+            "device secure",
+            "application matrix",
+            "cryptography",
+            "cryptography efficient"
+        ],
+        "Representative_Docs": [
+            "efficient scalable digitserial inverter gf ultralow power device",
+            "highefficiency multistandard polynomial multiplication accelerator riscv soc postquantum cryptography",
+            "secure efficient protocol outsourcing largescale matrix multiplication cloud"
+        ]
+    },
+    {
+        "Topic": 100,
+        "Count": 4,
+        "Name": "100_satellite_music performance_tsch_downlink network",
+        "Representation": [
+            "satellite",
+            "music performance",
+            "tsch",
+            "downlink network",
+            "code scheme",
+            "dependent approach",
+            "coverage analysis",
+            "dynamic scheduling",
+            "data rate",
+            "coverage"
+        ],
+        "Representative_Docs": [
+            "tsch long range low data rate application",
+            "dynamic scheduling high throughput satellite employing priority code scheme",
+            "coverage analysis leo satellite downlink network orbital geometry dependent approach"
+        ]
+    },
+    {
+        "Topic": 101,
+        "Count": 4,
+        "Name": "101_judul_judul tidak_tidak_ditemukan",
+        "Representation": [
+            "judul",
+            "judul tidak",
+            "tidak",
+            "ditemukan",
+            "tidak ditemukan",
+            "ditemukan judul",
+            "product forming",
+            "research based",
+            "based printing",
+            "ceramic product"
+        ],
+        "Representative_Docs": [
+            "judul tidak ditemukan",
+            "judul tidak ditemukan",
+            "judul tidak ditemukan"
+        ]
+    },
+    {
+        "Topic": 102,
+        "Count": 4,
+        "Name": "102_mobile phone_phone_radio frequency_phone adult",
+        "Representation": [
+            "mobile phone",
+            "phone",
+            "radio frequency",
+            "phone adult",
+            "adult",
+            "child",
+            "radiation",
+            "brain absorption",
+            "child absorb",
+            "vulnerability umosfets"
+        ],
+        "Representative_Docs": [
+            "dosimetric simulation brain absorption mobile phone radiationthe relationship pssar age",
+            "child exposed radio frequency energy mobile phone adult",
+            "child absorb higher dos radio frequency electromagnetic radiation mobile phone adult"
+        ]
+    },
+    {
+        "Topic": 103,
+        "Count": 4,
+        "Name": "103_graphical password_study effect_analysis benchmark_effect traceability",
+        "Representation": [
+            "graphical password",
+            "study effect",
+            "analysis benchmark",
+            "effect traceability",
+            "benchmark result",
+            "automated production",
+            "database",
+            "digital evidence",
+            "doodb graphical",
+            "doodb"
+        ],
+        "Representative_Docs": [
+            "automated production predetermined digital evidence",
+            "doodb graphical password database data analysis benchmark result",
+            "study effect traceability link software maintenance"
+        ]
+    },
+    {
+        "Topic": 104,
+        "Count": 4,
+        "Name": "104_community_pagerank_community detection_social network",
+        "Representation": [
+            "community",
+            "pagerank",
+            "community detection",
+            "social network",
+            "virtual community",
+            "detection association",
+            "real time",
+            "community link",
+            "time personalized",
+            "stochastic block"
+        ],
+        "Representative_Docs": [
+            "toward efficient hubless real time personalized pagerank",
+            "virtual community detection association prime node online social network application ranking algorithm",
+            "community detection network based modified pagerank stochastic block model"
+        ]
+    },
+    {
+        "Topic": 105,
+        "Count": 4,
+        "Name": "105_bioinspired_achievable_iotenabled_communication bioinspired",
+        "Representation": [
+            "bioinspired",
+            "achievable",
+            "iotenabled",
+            "communication bioinspired",
+            "blockchainbased framework",
+            "blockchain edge",
+            "wsn environment",
+            "energyefficient blockchainbased",
+            "environment optimized",
+            "framework iot"
+        ],
+        "Representative_Docs": [
+            "bioinspired network security genabled iot application",
+            "achievable multisecurity level lightweight iotenabled device infrastructureless peeraware communication",
+            "secureenergy efficient bioinspired clustering deep learningbased routing blockchain edge assisted wsn environment"
+        ]
+    },
+    {
+        "Topic": 106,
+        "Count": 4,
+        "Name": "106_feature extraction_extraction_fault_wear debris",
+        "Representation": [
+            "feature extraction",
+            "extraction",
+            "fault",
+            "wear debris",
+            "monitoring planetary",
+            "diagnosis method",
+            "core dead",
+            "satellite flywheel",
+            "clustering technology",
+            "technology efficient"
+        ],
+        "Representative_Docs": [
+            "novel empirical variational mode decomposition early fault feature extraction",
+            "image denoising feature extraction wear debris online monitoring planetary gearbox",
+            "fault diagnosis method satellite flywheel bearing based correlation dimension clustering technology"
+        ]
+    },
+    {
+        "Topic": 107,
+        "Count": 4,
+        "Name": "107_trust_antecedent_multiagent trust_consumer wearable",
+        "Representation": [
+            "trust",
+            "antecedent",
+            "multiagent trust",
+            "consumer wearable",
+            "datadriven decisionmaking",
+            "case consumer",
+            "continuance",
+            "continuous sensing",
+            "computing continuous",
+            "continuance intention"
+        ],
+        "Representative_Docs": [
+            "secure pervasive social communication based trust distributed way",
+            "antecedent trust continuance intention iotbased smart product case consumer wearable",
+            "trustdm trustworthinessbased datadriven decisionmaking framework smart edge computing continuous sensing"
+        ]
+    },
+    {
+        "Topic": 108,
+        "Count": 4,
+        "Name": "108_insulation_flashover_interface varying_weibull statistical",
+        "Representation": [
+            "insulation",
+            "flashover",
+            "interface varying",
+            "weibull statistical",
+            "xlpe insulation",
+            "humidity effect",
+            "impulsive flashover",
+            "insulation investigation",
+            "insulation transformer",
+            "xlpe"
+        ],
+        "Representative_Docs": [
+            "effect temperature creeping flashover voltage nanofilled oilpressboard insulation",
+            "impulsive flashover characteristic weibull statistical analysis gassolid interface varying relative humidity",
+            "partial discharge characteristic growth stage recognition electrical tree xlpe insulation"
+        ]
+    },
+    {
+        "Topic": 109,
+        "Count": 4,
+        "Name": "109_cybersecurity_incident_cloud network_swot",
+        "Representation": [
+            "cybersecurity",
+            "incident",
+            "cloud network",
+            "swot",
+            "city fundamental",
+            "applicability current",
+            "comprehensive study",
+            "study iot",
+            "network forensics",
+            "swot analysis"
+        ],
+        "Representative_Docs": [
+            "comprehensive study iot cybersecurity smart city",
+            "threat actor tenacity disrupt examination major cybersecurity incident",
+            "towards applicability current network forensics cloud network swot analysis"
+        ]
+    },
+    {
+        "Topic": 110,
+        "Count": 4,
+        "Name": "110_detector based_ratio_detector_likelihood ratio",
+        "Representation": [
+            "detector based",
+            "ratio",
+            "detector",
+            "likelihood ratio",
+            "machine multilayer",
+            "detection approach",
+            "basis signaltonoise",
+            "cfar",
+            "cfar detector",
+            "complex detector"
+        ],
+        "Representative_Docs": [
+            "intelligent cfar detector based support vector machine",
+            "vlsi implementation qrs complex detector based wavelet decomposition",
+            "informative interpretation decision theory information theoretic basis signaltonoise ratio log likelihood ratio"
+        ]
+    },
+    {
+        "Topic": 111,
+        "Count": 4,
+        "Name": "111_spectroscopy_wavelength_adulteration_index polarimetric",
+        "Representation": [
+            "spectroscopy",
+            "wavelength",
+            "adulteration",
+            "index polarimetric",
+            "spectroscopy enhancement",
+            "spacing",
+            "transmission characteristic",
+            "spectroscopy analyzing",
+            "inversion model",
+            "subspace wavelength"
+        ],
+        "Representative_Docs": [
+            "analyzing polarization transmission characteristic foggy environment based index polarimetric purity",
+            "enhancing honey adulteration detection optimal subspace wavelength reduction visnir reflection spectroscopy",
+            "improvement concentration inversion model based second harmonic valley spacing wavelength modulation spectroscopy"
+        ]
+    },
+    {
+        "Topic": 112,
+        "Count": 4,
+        "Name": "112_sensitivity_molten_performance prediction_gas sensor",
+        "Representation": [
+            "sensitivity",
+            "molten",
+            "performance prediction",
+            "gas sensor",
+            "flow sensing",
+            "cavity sensor",
+            "blackbody cavity",
+            "improvement blackbody",
+            "wire pressure",
+            "increasing"
+        ],
+        "Representative_Docs": [
+            "performance prediction sensitivity analysis saw gas sensor",
+            "increasing sensitivity vibrating wire pressure sensor",
+            "design improvement blackbody cavity sensor continuous measurement molten steel temperature"
+        ]
+    },
+    {
+        "Topic": 113,
+        "Count": 4,
+        "Name": "113_weighted complex_network continuum_control weighted_stochastic complex",
+        "Representation": [
+            "weighted complex",
+            "network continuum",
+            "control weighted",
+            "stochastic complex",
+            "control stochastic",
+            "cost probabilistic",
+            "continuum",
+            "combat network",
+            "combat",
+            "approximating extremely"
+        ],
+        "Representative_Docs": [
+            "approximating extremely large network via continuum limit",
+            "achieving network stability via optimal pinning control weighted complex network",
+            "probabilistic message passing decentralized control stochastic complex system"
+        ]
+    },
+    {
+        "Topic": 114,
+        "Count": 4,
+        "Name": "114_cyberphysical_new world_lab project_field systematic",
+        "Representation": [
+            "cyberphysical",
+            "new world",
+            "lab project",
+            "field systematic",
+            "experimentation",
+            "cyberenabled new",
+            "cyberphysical survey",
+            "cyberphysical perspective",
+            "cybermatics holistic",
+            "cybermatics"
+        ],
+        "Representative_Docs": [
+            "taskoriented communication design cyberphysical system survey theory application",
+            "virtual lab project paradigm shift internetbased remote experimentation",
+            "cybermatics holistic field systematic study cyberenabled new world"
+        ]
+    },
+    {
+        "Topic": 115,
+        "Count": 4,
+        "Name": "115_relay_amplifyandforward_fullduplex_mimo",
+        "Representation": [
+            "relay",
+            "amplifyandforward",
+            "fullduplex",
+            "mimo",
+            "multiple relay",
+            "adcs",
+            "doubleresolution adcs",
+            "design secrecy",
+            "spectrum energy",
+            "estimation mimo"
+        ],
+        "Representative_Docs": [
+            "performance analysis fullduplex mimo decodeandforward relay system selfenergy recycling",
+            "optimal design secrecy massive mimo amplifyandforward relaying system doubleresolution adcs antenna array",
+            "spectrum energy efficiency multiuser pair massive mimo system fullduplex amplifyandforward relay"
+        ]
+    },
+    {
+        "Topic": 116,
+        "Count": 4,
+        "Name": "116_fading channel_fading_index_channel",
+        "Representation": [
+            "fading channel",
+            "fading",
+            "index",
+            "channel",
+            "impairment",
+            "index modulation",
+            "coordinate interleaved",
+            "coordinate",
+            "efficient index",
+            "transmission nakagami"
+        ],
+        "Representative_Docs": [
+            "enhanced coordinate interleaved ofdm index modulation",
+            "design highsnr multidimensional constellation orthogonal transmission nakagami fading channel",
+            "performance ofdmim joint hardware impairment channel estimation error correlated fading channel"
+        ]
+    },
+    {
+        "Topic": 117,
+        "Count": 3,
+        "Name": "117_inertial_tracking multiple_focus_driver visual",
+        "Representation": [
+            "inertial",
+            "tracking multiple",
+            "focus",
+            "driver visual",
+            "focus attention",
+            "cow ruminant",
+            "area optical",
+            "attention headmounted",
+            "difference method",
+            "cow"
+        ],
+        "Representative_Docs": [
+            "geometric approach headeye control",
+            "inferring driver visual focus attention headmounted inertial sensor",
+            "tracking multiple target cow ruminant mouth area optical flow interframe difference method"
+        ]
+    },
+    {
+        "Topic": 118,
+        "Count": 3,
+        "Name": "118_investment scenario_stock selection_betting risk_approach cryptocurrency",
+        "Representation": [
+            "investment scenario",
+            "stock selection",
+            "betting risk",
+            "approach cryptocurrency",
+            "commission omission",
+            "commission",
+            "autonomous stock",
+            "betting",
+            "cryptocurrency investment",
+            "theory kelly"
+        ],
+        "Representative_Docs": [
+            "portfolio management framework autonomous stock selection allocation",
+            "information theory kelly betting risk reward commission omission example problem breast cancer",
+            "dynamic linguistic decision making approach cryptocurrency investment scenario"
+        ]
+    },
+    {
+        "Topic": 119,
+        "Count": 3,
+        "Name": "119_discharge_higgs field_equation contain_energy estimation",
+        "Representation": [
+            "discharge",
+            "higgs field",
+            "equation contain",
+            "energy estimation",
+            "energy equation",
+            "based noise",
+            "discharge current",
+            "contain",
+            "current energy",
+            "contain higgs"
+        ],
+        "Representative_Docs": [
+            "unified energy equation contain higgs field",
+            "energy estimation partial discharge pulse signal based noise parameter",
+            "simplified extension physicsbased single particle model dynamic discharge current"
+        ]
+    },
+    {
+        "Topic": 120,
+        "Count": 3,
+        "Name": "120_authentication_authentication scheme_identification vanets_sidechannel attack",
+        "Representation": [
+            "authentication",
+            "authentication scheme",
+            "identification vanets",
+            "sidechannel attack",
+            "efficient conditional",
+            "efficient authentication",
+            "conditional privacypreserving",
+            "btbased authentication",
+            "signature identification",
+            "btbased"
+        ],
+        "Representative_Docs": [
+            "lightweight btbased authentication scheme illegal signature identification vanets",
+            "efficient conditional privacypreserving authentication scheme prevention sidechannel attack vehicular ad hoc network",
+            "provably secure efficient authentication protocol roaming service global mobility network"
+        ]
+    },
+    {
+        "Topic": 121,
+        "Count": 3,
+        "Name": "121_green_humancomputer interaction_novel emotion_control embedded",
+        "Representation": [
+            "green",
+            "humancomputer interaction",
+            "novel emotion",
+            "control embedded",
+            "embedded",
+            "embedded humancomputer",
+            "iot internet",
+            "emotion control",
+            "green internet",
+            "green iot"
+        ],
+        "Representative_Docs": [
+            "internet thing iot g wireless communication",
+            "green internet thing smart world",
+            "novel emotion control system embedded humancomputer interaction green iot"
+        ]
+    },
+    {
+        "Topic": 122,
+        "Count": 3,
+        "Name": "122_multiplicative regularization_structure application_adaptive graph_action recognition",
+        "Representation": [
+            "multiplicative regularization",
+            "structure application",
+            "adaptive graph",
+            "action recognition",
+            "closed open",
+            "antipacking",
+            "closed",
+            "based nonsymmetry",
+            "fusion adaptive",
+            "structurefeature fusion"
+        ],
+        "Representative_Docs": [
+            "structurefeature fusion adaptive graph convolutional network skeletonbased action recognition",
+            "novel pencil drawing algorithm based nonsymmetry antipacking pattern representation model",
+            "multiplicative regularization graph laplacians closed open structure application spectral partitioning"
+        ]
+    },
+    {
+        "Topic": 123,
+        "Count": 3,
+        "Name": "123_adversaryoriented_gametheoretic approach_approach decentralized_connected autonomous",
+        "Representation": [
+            "adversaryoriented",
+            "gametheoretic approach",
+            "approach decentralized",
+            "connected autonomous",
+            "adversaryoriented overview",
+            "vehicle trust",
+            "lanechanging decisionmaking",
+            "decentralized cooperative",
+            "decisionmaking connected",
+            "cooperative lanechanging"
+        ],
+        "Representative_Docs": [
+            "security vehicle platooning gametheoretic approach",
+            "decentralized cooperative lanechanging decisionmaking connected autonomous vehicle",
+            "trust management vehicular network adversaryoriented overview"
+        ]
+    },
+    {
+        "Topic": 124,
+        "Count": 3,
+        "Name": "124_led_visible light_visible_light",
+        "Representation": [
+            "led",
+            "visible light",
+            "visible",
+            "light",
+            "taguchi",
+            "role led",
+            "experimental investigation",
+            "consumer led",
+            "emission visible",
+            "emission"
+        ],
+        "Representative_Docs": [
+            "monolithically fabricated waveguide efficient guiding emission visible light iot application",
+            "design analysis optical receiving antenna led visible light communication based taguchi method",
+            "experimental investigation role led lifetime performance consumer led luminaires"
+        ]
+    },
+    {
+        "Topic": 125,
+        "Count": 3,
+        "Name": "125_tracking_breeding_tracking intelligent_efstrongsort enhanced",
+        "Representation": [
+            "tracking",
+            "breeding",
+            "tracking intelligent",
+            "efstrongsort enhanced",
+            "livestock breeding",
+            "efstrongsort",
+            "enhanced feature",
+            "dual feature",
+            "feature fusion",
+            "breeding efstrongsort"
+        ],
+        "Representative_Docs": [
+            "dual feature fusion tracking combined crosscorrelation transformer",
+            "thermal sensorbased multiple object tracking intelligent livestock breeding",
+            "efstrongsort enhanced feature strongsort model multiobject tracking"
+        ]
+    },
+    {
+        "Topic": 126,
+        "Count": 3,
+        "Name": "126_validation testing_rfbased uav_holistic performance_leo megaconstellations",
+        "Representation": [
+            "validation testing",
+            "rfbased uav",
+            "holistic performance",
+            "leo megaconstellations",
+            "framework signal",
+            "meet new",
+            "technique noisetolerant",
+            "new radio",
+            "development profiling",
+            "design rapid"
+        ],
+        "Representative_Docs": [
+            "signal preprocessing technique noisetolerant rfbased uav signal classification",
+            "sword towards soft open radio design rapid development profiling validation testing",
+            "leo megaconstellations meet new radio holistic performance evaluation framework"
+        ]
+    },
+    {
+        "Topic": 127,
+        "Count": 3,
+        "Name": "127_weight particle_qoiaware unified_classification enhancement_unified framework",
+        "Representation": [
+            "weight particle",
+            "qoiaware unified",
+            "classification enhancement",
+            "unified framework",
+            "framework node",
+            "bird specie",
+            "heterogeneous visual",
+            "bird",
+            "based fusion",
+            "visual sensor"
+        ],
+        "Representative_Docs": [
+            "correction pest identification based fusion selfattention resnet",
+            "qoiaware unified framework node classification selfreconfiguration within heterogeneous visual sensor network",
+            "bird specie classification enhancement via adaptive inertia weight particle swarm optimizationbased image augmentation selection"
+        ]
+    },
+    {
+        "Topic": 128,
+        "Count": 3,
+        "Name": "128_nanotechnology_nanopores sensing_small nanopores_sensing synthesis",
+        "Representation": [
+            "nanotechnology",
+            "nanopores sensing",
+            "small nanopores",
+            "sensing synthesis",
+            "unclonable",
+            "receiver cnt",
+            "physical unclonable",
+            "nanotechnology think",
+            "think",
+            "nanoscale receiver"
+        ],
+        "Representative_Docs": [
+            "think small nanopores sensing synthesis",
+            "simple design nanoscale receiver cnt cantilever",
+            "emerging physical unclonable function nanotechnology"
+        ]
+    },
+    {
+        "Topic": 129,
+        "Count": 3,
+        "Name": "129_perspective_xian china_endusers research_china",
+        "Representation": [
+            "perspective",
+            "xian china",
+            "endusers research",
+            "china",
+            "datadriven service",
+            "december",
+            "endusers",
+            "creation approach",
+            "china december",
+            "hypernetworka case"
+        ],
+        "Representative_Docs": [
+            "datadriven service creation approach endusers",
+            "research bus metro transfer perspective hypernetworka case study xian china december",
+            "survey internet thing industrial market perspective"
+        ]
+    },
+    {
+        "Topic": 130,
+        "Count": 3,
+        "Name": "130_largescale cooperative_zone_based group_adaptive routing",
+        "Representation": [
+            "largescale cooperative",
+            "zone",
+            "based group",
+            "adaptive routing",
+            "algorithm selforganization",
+            "clustering manet",
+            "adhoc network",
+            "selforganization based",
+            "cooperative multihop",
+            "group"
+        ],
+        "Representative_Docs": [
+            "adaptive routing protocol mobile adhoc network genetic algorithm",
+            "selforganization based clustering manet zone based group mobility",
+            "propagation modeling largescale cooperative multihop ad hoc network"
+        ]
+    },
+    {
+        "Topic": 131,
+        "Count": 3,
+        "Name": "131_walking_legged selfmanipulation_indoor surface_humanoid robot",
+        "Representation": [
+            "walking",
+            "legged selfmanipulation",
+            "indoor surface",
+            "humanoid robot",
+            "humanoidrobot",
+            "humanoid",
+            "forcesensorcontrolled",
+            "generator humanoid",
+            "forcesensorcontrolled humanoidrobot",
+            "efficiency forcesensorcontrolled"
+        ],
+        "Representative_Docs": [
+            "legged selfmanipulation",
+            "energy efficiency forcesensorcontrolled humanoidrobot walking indoor surface",
+            "natural walking trajectory generator humanoid robot based threemass lipfm"
+        ]
+    },
+    {
+        "Topic": 132,
+        "Count": 3,
+        "Name": "132_industry_taiwan_electronics_agglomeration",
+        "Representation": [
+            "industry",
+            "taiwan",
+            "electronics",
+            "agglomeration",
+            "industry strengthening",
+            "agglomeration universityindustry",
+            "chinese hightech",
+            "electronics industry",
+            "competitive cloud",
+            "commodity hardware"
+        ],
+        "Representative_Docs": [
+            "strategy move taiwan industry commodity hardware manufacturing competitive cloud solution",
+            "strengthening modern electronics industry national program intelligent electronics taiwan",
+            "industrial agglomeration universityindustry collaboration patent output evidence chinese hightech industry"
+        ]
+    },
+    {
+        "Topic": 133,
+        "Count": 3,
+        "Name": "133_ordinary differential_ordinary_differential equation_equation",
+        "Representation": [
+            "ordinary differential",
+            "ordinary",
+            "differential equation",
+            "equation",
+            "differential",
+            "solving",
+            "super large",
+            "equation hierarchical",
+            "scale solving",
+            "solution super"
+        ],
+        "Representative_Docs": [
+            "numerical solution super large scale system",
+            "solving nonlinear system first order ordinary differential equation galerkin finite element method",
+            "solving large nonlinear system firstorder ordinary differential equation hierarchical structure multigpgpus adaptive runge kutta ode solver"
+        ]
+    },
+    {
+        "Topic": 134,
+        "Count": 3,
+        "Name": "134_equalization_intrapanel_commonmode voltage_channel transmitter",
+        "Representation": [
+            "equalization",
+            "intrapanel",
+            "commonmode voltage",
+            "channel transmitter",
+            "blind equalization",
+            "output swing",
+            "swing commonmode",
+            "controllable",
+            "voltage equalization",
+            "swing"
+        ],
+        "Representative_Docs": [
+            "fully parallel turbo equalization wireless communication",
+            "two novel blind equalization algorithm rectangular quadrature amplitude modulation constellation",
+            "gb channel transmitter intrapanel interface independently controllable output swing commonmode voltage equalization"
+        ]
+    },
+    {
+        "Topic": 135,
+        "Count": 3,
+        "Name": "135_ghz_transducer atacama_compressive millimeterwave_ghz heterodyning",
+        "Representation": [
+            "ghz",
+            "transducer atacama",
+            "compressive millimeterwave",
+            "ghz heterodyning",
+            "compact highperformance",
+            "band ghz",
+            "atacama large",
+            "atacama",
+            "array imaging",
+            "array alma"
+        ],
+        "Representative_Docs": [
+            "compressive millimeterwave phased array imaging",
+            "compact highperformance orthomode transducer atacama large millimeter array alma band ghz",
+            "rethinking machine vision time flight ghz heterodyning"
+        ]
+    },
+    {
+        "Topic": 136,
+        "Count": 3,
+        "Name": "136_defect_human performance_study ai_enhancing quality",
+        "Representation": [
+            "defect",
+            "human performance",
+            "study ai",
+            "enhancing quality",
+            "detection evolutionary",
+            "ai human",
+            "accuracy measure",
+            "defect prediction",
+            "control study",
+            "chip defect"
+        ],
+        "Representative_Docs": [
+            "negposnormalized accuracy measure software defect prediction",
+            "enhancing quality control study ai human performance flip chip defect detection",
+            "evolutionary toolchain morphological filter mapping manycore architecture"
+        ]
+    },
+    {
+        "Topic": 137,
+        "Count": 3,
+        "Name": "137_adopting_weighting strategy_delay peerassisted_control characterised",
+        "Representation": [
+            "adopting",
+            "weighting strategy",
+            "delay peerassisted",
+            "control characterised",
+            "adopting setpoint",
+            "compatible solution",
+            "connectivity selfish",
+            "connectivity",
+            "compatible",
+            "characterised stochastic"
+        ],
+        "Representative_Docs": [
+            "connectivity selfish wireless network",
+            "peerassisted informationcentric network picn backward compatible solution",
+            "adopting setpoint weighting strategy wirelesshart networked control system characterised stochastic delay"
+        ]
+    },
+    {
+        "Topic": 138,
+        "Count": 3,
+        "Name": "138_tunnel_seam_microseismic_new alignment",
+        "Representation": [
+            "tunnel",
+            "seam",
+            "microseismic",
+            "new alignment",
+            "associated rockburst",
+            "alignment breakthrough",
+            "associated",
+            "locating",
+            "weld seam",
+            "locating microseismic"
+        ],
+        "Representative_Docs": [
+            "novel seam extraction method based multifunctional sensor vtype weld seam",
+            "highly accurate method locating microseismic event associated rockburst development process tunnel",
+            "new alignment breakthrough accuracy optimization strategy long immersed tunnel survey"
+        ]
+    },
+    {
+        "Topic": 139,
+        "Count": 3,
+        "Name": "139_facial expression_expression_facial_expression recognition",
+        "Representation": [
+            "facial expression",
+            "expression",
+            "facial",
+            "expression recognition",
+            "based convolutional",
+            "convolutional neural",
+            "convolutional",
+            "recognition",
+            "transfer algorithm",
+            "machine model"
+        ],
+        "Representative_Docs": [
+            "facial expression recognition salient feature convolutional neural network",
+            "recognition teacher facial expression intensity based convolutional neural network attention mechanism",
+            "application hybrid transfer algorithm based convolutional neural network model improved convolution restricted boltzmann machine model facial expression recognition"
+        ]
+    },
+    {
+        "Topic": 140,
+        "Count": 3,
+        "Name": "140_active power_power filter_active_filter",
+        "Representation": [
+            "active power",
+            "power filter",
+            "active",
+            "filter",
+            "control threephase",
+            "adaptive fractional",
+            "control active",
+            "considering external",
+            "filter based",
+            "bspid control"
+        ],
+        "Representative_Docs": [
+            "dynamic surface adaptive fuzzy control threephase active power filter",
+            "adaptive fractional sliding mode control active power filter based dual rbf neural network",
+            "proposing bspid control strategy considering external disturbance electric power steering eps system"
+        ]
+    },
+    {
+        "Topic": 141,
+        "Count": 3,
+        "Name": "141_officer_leap process_debt iterative_development smart",
+        "Representation": [
+            "officer",
+            "leap process",
+            "debt iterative",
+            "development smart",
+            "enhancement leap",
+            "debt",
+            "estimation application",
+            "analysis estimation",
+            "identifying technical",
+            "time analysis"
+        ],
+        "Representative_Docs": [
+            "processing time analysis estimation application",
+            "smart work performance measurement system police officer",
+            "probabilistic enhancement leap process identifying technical debt iterative system development"
+        ]
+    },
+    {
+        "Topic": 142,
+        "Count": 3,
+        "Name": "142_news_fake news_fake_news detection",
+        "Representation": [
+            "news",
+            "fake news",
+            "fake",
+            "news detection",
+            "landscape",
+            "detection landscape",
+            "detecting fake",
+            "approach challenge",
+            "datasets data",
+            "data modality"
+        ],
+        "Representative_Docs": [
+            "topological sequential neural network model detecting fake news",
+            "spectral clusteringguided news environment perception fake news detection",
+            "fake news detection landscape datasets data modality ai approach challenge future perspective"
+        ]
+    },
+    {
+        "Topic": 143,
+        "Count": 3,
+        "Name": "143_target recognition_sar_synthetic_target",
+        "Representation": [
+            "target recognition",
+            "sar",
+            "synthetic",
+            "target",
+            "recognition",
+            "data generator",
+            "lstm network",
+            "lowrank hybrid",
+            "training sample",
+            "aperture"
+        ],
+        "Representative_Docs": [
+            "multiaspectaware bidirectional lstm network synthetic aperture radar target recognition",
+            "multiview lowrank hybrid dilated network sar target recognition limited training sample",
+            "synthetic sar data generator pixpix cgan architecture automatic target recognition"
+        ]
+    },
+    {
+        "Topic": 144,
+        "Count": 3,
+        "Name": "144_anglerange_timeinvariant anglerange_antenna classification_comparison hard",
+        "Representation": [
+            "anglerange",
+            "timeinvariant anglerange",
+            "antenna classification",
+            "comparison hard",
+            "array comparison",
+            "based timemodulated",
+            "deformable detr",
+            "classification timefrequency",
+            "hard softconstrained",
+            "directional"
+        ],
+        "Representative_Docs": [
+            "comparison hard softconstrained rtk positioning multiple reference antenna",
+            "classification timefrequency localization arbitrary lpwan signal radial deformable detr",
+            "timeinvariant anglerange dependent directional modulation based timemodulated frequency diverse array"
+        ]
+    },
+    {
+        "Topic": 145,
+        "Count": 3,
+        "Name": "145_peaktoaverage power_topology coil_emphasis performance_accelerator efficiency",
+        "Representation": [
+            "peaktoaverage power",
+            "topology coil",
+            "emphasis performance",
+            "accelerator efficiency",
+            "emphasis",
+            "coil design",
+            "aspect hybrid",
+            "coil",
+            "compensation topology",
+            "design aspect"
+        ],
+        "Representative_Docs": [
+            "reluctance accelerator efficiency optimization via pulse shaping",
+            "hybrid peaktoaverage power ratio reduction technique review performance comparison",
+            "review inductive power transfer emphasis performance parameter compensation topology coil design aspect"
+        ]
+    },
+    {
+        "Topic": 146,
+        "Count": 3,
+        "Name": "146_power prediction_wind power_wind_prediction",
+        "Representation": [
+            "power prediction",
+            "wind power",
+            "wind",
+            "prediction",
+            "multiintelligent model",
+            "dispatching electric",
+            "electric heating",
+            "computationalconstrained",
+            "model apportion",
+            "heating"
+        ],
+        "Representative_Docs": [
+            "enhancing solar radiation prediction computationalconstrained environment hybrid artificial neural network",
+            "hybrid shortterm wind power prediction model combining data processing multiple parameter optimization multiintelligent model apportion strategy",
+            "research collaborative optimal dispatching electric heating integrated energy based wind power prediction accuracy"
+        ]
+    },
+    {
+        "Topic": 147,
+        "Count": 3,
+        "Name": "147_xpart fx_retrieval_bigdata_estimation timevarying",
+        "Representation": [
+            "xpart fx",
+            "retrieval",
+            "bigdata",
+            "estimation timevarying",
+            "timevarying sparse",
+            "adaptive estimation",
+            "computationally",
+            "distributed scatterers",
+            "computationally minimized",
+            "bigdata interferometer"
+        ],
+        "Representative_Docs": [
+            "adaptive estimation timevarying sparse signal",
+            "improved maximum likelihood estimation optimal phase history retrieval distributed scatterers insar stack",
+            "computationally minimized xpart fx correlator bigdata interferometer"
+        ]
+    },
+    {
+        "Topic": 148,
+        "Count": 3,
+        "Name": "148_undervolting attack_return stack_threadparallel gpufriendly_dfaulted",
+        "Representation": [
+            "undervolting attack",
+            "return stack",
+            "threadparallel gpufriendly",
+            "dfaulted",
+            "dfaulted analyzing",
+            "cpu software",
+            "buffer implementation",
+            "caused fpgadriven",
+            "fault caused",
+            "attack return"
+        ],
+        "Representative_Docs": [
+            "implementation threadparallel gpufriendly function evaluation library",
+            "reinforcing meltdown attack return stack buffer",
+            "dfaulted analyzing exploiting cpu software fault caused fpgadriven undervolting attack"
+        ]
+    },
+    {
+        "Topic": 149,
+        "Count": 3,
+        "Name": "149_gating distortion_floating_control inhalationtype_construction arduinohacked",
+        "Representation": [
+            "gating distortion",
+            "floating",
+            "control inhalationtype",
+            "construction arduinohacked",
+            "adaptive integral",
+            "cabledriven manipulator",
+            "arduinohacked",
+            "arduinohacked variable",
+            "cleaning",
+            "cleaning robot"
+        ],
+        "Representative_Docs": [
+            "practical adaptive integral terminal sliding mode control cabledriven manipulator",
+            "design construction arduinohacked variable gating distortion pedal",
+            "fuzzybased pid motion control inhalationtype floating garbage cleaning robot"
+        ]
+    },
+    {
+        "Topic": 150,
+        "Count": 3,
+        "Name": "150_sound_enhancement_industrial environmental_noise reduction",
+        "Representation": [
+            "sound",
+            "enhancement",
+            "industrial environmental",
+            "noise reduction",
+            "beamformer vehicular",
+            "enhancement algorithm",
+            "bioacoustics biomedical",
+            "detection human",
+            "biomedical industrial",
+            "vehicular multimedia"
+        ],
+        "Representative_Docs": [
+            "sound event detection human safety security noisy environment",
+            "regulatedelement frost beamformer vehicular multimedia sound enhancement noise reduction application",
+            "survey audio enhancement algorithm music speech bioacoustics biomedical industrial environmental sound image unet"
+        ]
+    },
+    {
+        "Topic": 151,
+        "Count": 3,
+        "Name": "151_scattering_amcbfmmaehly_method sbr_decomposition method",
+        "Representation": [
+            "scattering",
+            "amcbfmmaehly",
+            "method sbr",
+            "decomposition method",
+            "discrete body",
+            "dipole",
+            "target illuminated",
+            "electromagnetic scattering",
+            "fast simulation",
+            "field calculation"
+        ],
+        "Representative_Docs": [
+            "scattered field calculation microstrip array combination discrete body revolution domain decomposition method",
+            "fast simulation electromagnetic scattering onedimensional rough surface frequency band hybrid amcbfmmaehly method",
+            "sbr method nearfield scattering electrically large complex target illuminated dipole source"
+        ]
+    },
+    {
+        "Topic": 152,
+        "Count": 3,
+        "Name": "152_fault_variable adaptive_fuzzy fault_networked fuzzy",
+        "Representation": [
+            "fault",
+            "variable adaptive",
+            "fuzzy fault",
+            "networked fuzzy",
+            "feedback control",
+            "nonlinear eventtriggered",
+            "fault estimation",
+            "observer design",
+            "eventtriggered dynamic",
+            "adaptive multimodel"
+        ],
+        "Representative_Docs": [
+            "adaptive multimodel fault diagnosis dynamic system motion tracking",
+            "eventtriggered dynamic output feedback control networked t fuzzy system asynchronous premise variable",
+            "sampleddata fuzzy fault estimation observer design nonlinear system"
+        ]
+    },
+    {
+        "Topic": 153,
+        "Count": 2,
+        "Name": "153_mimo superimposed_performance wirelessenergytransferenabled_wirelessenergytransferenabled_twodimension directionofarrival",
+        "Representation": [
+            "mimo superimposed",
+            "performance wirelessenergytransferenabled",
+            "wirelessenergytransferenabled",
+            "twodimension directionofarrival",
+            "twodimension",
+            "superimposed pilotaided",
+            "superimposed",
+            "pilotaided channel",
+            "pilotaided",
+            "mimo performance"
+        ],
+        "Representative_Docs": [
+            "twodimension directionofarrival estimation massive mimo system",
+            "performance wirelessenergytransferenabled massive mimo system superimposed pilotaided channel estimation"
+        ]
+    },
+    {
+        "Topic": 154,
+        "Count": 2,
+        "Name": "154_anodal_handheld device_enhances perceived_finding",
+        "Representation": [
+            "anodal",
+            "handheld device",
+            "enhances perceived",
+            "finding",
+            "enhances",
+            "handheld",
+            "electrical stimulation",
+            "illusion method",
+            "compliance illusion",
+            "chili pepper"
+        ],
+        "Representative_Docs": [
+            "finding pleasant compliance illusion method handheld device",
+            "anodal electrical stimulation enhances perceived piquancy induced chili pepper wasabi"
+        ]
+    },
+    {
+        "Topic": 155,
+        "Count": 2,
+        "Name": "155_laser_generation diodepumped_femtosecond_lasing nm",
+        "Representation": [
+            "laser",
+            "generation diodepumped",
+            "femtosecond",
+            "lasing nm",
+            "lasing",
+            "laser voigt",
+            "laser lasing",
+            "pulse generation",
+            "ybcanbo disordered",
+            "femtosecond pulse"
+        ],
+        "Representative_Docs": [
+            "voigt laser lasing c nm transition",
+            "femtosecond pulse generation diodepumped ybcanbo disordered crystal laser"
+        ]
+    },
+    {
+        "Topic": 156,
+        "Count": 2,
+        "Name": "156_prior_local prior_metric model_compressed vision",
+        "Representation": [
+            "prior",
+            "local prior",
+            "metric model",
+            "compressed vision",
+            "approach pcb",
+            "tailored datasets",
+            "cloud prior",
+            "vision information",
+            "information restoration",
+            "innovative approach"
+        ],
+        "Representative_Docs": [
+            "innovative approach pcb image reconstruction tailored datasets metric model",
+            "compressed vision information restoration based cloud prior local prior"
+        ]
+    },
+    {
+        "Topic": 157,
+        "Count": 2,
+        "Name": "157_theory scalar_event log_measure binary_based ggcn",
+        "Representation": [
+            "theory scalar",
+            "event log",
+            "measure binary",
+            "based ggcn",
+            "multitask prediction",
+            "object centric",
+            "ggcn object",
+            "ggcn",
+            "performance measure",
+            "decision multitask"
+        ],
+        "Representative_Docs": [
+            "multitask prediction method based ggcn object centric event log",
+            "informative interpretation decision theory scalar performance measure binary decision"
+        ]
+    },
+    {
+        "Topic": 158,
+        "Count": 2,
+        "Name": "158_affecting_tinsinxtin rram_filament formation_effect filament",
+        "Representation": [
+            "affecting",
+            "tinsinxtin rram",
+            "filament formation",
+            "effect filament",
+            "modeled monte",
+            "confronting variability",
+            "confronting",
+            "carlo simulation",
+            "ag layer",
+            "ag"
+        ],
+        "Representative_Docs": [
+            "insertion ag layer tinsinxtin rram effect filament formation modeled monte carlo simulation",
+            "confronting variability issue affecting performance nextgeneration sram design optimize predict speed yield"
+        ]
+    },
+    {
+        "Topic": 159,
+        "Count": 2,
+        "Name": "159_invehicle network_raw format_live_live video",
+        "Representation": [
+            "invehicle network",
+            "raw format",
+            "live",
+            "live video",
+            "invehicle",
+            "impedance matching",
+            "matching vehicular",
+            "framework automated",
+            "power line",
+            "format live"
+        ],
+        "Representative_Docs": [
+            "correction design evaluation tshaped adaptive impedance matching system vehicular power line communication",
+            "resilient raw format live video streaming framework automated driving system ethernetbased invehicle network"
+        ]
+    },
+    {
+        "Topic": 160,
+        "Count": 2,
+        "Name": "160_entropy_wavelet approximate_criterion nongaussian_intelligent modulation",
+        "Representation": [
+            "entropy",
+            "wavelet approximate",
+            "criterion nongaussian",
+            "intelligent modulation",
+            "modulation pattern",
+            "multipath",
+            "multipath estimation",
+            "error entropy",
+            "noise intelligent",
+            "approximate coefficient"
+        ],
+        "Representative_Docs": [
+            "multipath estimation based centered error entropy criterion nongaussian noise",
+            "intelligent modulation pattern recognition based wavelet approximate coefficient entropy cognitive radio network"
+        ]
+    },
+    {
+        "Topic": 161,
+        "Count": 2,
+        "Name": "161_breast_experimental breast_wall displacement_phantom estimation",
+        "Representation": [
+            "breast",
+            "experimental breast",
+            "wall displacement",
+            "phantom estimation",
+            "loop antenna",
+            "loop",
+            "imaging biometric",
+            "vhfband loop",
+            "recorded",
+            "recorded vhfband"
+        ],
+        "Representative_Docs": [
+            "experimental breast phantom estimation breast tumor microwave imaging system",
+            "biometric authentication chest wall displacement recorded vhfband loop antenna"
+        ]
+    },
+    {
+        "Topic": 162,
+        "Count": 2,
+        "Name": "162_parallel heuristic_heuristic community_based node_node similarity",
+        "Representation": [
+            "parallel heuristic",
+            "heuristic community",
+            "based node",
+            "node similarity",
+            "clustering coefficient",
+            "coefficient information",
+            "degree",
+            "degree clustering",
+            "similarity virtual",
+            "embedding based"
+        ],
+        "Representative_Docs": [
+            "parallel heuristic community detection method based node similarity",
+            "virtual network embedding based degree clustering coefficient information"
+        ]
+    },
+    {
+        "Topic": 163,
+        "Count": 2,
+        "Name": "163_dominated_mixed ewma_industry discovering_ewma dualcusum",
+        "Representation": [
+            "dominated",
+            "mixed ewma",
+            "industry discovering",
+            "ewma dualcusum",
+            "ewma",
+            "dualcusum chart",
+            "dualcusum",
+            "dominated solution",
+            "petrochemical",
+            "discovering design"
+        ],
+        "Representative_Docs": [
+            "discovering design principle dominated solution",
+            "designing mixed ewma dualcusum chart application petrochemical industry"
+        ]
+    },
+    {
+        "Topic": 164,
+        "Count": 2,
+        "Name": "164_manufacturing_manufacturing environment_graph attention_avsrs",
+        "Representation": [
+            "manufacturing",
+            "manufacturing environment",
+            "graph attention",
+            "avsrs",
+            "attention network",
+            "correction integrated",
+            "queuing network",
+            "scheduling cloud",
+            "integrated queuing",
+            "logistics correction"
+        ],
+        "Representative_Docs": [
+            "heterogeneous graph attention network scheduling cloud manufacturing logistics",
+            "correction integrated queuing network model optimizing multilevel avsrs performance multifloor manufacturing environment"
+        ]
+    },
+    {
+        "Topic": 165,
+        "Count": 2,
+        "Name": "165_forest bioelectricity_distribution spatialtime_research progress_prospect pretraining",
+        "Representation": [
+            "forest bioelectricity",
+            "distribution spatialtime",
+            "research progress",
+            "prospect pretraining",
+            "prospect",
+            "progress prospect",
+            "pretraining technology",
+            "pretraining",
+            "spatialtime dependence",
+            "spatialtime"
+        ],
+        "Representative_Docs": [
+            "forest bioelectricity brazil distribution spatialtime dependence",
+            "research progress prospect pretraining technology electromagnetic signal analysis"
+        ]
+    },
+    {
+        "Topic": 166,
+        "Count": 2,
+        "Name": "166_extracting_business tweet_manager set_manager",
+        "Representation": [
+            "extracting",
+            "business tweet",
+            "manager set",
+            "manager",
+            "indicator need",
+            "human bias",
+            "unique discussion",
+            "extracting unique",
+            "set business",
+            "entrepreneur manager"
+        ],
+        "Representative_Docs": [
+            "bibliometric indicator need one",
+            "extracting unique discussion interest entrepreneur manager set business tweet without human bias"
+        ]
+    },
+    {
+        "Topic": 167,
+        "Count": 2,
+        "Name": "167_image datacube_eye image_basis pursuit_csims",
+        "Representation": [
+            "image datacube",
+            "eye image",
+            "basis pursuit",
+            "csims",
+            "datacube",
+            "datacube reconstruction",
+            "averaging variable",
+            "density",
+            "averaging",
+            "approach compressed"
+        ],
+        "Representative_Docs": [
+            "datacube reconstruction approach compressed sensing image mapping spectrometer csims",
+            "enhanced rgbbased basis pursuit sparsity averaging variable density sampling compressive sensing eye image"
+        ]
+    },
+    {
+        "Topic": 168,
+        "Count": 2,
+        "Name": "168_hypergraph_graph graphsagebased_timeseries_systemofsystems hypergraph",
+        "Representation": [
+            "hypergraph",
+            "graph graphsagebased",
+            "timeseries",
+            "systemofsystems hypergraph",
+            "systemofsystems",
+            "performance enhancement",
+            "performance classification",
+            "multilevel systemofsystems",
+            "modeling domain",
+            "transformation graph"
+        ],
+        "Representative_Docs": [
+            "aibased performance classification multilevel systemofsystems via hypergraph modeling",
+            "domain transformation graph graphsagebased embedding performance enhancement timeseries classification"
+        ]
+    },
+    {
+        "Topic": 169,
+        "Count": 2,
+        "Name": "169_iris recognition_kinematic feature_aging phenomenon_recognition machine",
+        "Representation": [
+            "iris recognition",
+            "kinematic feature",
+            "aging phenomenon",
+            "recognition machine",
+            "diagnosis parkinson",
+            "phenomenon iris",
+            "differential diagnosis",
+            "parkinson disease",
+            "disease kinematic",
+            "parkinson"
+        ],
+        "Representative_Docs": [
+            "template aging phenomenon iris recognition",
+            "machine learningbased differential diagnosis parkinson disease kinematic feature extraction selection"
+        ]
+    }
+]
