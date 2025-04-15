@@ -1,0 +1,588 @@
+2025-04-15 21:20:44,173 - INFO - Memulai proses scraping link artikel...
+2025-04-15 21:20:44,173 - INFO - Menjalankan script: getLinks.py
+2025-04-15 21:21:14,302 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-15 21:21:14,318 - INFO - Proses scraping link artikel selesai.
+2025-04-15 21:21:39,569 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-15 21:21:39,588 - INFO - Menjalankan script: getTitle.py
+2025-04-15 21:21:46,831 - INFO - 2025-04-15 21:21:46,831 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639
+2025-04-15 21:21:46,833 - INFO - 2025-04-15 21:21:46,831 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:00,456 - INFO - 2025-04-15 21:22:00,456 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:00,459 - INFO - 2025-04-15 21:22:00,456 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639
+2025-04-15 21:22:00,459 - INFO - 2025-04-15 21:22:00,456 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:08,421 - INFO - 2025-04-15 21:22:08,421 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:08,427 - INFO - 2025-04-15 21:22:08,423 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639
+2025-04-15 21:22:08,430 - INFO - 2025-04-15 21:22:08,423 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:15,803 - INFO - 2025-04-15 21:22:15,803 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:15,806 - INFO - 2025-04-15 21:22:15,803 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639
+2025-04-15 21:22:15,808 - INFO - 2025-04-15 21:22:15,805 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:22,961 - INFO - 2025-04-15 21:22:22,961 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:22,961 - INFO - 2025-04-15 21:22:22,961 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639
+2025-04-15 21:22:22,961 - INFO - 2025-04-15 21:22:22,961 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:29,607 - INFO - 2025-04-15 21:22:29,607 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:29,611 - INFO - 2025-04-15 21:22:29,607 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639
+2025-04-15 21:22:29,613 - INFO - 2025-04-15 21:22:29,607 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:35,965 - INFO - 2025-04-15 21:22:35,965 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:35,967 - INFO - 2025-04-15 21:22:35,967 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639
+2025-04-15 21:22:35,967 - INFO - 2025-04-15 21:22:35,967 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:41,961 - INFO - 2025-04-15 21:22:41,961 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:41,961 - INFO - 2025-04-15 21:22:41,961 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639
+2025-04-15 21:22:41,961 - INFO - 2025-04-15 21:22:41,961 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:47,575 - INFO - 2025-04-15 21:22:47,575 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:47,583 - INFO - 2025-04-15 21:22:47,575 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639
+2025-04-15 21:22:47,583 - INFO - 2025-04-15 21:22:47,575 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:22:56,740 - INFO - 2025-04-15 21:22:56,740 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:22:56,743 - INFO - 2025-04-15 21:22:56,740 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639
+2025-04-15 21:22:56,743 - INFO - 2025-04-15 21:22:56,740 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:23:02,008 - INFO - 2025-04-15 21:23:02,008 - WARNING - \U0001f6ab Tidak ada artikel ditemukan di halaman 1.
+2025-04-15 21:23:02,008 - INFO - 2025-04-15 21:23:02,008 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639
+2025-04-15 21:23:02,008 - INFO - 2025-04-15 21:23:02,008 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:23:09,282 - INFO - 2025-04-15 21:23:09,282 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:23:09,282 - INFO - 2025-04-15 21:23:09,282 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639
+2025-04-15 21:23:09,282 - INFO - 2025-04-15 21:23:09,282 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:23:14,837 - INFO - 2025-04-15 21:23:14,835 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:23:14,839 - INFO - 2025-04-15 21:23:14,837 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-04-15 21:23:14,841 - INFO - 2025-04-15 21:23:14,838 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:23:20,853 - INFO - 2025-04-15 21:23:20,853 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:23:28,168 - INFO - Script getTitle.py selesai.
+
+2025-04-15 21:23:28,168 - INFO - Menjalankan script: cleaningdata.py
+2025-04-15 21:23:29,969 - INFO - Traceback (most recent call last):
+2025-04-15 21:23:29,970 - INFO - File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+2025-04-15 21:23:29,972 - INFO - df = pd.read_json(input_json_path)
+2025-04-15 21:23:29,972 - INFO - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-15 21:23:29,974 - INFO - File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+2025-04-15 21:23:29,974 - INFO - json_reader = JsonReader(
+2025-04-15 21:23:29,976 - INFO - ^^^^^^^^^^^
+2025-04-15 21:23:29,977 - INFO - File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+2025-04-15 21:23:29,979 - INFO - data = self._get_data_from_filepath(filepath_or_buffer)
+2025-04-15 21:23:29,981 - INFO - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-15 21:23:29,982 - INFO - File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+2025-04-15 21:23:29,985 - INFO - raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+2025-04-15 21:23:29,985 - INFO - FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+2025-04-15 21:23:30,094 - INFO - Script cleaningdata.py selesai.
+
+2025-04-15 21:24:46,602 - INFO - Memulai proses scraping link artikel...
+2025-04-15 21:24:46,605 - INFO - Menjalankan script: getLinks.py
+2025-04-15 21:25:19,973 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-15 21:25:19,973 - INFO - Proses scraping link artikel selesai.
+2025-04-15 21:26:15,294 - INFO - Memulai proses scraping link artikel...
+2025-04-15 21:26:15,296 - INFO - Menjalankan script: getLinks.py
+2025-04-15 21:26:45,960 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-15 21:26:45,976 - INFO - Proses scraping link artikel selesai.
+2025-04-15 21:27:12,194 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-15 21:27:12,225 - INFO - Menjalankan script: getTitle.py
+2025-04-15 21:27:19,488 - INFO - 2025-04-15 21:27:19,488 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-04-15 21:27:19,492 - INFO - 2025-04-15 21:27:19,488 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:27:42,924 - INFO - 2025-04-15 21:27:42,924 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:27:42,927 - INFO - 2025-04-15 21:27:42,924 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639
+2025-04-15 21:27:42,930 - INFO - 2025-04-15 21:27:42,927 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:27:51,015 - INFO - 2025-04-15 21:27:51,015 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:27:51,015 - INFO - 2025-04-15 21:27:51,015 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639
+2025-04-15 21:27:51,021 - INFO - 2025-04-15 21:27:51,015 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:27:57,691 - INFO - 2025-04-15 21:27:57,690 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:27:57,693 - INFO - 2025-04-15 21:27:57,691 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639
+2025-04-15 21:27:57,695 - INFO - 2025-04-15 21:27:57,691 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:28:04,058 - INFO - 2025-04-15 21:28:04,058 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:28:04,060 - INFO - 2025-04-15 21:28:04,058 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639
+2025-04-15 21:28:04,062 - INFO - 2025-04-15 21:28:04,058 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:28:10,974 - INFO - 2025-04-15 21:28:10,974 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:28:10,976 - INFO - 2025-04-15 21:28:10,974 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639
+2025-04-15 21:28:10,977 - INFO - 2025-04-15 21:28:10,974 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:28:16,611 - INFO - 2025-04-15 21:28:16,611 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:28:16,613 - INFO - 2025-04-15 21:28:16,611 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639
+2025-04-15 21:28:16,613 - INFO - 2025-04-15 21:28:16,611 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:28:37,079 - INFO - Traceback (most recent call last):
+2025-04-15 21:28:37,079 - INFO - File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 124, in <module>
+2025-04-15 21:28:37,131 - INFO - scrape_titles_per_page(df, driver, OUTPUT_JSON_PATH)
+2025-04-15 21:28:37,131 - INFO - File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 79, in scrape_titles_per_page
+2025-04-15 21:28:37,131 - INFO - time.sleep(3)
+2025-04-15 21:28:37,131 - INFO - KeyboardInterrupt
+2025-04-15 21:28:41,564 - INFO - Script getTitle.py selesai.
+
+2025-04-15 21:28:41,564 - INFO - Menjalankan script: cleaningdata.py
+2025-04-15 21:28:42,857 - INFO - Traceback (most recent call last):
+2025-04-15 21:28:42,862 - INFO - File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+2025-04-15 21:28:42,862 - INFO - df = pd.read_json(input_json_path)
+2025-04-15 21:28:42,864 - INFO - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-15 21:28:42,864 - INFO - File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+2025-04-15 21:28:42,868 - INFO - json_reader = JsonReader(
+2025-04-15 21:28:42,870 - INFO - ^^^^^^^^^^^
+2025-04-15 21:28:42,870 - INFO - File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+2025-04-15 21:28:42,872 - INFO - data = self._get_data_from_filepath(filepath_or_buffer)
+2025-04-15 21:28:42,873 - INFO - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-04-15 21:28:42,873 - INFO - File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+2025-04-15 21:28:42,876 - INFO - raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+2025-04-15 21:28:42,878 - INFO - FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+2025-04-15 21:28:42,996 - INFO - Script cleaningdata.py selesai.
+
+2025-04-15 21:55:51,265 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-15 21:55:51,277 - INFO - Menjalankan script: getTitle.py
+2025-04-15 21:55:55,870 - INFO - 2025-04-15 21:55:55,870 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-04-15 21:55:55,870 - INFO - 2025-04-15 21:55:55,870 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:56:00,074 - INFO - 2025-04-15 21:56:00,074 - ERROR - \u26db Halaman 1 gagal dimuat. Melanjutkan ke URL berikutnya.
+2025-04-15 21:58:29,837 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-15 21:58:29,846 - INFO - Memulai seluruh rangkaian proses...
+2025-04-15 21:58:29,847 - INFO - Memulai proses scraping link artikel...
+2025-04-15 21:58:29,847 - INFO - Menjalankan script: getLinks.py
+2025-04-15 21:58:55,803 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-15 21:58:55,803 - INFO - Memulai scraping judul...
+2025-04-15 21:58:55,803 - INFO - Menjalankan script: getTitle.py
+2025-04-15 22:00:11,496 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-15 22:00:11,496 - ERROR - 2025-04-15 21:59:04,164 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639
+2025-04-15 21:59:04,164 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:59:23,792 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:59:23,794 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639
+2025-04-15 21:59:23,794 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:59:31,558 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:59:31,558 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-04-15 21:59:31,559 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-15 21:59:46,512 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-15 21:59:46,513 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639
+2025-04-15 21:59:46,513 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 124, in <module>
+    scrape_titles_per_page(df, driver, OUTPUT_JSON_PATH)
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 79, in scrape_titles_per_page
+    time.sleep(3)
+KeyboardInterrupt
+
+2025-04-15 22:00:11,508 - INFO - Memulai proses cleaning data...
+2025-04-15 22:00:11,508 - INFO - Menjalankan script: cleaningdata.py
+2025-04-15 22:00:14,387 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-15 22:00:14,403 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 155, in <module>
+    from pandas.io.api import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\api.py", line 16, in <module>
+    from pandas.io.parquet import read_parquet
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1026, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1148, in path_stats
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+
+2025-04-15 22:00:14,403 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-15 22:00:14,403 - INFO - Seluruh proses selesai.
+2025-04-15 22:24:33,985 - INFO - Memulai proses scraping link artikel...
+2025-04-15 22:24:33,993 - INFO - Menjalankan script: getLinks.py
+2025-04-15 22:25:03,282 - ERROR - Script getLinks.py gagal dijalankan.
+2025-04-15 22:25:03,282 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 40, in scrape_ieee_links
+    driver.get(target_url)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1376, in getresponse
+    self.close()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 320, in close
+    def close(self) -> None:
+
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 71, in <module>
+    scrape_ieee_links()
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 68, in scrape_ieee_links
+    driver.quit()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 188, in quit
+    super().quit()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 589, in quit
+    self.execute(Command.QUIT)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 445, in request
+    self.endheaders()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 81, in create_connection
+    sock.close()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 499, in close
+    def close(self):
+
+KeyboardInterrupt
+
+2025-04-15 22:25:03,291 - INFO - Proses scraping link artikel selesai.
+2025-04-15 22:25:35,132 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-15 22:25:35,183 - INFO - Memulai seluruh rangkaian proses...
+2025-04-15 22:25:35,185 - INFO - Memulai proses scraping link artikel...
+2025-04-15 22:25:35,189 - INFO - Menjalankan script: getLinks.py
+2025-04-15 22:25:40,547 - ERROR - Script getLinks.py gagal dijalankan.
+2025-04-15 22:25:40,547 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 71, in <module>
+    scrape_ieee_links()
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 37, in scrape_ieee_links
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 20, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 103, in find_driver
+    browser_version = self._os_system_manager.get_browser_version_from_os(browser_type)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\os_manager.py", line 159, in get_browser_version_from_os
+    version = read_version_from_cmd(cmd_mapping, pattern)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\utils.py", line 46, in read_version_from_cmd
+    stdout = stream.communicate()[0].decode()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1194, in communicate
+    stdout = self.stdout.read()
+             ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-15 22:25:40,563 - INFO - Memulai scraping judul...
+2025-04-15 22:25:40,563 - INFO - Menjalankan script: getTitle.py
+2025-04-15 22:25:43,131 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-15 22:25:43,131 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 103, in find_driver
+    browser_version = self._os_system_manager.get_browser_version_from_os(browser_type)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\os_manager.py", line 147, in get_browser_version_from_os
+    OSType.WIN: windows_browser_apps_to_cmd(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\utils.py", line 28, in windows_browser_apps_to_cmd
+    powershell = determine_powershell()
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\utils.py", line 62, in determine_powershell
+    stdout = stream.communicate()[0].decode()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1194, in communicate
+    stdout = self.stdout.read()
+             ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-15 22:25:43,131 - INFO - Memulai proses cleaning data...
+2025-04-15 22:25:43,131 - INFO - Menjalankan script: cleaningdata.py
+2025-04-15 22:25:44,299 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-15 22:25:44,299 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 62, in <module>
+    from pandas.core.api import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\generic.py", line 68, in <module>
+    from pandas.core.frame import DataFrame
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 149, in <module>
+    from pandas.core.generic import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 184, in <module>
+    from pandas.core.methods.describe import describe_ndframe
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\methods\describe.py", line 41, in <module>
+    from pandas.io.formats.format import format_percentiles
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\formats\format.py", line 82, in <module>
+    from pandas.io.common import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 17, in <module>
+    import gzip
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1069, in get_code
+  File "<frozen importlib._bootstrap_external>", line 729, in _compile_bytecode
+KeyboardInterrupt
+
+2025-04-15 22:25:44,299 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-15 22:25:44,299 - INFO - Seluruh proses selesai.
+2025-04-15 23:55:03,602 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-15 23:55:03,623 - INFO - Memulai seluruh rangkaian proses...
+2025-04-15 23:55:03,623 - INFO - Memulai proses scraping link artikel...
+2025-04-15 23:55:03,623 - INFO - Menjalankan script: getLinks.py
+2025-04-15 23:55:08,720 - ERROR - Script getLinks.py gagal dijalankan.
+2025-04-15 23:55:08,720 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 71, in <module>
+    scrape_ieee_links()
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 37, in scrape_ieee_links
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 20, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 103, in find_driver
+    browser_version = self._os_system_manager.get_browser_version_from_os(browser_type)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\os_manager.py", line 159, in get_browser_version_from_os
+    version = read_version_from_cmd(cmd_mapping, pattern)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\utils.py", line 46, in read_version_from_cmd
+    stdout = stream.communicate()[0].decode()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1194, in communicate
+    stdout = self.stdout.read()
+             ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-15 23:55:08,720 - INFO - Memulai scraping judul...
+2025-04-15 23:55:08,720 - INFO - Menjalankan script: getTitle.py
+2025-04-15 23:55:09,716 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-15 23:55:09,718 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 62, in <module>
+    from pandas.core.api import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\generic.py", line 68, in <module>
+    from pandas.core.frame import DataFrame
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1069, in get_code
+  File "<frozen importlib._bootstrap_external>", line 729, in _compile_bytecode
+KeyboardInterrupt
+
+2025-04-15 23:55:09,718 - INFO - Memulai proses cleaning data...
+2025-04-15 23:55:09,720 - INFO - Menjalankan script: cleaningdata.py
+2025-04-15 23:55:10,644 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-15 23:55:10,644 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 62, in <module>
+    from pandas.core.api import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\arrays\__init__.py", line 19, in <module>
+    from pandas.core.arrays.sparse import SparseArray
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\arrays\sparse\__init__.py", line 1, in <module>
+    from pandas.core.arrays.sparse.accessor import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\arrays\sparse\accessor.py", line 17, in <module>
+    from pandas.core.arrays.sparse.array import SparseArray
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\arrays\sparse\array.py", line 84, in <module>
+    from pandas.io.formats import printing
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1069, in get_code
+  File "<frozen importlib._bootstrap_external>", line 729, in _compile_bytecode
+KeyboardInterrupt
+
+2025-04-15 23:55:10,644 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-15 23:55:10,644 - INFO - Seluruh proses selesai.
+2025-04-15 23:57:01,248 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-15 23:57:01,266 - INFO - Memulai seluruh rangkaian proses...
+2025-04-15 23:57:01,268 - INFO - Memulai proses scraping link artikel...
+2025-04-15 23:57:01,268 - INFO - Menjalankan script: getLinks.py
+2025-04-15 23:57:03,855 - ERROR - Script getLinks.py gagal dijalankan.
+2025-04-15 23:57:03,855 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 5, in <module>
+    from selenium import webdriver
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\__init__.py", line 20, in <module>
+    from .chrome.webdriver import WebDriver as Chrome  # noqa
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 18, in <module>
+    from selenium.webdriver.chromium.webdriver import ChromiumDriver
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 22, in <module>
+    from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 72, in <module>
+    from .websocket_connection import WebSocketConnection
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\websocket_connection.py", line 23, in <module>
+    from websocket import WebSocketApp  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\websocket\__init__.py", line 19, in <module>
+    from ._abnf import *
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\websocket\_abnf.py", line 9, in <module>
+    from ._utils import validate_utf8
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\websocket\_utils.py", line 35, in <module>
+    from wsaccel.utf8validator import Utf8Validator
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1080, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1504, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1476, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1640, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 123, in _path_join
+KeyboardInterrupt
+
+2025-04-15 23:57:03,855 - INFO - Memulai scraping judul...
+2025-04-15 23:57:03,855 - INFO - Menjalankan script: getTitle.py
+2025-04-15 23:57:08,694 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-15 23:57:08,696 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 103, in find_driver
+    browser_version = self._os_system_manager.get_browser_version_from_os(browser_type)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\os_manager.py", line 159, in get_browser_version_from_os
+    version = read_version_from_cmd(cmd_mapping, pattern)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\utils.py", line 46, in read_version_from_cmd
+    stdout = stream.communicate()[0].decode()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1194, in communicate
+    stdout = self.stdout.read()
+             ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-15 23:57:08,696 - INFO - Memulai proses cleaning data...
+2025-04-15 23:57:08,696 - INFO - Menjalankan script: cleaningdata.py
+2025-04-15 23:57:09,602 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-15 23:57:09,602 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 27, in <module>
+    __import__(_dependency)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\__init__.py", line 194, in <module>
+    from . import lib
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\__init__.py", line 23, in <module>
+    from . import _index_tricks_impl
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\_index_tricks_impl.py", line 12, in <module>
+    import numpy.matrixlib as matrixlib
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\matrixlib\__init__.py", line 4, in <module>
+    from . import defmatrix
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\matrixlib\defmatrix.py", line 12, in <module>
+    from numpy.linalg import matrix_power
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\linalg\__init__.py", line 88, in <module>
+    from . import _linalg
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\linalg\_linalg.py", line 41, in <module>
+    from numpy._typing import NDArray
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\_typing\__init__.py", line 102, in <module>
+    from ._dtype_like import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\_typing\_dtype_like.py", line 193, in <module>
+    type[complex]
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\typing.py", line 1352, in __or__
+    return Union[self, right]
+           ~~~~~^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\typing.py", line 341, in inner
+    return cached(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\typing.py", line 460, in __getitem__
+    return self._getitem(self, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\typing.py", line 673, in Union
+    return _UnionGenericAlias(self, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\typing.py", line 1337, in __init__
+    self.__parameters__ = _collect_parameters(args)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\typing.py", line 256, in _collect_parameters
+    if hasattr(t, '__typing_subst__'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-15 23:57:09,602 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-15 23:57:09,614 - INFO - Seluruh proses selesai.
