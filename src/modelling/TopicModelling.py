@@ -13,12 +13,12 @@ from bertopic import BERTopic
 from umap import UMAP
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-RAW_DATA_DIR = BASE_DIR / "data" / "cleaned"
-CLUSTERED_DIR = RAW_DATA_DIR / "clustered"
-TOPICMODELLING_DIR = RAW_DATA_DIR / "topic-modelling"
-DATA_PATH = RAW_DATA_DIR / "cleaned_articles.json"
+RAW_DATA_DIR = BASE_DIR / "data" / "raw"
+CLEAN_DATA_DIR = BASE_DIR / "data" / "cleaned"
+CLUSTERED_DIR = CLEAN_DATA_DIR / "clustered"
+TOPICMODELLING_DIR = CLEAN_DATA_DIR / "topic-modelling"
+DATA_PATH = CLEAN_DATA_DIR / "cleaned_articles.json"
 
-# Ensure directories exist
 CLUSTERED_DIR.mkdir(parents=True, exist_ok=True)
 TOPICMODELLING_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -35,7 +35,6 @@ def vectorize_and_reduce(df):
     vectorizer = TfidfVectorizer(max_features=500)
     features_tfidf = vectorizer.fit_transform(df['article'])
 
-    # Apply PCA for dimensionality reduction
     pca = PCA(n_components=2)
     features_pca = pca.fit_transform(features_tfidf.toarray())
     
@@ -93,7 +92,6 @@ def analyze_topics_per_cluster(df, n_clusters, save_dir):
             print(f"Data too small for Cluster {cluster}. Skipping.")
             continue
         
-        # Prepare UMAP model and BERTopic
         umap_model = UMAP(n_neighbors=19, n_components=5, min_dist=0.1, metric='cosine', random_state=42)
         vectorizer_model = CountVectorizer(ngram_range=(1, 2), stop_words="english")
         
@@ -118,23 +116,18 @@ def analyze_topics_per_cluster(df, n_clusters, save_dir):
     return topic_models
 
 if __name__ == "__main__":
-    # Load and preprocess the data
     df = load_articles(DATA_PATH)
 
-    # Vectorize and reduce dimensionality
     tfidf_matrix, features_pca = vectorize_and_reduce(df)
 
-    # Perform KMeans clustering
     n_clusters = 3
     cluster_labels, centroids, silhouette = perform_clustering(features_pca, n_clusters)
     df["cluster"] = cluster_labels
 
     print(f"\nSilhouette Score: {silhouette:.4f}")
 
-    # Save clustered data to files
     save_clustered_data(df, CLUSTERED_DIR)
 
-    # Visualize the clustering
     plt.figure(figsize=(10, 6))
     sns.scatterplot(x=features_pca[:, 0], y=features_pca[:, 1], hue=cluster_labels, palette="tab10", alpha=0.7)
     plt.scatter(centroids[:, 0], centroids[:, 1], c='black', marker='X', s=300, label="Centroids")
@@ -142,8 +135,7 @@ if __name__ == "__main__":
     plt.xlabel("PCA Component 1")
     plt.ylabel("PCA Component 2")
     plt.legend()
-    plt.savefig(TOPICMODELLING_DIR / "clustering_visualization.png")  # Save figure as image
+    plt.savefig(TOPICMODELLING_DIR / "clustering_visualization.png")
     plt.close()
 
-    # Analyze and save topics for each cluster
     topic_models = analyze_topics_per_cluster(df, n_clusters, TOPICMODELLING_DIR)

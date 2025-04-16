@@ -2,12 +2,13 @@ from fastapi import APIRouter
 import subprocess
 import sys
 import os
+from pathlib import Path
 from fastapi import HTTPException
 
 router = APIRouter()
 
-# Definisikan input_path langsung di sini
-input_path = input_path = r"C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\data\raw\scraped_articles.json"
+BASE_DIR = Path(__file__).resolve().parents[2]
+input_path = BASE_DIR / "data" / "raw" / "scrapped_articles.json"
 
 def run_preprocessing(input_path: str):
     try:
@@ -23,7 +24,7 @@ def run_topic_modelling(input_path: str):
 
 @router.post("/run-topic-modelling/")
 async def run_topic_modelling_endpoint():
-    if not os.path.exists(input_path):
+    if not input_path.exists():
         raise HTTPException(status_code=400, detail="Input path does not exist.")
 
     run_preprocessing(input_path)
