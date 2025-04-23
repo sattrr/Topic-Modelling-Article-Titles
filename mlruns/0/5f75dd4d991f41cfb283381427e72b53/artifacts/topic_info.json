@@ -1,0 +1,35 @@
+{
+    "0": {
+        "min_topic_size": 2,
+        "vectorizer_model": "CountVectorizer(ngram_range=(1, 2), stop_words='english')",
+        "umap_model": {
+            "n_neighbors": 19,
+            "n_components": 5,
+            "min_dist": 0.1,
+            "metric": "cosine"
+        },
+        "coherence_score": 0.0008658008658008658
+    },
+    "1": {
+        "min_topic_size": 2,
+        "vectorizer_model": "CountVectorizer(ngram_range=(1, 2), stop_words='english')",
+        "umap_model": {
+            "n_neighbors": 19,
+            "n_components": 5,
+            "min_dist": 0.1,
+            "metric": "cosine"
+        },
+        "coherence_score": 0.06666666666666667
+    },
+    "2": {
+        "min_topic_size": 2,
+        "vectorizer_model": "CountVectorizer(ngram_range=(1, 2), stop_words='english')",
+        "umap_model": {
+            "n_neighbors": 19,
+            "n_components": 5,
+            "min_dist": 0.1,
+            "metric": "cosine"
+        },
+        "coherence_score": 0.06666666666666667
+    }
+}

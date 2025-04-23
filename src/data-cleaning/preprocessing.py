@@ -18,7 +18,7 @@ nltk.download("punkt_tab")
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent 
 RAW_DATA_DIR = BASE_DIR / "data" / "raw"
-DATA_PATH = RAW_DATA_DIR / "scraped_articles.json"
+DATA_PATH = RAW_DATA_DIR / "scrapped_articles.json"
 CLEANED_DATA_DIR = BASE_DIR / "data" / "cleaned"
 CLEANED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -52,6 +52,8 @@ def load_data():
         articles = json.load(f)
 
     df = pd.DataFrame(articles)
+
+    df = df[df["Judul"].str.lower().str.strip() != "judul tidak ditemukan"]
 
     if "Judul" not in df.columns:
         raise KeyError("Kolom 'Judul' tidak ditemukan dalam dataset.")

@@ -1,3 +1,6 @@
+import mlflow
+import mlflow.sklearn
+from bertopic import BERTopic
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -9,7 +12,6 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from bertopic import BERTopic
 from umap import UMAP
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -17,17 +19,19 @@ RAW_DATA_DIR = BASE_DIR / "data" / "raw"
 CLEAN_DATA_DIR = BASE_DIR / "data" / "cleaned"
 CLUSTERED_DIR = CLEAN_DATA_DIR / "clustered"
 TOPICMODELLING_DIR = CLEAN_DATA_DIR / "topic-modelling"
+LOG_DIR = BASE_DIR / "logs"
 DATA_PATH = CLEAN_DATA_DIR / "cleaned_articles.json"
 
 CLUSTERED_DIR.mkdir(parents=True, exist_ok=True)
 TOPICMODELLING_DIR.mkdir(parents=True, exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_articles(path):
     """Load articles from a JSON file and convert to DataFrame."""
     with open(path, encoding="utf-8") as f:
         articles = json.load(f)
     df = pd.DataFrame(articles)
-    df.rename(columns={"Judul": "article"}, inplace=True)  # Ensure column is named 'article'
+    df.rename(columns={"Judul": "article"}, inplace=True)
     return df
 
 def vectorize_and_reduce(df):
@@ -56,7 +60,12 @@ def save_clustered_data(df, clustered_dir):
 
 def calculate_cosine_similarity_coherence(topic_terms, vectorizer):
     """Calculate cosine similarity coherence for topics."""
-    topic_vectors = vectorizer.fit_transform([' '.join(topic) for topic in topic_terms])
+    documents = [' '.join(topic) for topic in topic_terms]
+    if not any(doc.strip() for doc in documents):
+        print("All documents is empty or contain stopwords.")
+        return 0.0
+
+    topic_vectors = vectorizer.fit_transform(documents)
     similarity_matrix = cosine_similarity(topic_vectors)
 
     coherence_scores = [
@@ -77,6 +86,10 @@ def get_topic_coherence_from_bertopic(topic_model, cluster_data):
         words = [word.replace(" ", "_") for word, _ in terms]
         if isinstance(words, list) and all(isinstance(w, str) for w in words):
             topic_words.append(words)
+
+    if not topic_words:
+        print("There is no vaalid Topic Modelling. Coherence score set into 0.")
+        return 0.0
 
     vectorizer = CountVectorizer(stop_words='english')
     return calculate_cosine_similarity_coherence(topic_words, vectorizer)
@@ -108,34 +121,76 @@ def analyze_topics_per_cluster(df, n_clusters, save_dir):
         coherence_score = get_topic_coherence_from_bertopic(topic_model, cluster_data)
         print(f"Coherence Score for Cluster {cluster}: {coherence_score:.4f}")
         
-        # Save visualization to HTML
+        mlflow.log_metric(f"coherence_score_cluster_{cluster}", coherence_score)
+        
         fig = topic_model.visualize_barchart(top_n_topics=3)
         fig.write_html(save_dir / f"cluster_{cluster}_topics.html")
         print(f"Visualization saved at: {save_dir / f'cluster_{cluster}_topics.html'}")
+        
+        mlflow.log_artifact(save_dir / f"cluster_{cluster}_topics.html")
 
     return topic_models
 
 if __name__ == "__main__":
-    df = load_articles(DATA_PATH)
+    with mlflow.start_run():
+        mlflow.log_param("n_clusters", 3)
+        
+        df = load_articles(DATA_PATH)
 
-    tfidf_matrix, features_pca = vectorize_and_reduce(df)
+        tfidf_matrix, features_pca = vectorize_and_reduce(df)
 
-    n_clusters = 3
-    cluster_labels, centroids, silhouette = perform_clustering(features_pca, n_clusters)
-    df["cluster"] = cluster_labels
+        n_clusters = 3
+        cluster_labels, centroids, silhouette = perform_clustering(features_pca, n_clusters)
+        df["cluster"] = cluster_labels
 
-    print(f"\nSilhouette Score: {silhouette:.4f}")
+        print(f"\nSilhouette Score: {silhouette:.4f}")
+        mlflow.log_metric("silhouette_score", silhouette)
 
-    save_clustered_data(df, CLUSTERED_DIR)
+        save_clustered_data(df, CLUSTERED_DIR)
 
-    plt.figure(figsize=(10, 6))
-    sns.scatterplot(x=features_pca[:, 0], y=features_pca[:, 1], hue=cluster_labels, palette="tab10", alpha=0.7)
-    plt.scatter(centroids[:, 0], centroids[:, 1], c='black', marker='X', s=300, label="Centroids")
-    plt.title("Visualisasi Cluster with KMeans")
-    plt.xlabel("PCA Component 1")
-    plt.ylabel("PCA Component 2")
-    plt.legend()
-    plt.savefig(TOPICMODELLING_DIR / "clustering_visualization.png")
-    plt.close()
+        plt.figure(figsize=(10, 6))
+        sns.scatterplot(x=features_pca[:, 0], y=features_pca[:, 1], hue=cluster_labels, palette="tab10", alpha=0.7)
+        plt.scatter(centroids[:, 0], centroids[:, 1], c='black', marker='X', s=300, label="Centroids")
+        plt.title("Visualisasi Cluster with KMeans")
+        plt.xlabel("PCA Component 1")
+        plt.ylabel("PCA Component 2")
+        plt.legend()
+        plt.savefig(TOPICMODELLING_DIR / "clustering_visualization.png")
+        plt.close()
 
-    topic_models = analyze_topics_per_cluster(df, n_clusters, TOPICMODELLING_DIR)
+        mlflow.log_artifact(TOPICMODELLING_DIR / "clustering_visualization.png")
+
+        topic_models = analyze_topics_per_cluster(df, n_clusters, TOPICMODELLING_DIR)
+
+        topic_hyperparams = {}
+        for cluster_id, model in topic_models.items():
+            coherence_score = get_topic_coherence_from_bertopic(model, df[df["cluster"] == cluster_id]["article"].tolist())
+            num_topics = len(model.get_topics())
+
+            mlflow.log_metric(f"num_topics_cluster_{cluster_id}", num_topics)
+            mlflow.log_metric(f"coherence_score_cluster_{cluster_id}", coherence_score)
+            mlflow.log_param(f"cluster_{cluster_id}_min_topic_size", model.min_topic_size)
+            mlflow.log_param(f"cluster_{cluster_id}_vectorizer_model", str(model.vectorizer_model))
+            mlflow.log_param(f"cluster_{cluster_id}_umap_n_neighbors", model.umap_model.n_neighbors)
+            mlflow.log_param(f"cluster_{cluster_id}_umap_n_components", model.umap_model.n_components)
+            mlflow.log_param(f"cluster_{cluster_id}_umap_min_dist", model.umap_model.min_dist)
+            mlflow.log_param(f"cluster_{cluster_id}_umap_metric", model.umap_model.metric)
+
+            topic_hyperparams[cluster_id] = {
+                "min_topic_size": model.min_topic_size,
+                "vectorizer_model": str(model.vectorizer_model),
+                "umap_model": {
+                    "n_neighbors": model.umap_model.n_neighbors,
+                    "n_components": model.umap_model.n_components,
+                    "min_dist": model.umap_model.min_dist,
+                    "metric": model.umap_model.metric
+                },
+                "coherence_score": coherence_score
+            }
+
+        json_output_path = LOG_DIR / "topic_info.json"
+        with open(json_output_path, "w", encoding="utf-8") as json_file:
+            json.dump(topic_hyperparams, json_file, indent=4, ensure_ascii=False)
+
+        mlflow.log_artifact(json_output_path)
+        print(f"Hyperparameter dan coherence BERTopic berhasil disimpan ke: {json_output_path}")
