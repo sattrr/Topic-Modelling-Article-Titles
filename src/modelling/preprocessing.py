@@ -22,6 +22,10 @@ DATA_PATH = RAW_DATA_DIR / "scrapped_articles.json"
 CLEANED_DATA_DIR = BASE_DIR / "data" / "cleaned"
 CLEANED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+stop_words = set(stopwords.words("english"))
+stop_words.update(["using"])
+lemmatizer = WordNetLemmatizer()
+
 def check_files():
     """Display all files in the raw directory for verification."""
     print(f"Checking directory: {RAW_DATA_DIR}")
@@ -29,9 +33,12 @@ def check_files():
     for file in RAW_DATA_DIR.iterdir():
         print("-", file.name)
 
-stop_words = set(stopwords.words("english"))
-stop_words.update(["using"])
-lemmatizer = WordNetLemmatizer()
+def clean_authors(author_str):
+    if pd.isna(author_str):
+        return ""
+    authors = [author.strip(" ;") for author in author_str.split(",") if author.strip(" ;")]
+    unique_authors = ", ".join(sorted(set(authors)))
+    return unique_authors
 
 def preprocess_text(text):
     text = text.lower()
@@ -57,6 +64,10 @@ def load_data():
 
     if "Judul" not in df.columns:
         raise KeyError("Kolom 'Judul' tidak ditemukan dalam dataset.")
+    
+    df["Author"] = df.get("Author", "").apply(clean_authors)
+    df = df[df["Judul"].str.lower().str.strip() != "judul tidak ditemukan"]
+    df = df.drop_duplicates(subset=["Judul"], keep="first")
 
     df.rename(columns={"Judul": "article"}, inplace=True)
     df["article"] = df["article"].fillna("")
@@ -67,6 +78,7 @@ def load_data():
     df["article"] = df["clean_article"]
     df.drop(columns=["clean_article"], inplace=True)
 
+    print(f"\nNumber of titles after cleaning: {len(df)}")
     return df
 
 def apply_tfidf(df):
@@ -103,4 +115,3 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"Error: {e}")
-

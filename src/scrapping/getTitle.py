@@ -17,7 +17,6 @@ DATA_DIR = BASE_DIR / "data" / "raw"
 DATA_PATH = DATA_DIR / "article_links.json"
 OUTPUT_JSON_PATH = DATA_DIR / "scraped_articles.json"
 
-# Setup logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 ch = logging.StreamHandler()
@@ -54,7 +53,7 @@ def append_and_save(new_data, output_path):
     output_dir = Path(output_path).parent
     output_dir.mkdir(parents=True, exist_ok=True)
     combined_data.to_json(output_path, orient="records", indent=4)
-    print(f"✅ Data dari halaman ini berhasil ditambahkan ke: {output_path}")
+    print(f"Data dari halaman ini berhasil ditambahkan ke: {output_path}")
 
 def scrape_titles_per_page(df, driver, output_path, max_pages=2):
     for index, row in df.iterrows():
@@ -65,7 +64,7 @@ def scrape_titles_per_page(df, driver, output_path, max_pages=2):
             page_number = 1
             while not max_pages or page_number <= max_pages:
                 url = f"{base_url}&sortType=vol-only-newest&pageNumber={page_number}"
-                logger.info(f"📄 Membuka halaman {page_number}: {url}")
+                logger.info(f"Membuka halaman {page_number}: {url}")
 
                 driver.get(url)
                 try:
@@ -73,7 +72,7 @@ def scrape_titles_per_page(df, driver, output_path, max_pages=2):
                         EC.presence_of_element_located((By.CLASS_NAME, "col"))
                     )
                 except:
-                    logger.error(f"⛛ Halaman {page_number} gagal dimuat. Melanjutkan ke URL berikutnya.")
+                    logger.error(f"Halaman {page_number} gagal dimuat. Melanjutkan ke URL berikutnya.")
                     break
 
                 time.sleep(3)
@@ -82,7 +81,7 @@ def scrape_titles_per_page(df, driver, output_path, max_pages=2):
                 articles = soup.find_all("div", class_="col result-item-align px-3")
 
                 if not articles:
-                    logger.warning(f"🚫 Tidak ada artikel ditemukan di halaman {page_number}.")
+                    logger.warning(f"Tidak ada artikel ditemukan di halaman {page_number}.")
                     break
 
                 titles = []
@@ -110,11 +109,11 @@ def scrape_titles_per_page(df, driver, output_path, max_pages=2):
                 })
 
                 append_and_save(new_df, output_path)
-                logger.info(f"✅ {len(articles)} artikel dari halaman {page_number} berhasil disimpan.")
+                logger.info(f"{len(articles)} artikel dari halaman {page_number} berhasil disimpan.")
                 page_number += 1
 
         except Exception as e:
-            logger.error(f"❌ Terjadi kesalahan saat scraping {row['URL']}: {e}")
+            logger.error(f"Terjadi kesalahan saat scraping {row['URL']}: {e}")
 
 
 if __name__ == "__main__":
