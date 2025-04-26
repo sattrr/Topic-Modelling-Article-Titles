@@ -586,3 +586,800 @@ KeyboardInterrupt
 
 2025-04-15 23:57:09,602 - INFO - Scraping judul dan cleaning data selesai.
 2025-04-15 23:57:09,614 - INFO - Seluruh proses selesai.
+2025-04-16 08:30:14,887 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:30:14,905 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:30:14,905 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:30:14,905 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:30:20,648 - ERROR - Script getLinks.py gagal dijalankan.
+2025-04-16 08:30:20,648 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 71, in <module>
+    scrape_ieee_links()
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 37, in scrape_ieee_links
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getLinks.py", line 20, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 103, in find_driver
+    browser_version = self._os_system_manager.get_browser_version_from_os(browser_type)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\os_manager.py", line 159, in get_browser_version_from_os
+    version = read_version_from_cmd(cmd_mapping, pattern)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\webdriver_manager\core\utils.py", line 46, in read_version_from_cmd
+    stdout = stream.communicate()[0].decode()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1194, in communicate
+    stdout = self.stdout.read()
+             ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-16 08:30:20,649 - INFO - Memulai scraping judul...
+2025-04-16 08:30:20,649 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:30:21,287 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:30:21,287 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 62, in <module>
+    from pandas.core.api import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\generic.py", line 69, in <module>
+    from pandas.core.groupby import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\ops.py", line 25, in <module>
+    import pandas._libs.groupby as libgroupby
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1080, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1504, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1476, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1612, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+
+2025-04-16 08:30:21,287 - INFO - Memulai proses cleaning data...
+2025-04-16 08:30:21,287 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:30:21,932 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:30:21,932 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 1, in <module>
+    import pandas as pd
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\__init__.py", line 62, in <module>
+    from pandas.core.api import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\groupby\generic.py", line 68, in <module>
+    from pandas.core.frame import DataFrame
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 149, in <module>
+    from pandas.core.generic import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 184, in <module>
+    from pandas.core.methods.describe import describe_ndframe
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\methods\describe.py", line 41, in <module>
+    from pandas.io.formats.format import format_percentiles
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\formats\format.py", line 82, in <module>
+    from pandas.io.common import (
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 28, in <module>
+    from pathlib import Path
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 14, in <module>
+    from urllib.parse import quote_from_bytes as urlquote_from_bytes
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1131, in get_data
+KeyboardInterrupt
+
+2025-04-16 08:30:21,932 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:30:21,932 - INFO - Seluruh proses selesai.
+2025-04-16 08:41:01,968 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:41:01,976 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:41:01,976 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:41:01,976 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:41:02,986 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:41:02,986 - INFO - Memulai scraping judul...
+2025-04-16 08:41:02,998 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:41:04,326 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:41:04,326 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /usr/bin/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 38, in setup_driver
+    return webdriver.Chrome(service=service, options=options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+2025-04-16 08:41:04,326 - INFO - Memulai proses cleaning data...
+2025-04-16 08:41:04,326 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:41:05,031 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:41:05,031 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:41:05,031 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:41:05,031 - INFO - Seluruh proses selesai.
+2025-04-16 08:42:07,726 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:42:07,740 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:42:07,740 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:42:07,741 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:42:30,172 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:42:30,172 - INFO - Memulai scraping judul...
+2025-04-16 08:42:30,173 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:43:31,692 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:43:31,692 - ERROR - 2025-04-16 08:42:33,954 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639
+2025-04-16 08:42:33,954 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:42:39,704 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:42:39,711 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639
+2025-04-16 08:42:39,711 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:42:44,845 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:42:44,845 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639
+2025-04-16 08:42:44,845 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:42:50,257 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:42:50,257 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639
+2025-04-16 08:42:50,257 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:42:54,433 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:42:54,433 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639
+2025-04-16 08:42:54,433 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:42:58,652 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:42:58,653 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639
+2025-04-16 08:42:58,653 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:43:03,310 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:43:03,311 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639
+2025-04-16 08:43:03,311 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:43:07,571 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:43:07,571 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-04-16 08:43:07,571 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-04-16 08:43:11,777 - ERROR - \u274c Terjadi kesalahan saat scraping https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-04-16 08:43:11,777 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639
+2025-04-16 08:43:11,777 - INFO - \U0001f4c4 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 124, in <module>
+    scrape_titles_per_page(df, driver, OUTPUT_JSON_PATH)
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 79, in scrape_titles_per_page
+    time.sleep(3)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 126, in <module>
+    driver.quit()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 193, in quit
+    self.service.stop()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\service.py", line 157, in stop
+    self.send_remote_shutdown_command()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\service.py", line 137, in send_remote_shutdown_command
+    request.urlopen(f"{self.service_url}/shutdown")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 941, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 843, in create_connection
+    exceptions.clear()  # raise only the last error
+    ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-16 08:43:31,692 - INFO - Memulai proses cleaning data...
+2025-04-16 08:43:31,692 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:43:32,342 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:43:32,342 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:43:32,342 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:43:32,342 - INFO - Seluruh proses selesai.
+2025-04-16 08:43:39,829 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:43:39,841 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:43:39,841 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:43:39,842 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:43:40,854 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:43:40,854 - INFO - Memulai scraping judul...
+2025-04-16 08:43:40,854 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:43:42,088 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:43:42,088 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager(version="114.0.5735.90").install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'version'
+
+2025-04-16 08:43:42,088 - INFO - Memulai proses cleaning data...
+2025-04-16 08:43:42,088 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:43:42,732 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:43:42,732 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:43:42,732 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:43:42,732 - INFO - Seluruh proses selesai.
+2025-04-16 08:44:42,825 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:44:42,833 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:44:42,834 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:44:42,834 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:45:00,657 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:45:00,657 - INFO - Memulai scraping judul...
+2025-04-16 08:45:00,657 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:45:02,223 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:45:02,224 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager(version="114.0.5735.90").install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'version'
+
+2025-04-16 08:45:02,224 - INFO - Memulai proses cleaning data...
+2025-04-16 08:45:02,224 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:45:02,904 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:45:02,904 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:45:02,904 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:45:02,904 - INFO - Seluruh proses selesai.
+2025-04-16 08:47:22,596 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:47:22,606 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:47:22,606 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:47:22,607 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:47:40,283 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:47:40,283 - INFO - Memulai scraping judul...
+2025-04-16 08:47:40,283 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:47:41,503 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:47:41,504 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager(version="114.0.5735.90").install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'version'
+
+2025-04-16 08:47:41,504 - INFO - Memulai proses cleaning data...
+2025-04-16 08:47:41,504 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:47:42,205 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:47:42,207 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:47:42,207 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:47:42,207 - INFO - Seluruh proses selesai.
+2025-04-16 08:49:35,810 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:49:35,818 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:49:35,819 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:49:35,819 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:49:36,957 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:49:36,957 - INFO - Memulai scraping judul...
+2025-04-16 08:49:36,957 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:49:37,998 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:49:37,998 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/webdrivers/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 38, in setup_driver
+    return webdriver.Chrome(service=service, options=options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+2025-04-16 08:49:38,008 - INFO - Memulai proses cleaning data...
+2025-04-16 08:49:38,008 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:49:38,675 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:49:38,675 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:49:38,679 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:49:38,679 - INFO - Seluruh proses selesai.
+2025-04-16 08:52:07,053 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 08:52:07,061 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 08:52:07,061 - INFO - Memulai proses scraping link artikel...
+2025-04-16 08:52:07,061 - INFO - Menjalankan script: getLinks.py
+2025-04-16 08:52:08,125 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 08:52:08,126 - INFO - Memulai scraping judul...
+2025-04-16 08:52:08,126 - INFO - Menjalankan script: getTitle.py
+2025-04-16 08:52:09,199 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 08:52:09,199 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/webdrivers/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 38, in setup_driver
+    return webdriver.Chrome(service=service, options=options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+2025-04-16 08:52:09,199 - INFO - Memulai proses cleaning data...
+2025-04-16 08:52:09,199 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 08:52:09,975 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 08:52:09,975 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 08:52:09,975 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 08:52:09,975 - INFO - Seluruh proses selesai.
+2025-04-16 12:26:17,334 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 12:26:17,384 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 12:26:17,386 - INFO - Memulai proses scraping link artikel...
+2025-04-16 12:26:17,387 - INFO - Menjalankan script: getLinks.py
+2025-04-16 12:26:21,995 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 12:26:21,995 - INFO - Memulai scraping judul...
+2025-04-16 12:26:21,995 - INFO - Menjalankan script: getTitle.py
+2025-04-16 12:26:24,410 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 12:26:24,410 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: /usr/bin/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 121, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 38, in setup_driver
+    return webdriver.Chrome(service=service, options=options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+
+2025-04-16 12:26:24,414 - INFO - Memulai proses cleaning data...
+2025-04-16 12:26:24,414 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 12:26:25,782 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 12:26:25,782 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 12:26:25,782 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 12:26:25,782 - INFO - Seluruh proses selesai.
+2025-04-16 20:15:46,580 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:15:46,603 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:17:17,033 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:17:17,033 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:17:18,102 - INFO - Script cleaningdata.py selesai.
+
+2025-04-16 20:17:23,090 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:17:23,106 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:24:04,338 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:24:17,430 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:24:17,439 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:32:28,754 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:32:47,227 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:32:47,243 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:34:30,916 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:34:46,566 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:34:46,578 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:37:50,361 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:37:50,361 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:37:55,186 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:37:55,199 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:37:55,423 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:37:55,429 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:37:56,780 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:37:56,780 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:37:56,897 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:37:56,897 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:37:57,617 - INFO - Script cleaningdata.py selesai.
+
+2025-04-16 20:37:57,726 - INFO - Script cleaningdata.py selesai.
+
+2025-04-16 20:40:28,610 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:40:28,621 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:40:30,083 - INFO - Script getTitle.py selesai.
+
+2025-04-16 20:40:30,088 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:40:30,823 - INFO - Script cleaningdata.py selesai.
+
+2025-04-16 20:41:11,139 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 20:41:11,142 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 20:41:11,142 - INFO - Memulai proses scraping link artikel...
+2025-04-16 20:41:11,142 - INFO - Menjalankan script: getLinks.py
+2025-04-16 20:41:12,538 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 20:41:12,538 - INFO - Memulai scraping judul...
+2025-04-16 20:41:12,548 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:41:13,879 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 20:41:13,880 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 128, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^
+NameError: name 'setup_driver' is not defined. Did you mean: 'get_driver'?
+
+2025-04-16 20:41:13,880 - INFO - Memulai proses cleaning data...
+2025-04-16 20:41:13,880 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:41:14,638 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 20:41:14,638 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 20:41:14,638 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 20:41:14,638 - INFO - Seluruh proses selesai.
+2025-04-16 20:43:22,759 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 20:43:22,768 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 20:43:22,769 - INFO - Memulai proses scraping link artikel...
+2025-04-16 20:43:22,769 - INFO - Menjalankan script: getLinks.py
+2025-04-16 20:43:24,056 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 20:43:24,056 - INFO - Memulai scraping judul...
+2025-04-16 20:43:24,056 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:43:25,259 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 20:43:25,259 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 128, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^
+NameError: name 'setup_driver' is not defined. Did you mean: 'get_driver'?
+
+2025-04-16 20:43:25,259 - INFO - Memulai proses cleaning data...
+2025-04-16 20:43:25,259 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:43:25,978 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 20:43:25,978 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 20:43:25,978 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 20:43:25,978 - INFO - Seluruh proses selesai.
+2025-04-16 20:44:20,044 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 20:44:20,057 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 20:44:20,058 - INFO - Memulai proses scraping link artikel...
+2025-04-16 20:44:20,058 - INFO - Menjalankan script: getLinks.py
+2025-04-16 20:44:21,382 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 20:44:21,382 - INFO - Memulai scraping judul...
+2025-04-16 20:44:21,382 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:44:22,587 - ERROR - Script getTitle.py gagal dijalankan.
+2025-04-16 20:44:22,587 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\getTitle.py", line 128, in <module>
+    driver = setup_driver()
+             ^^^^^^^^^^^^
+NameError: name 'setup_driver' is not defined. Did you mean: 'get_driver'?
+
+2025-04-16 20:44:22,589 - INFO - Memulai proses cleaning data...
+2025-04-16 20:44:22,589 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:44:23,311 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 20:44:23,311 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 20:44:23,311 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 20:44:23,312 - INFO - Seluruh proses selesai.
+2025-04-16 20:45:31,294 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 20:45:31,309 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 20:45:31,309 - INFO - Memulai proses scraping link artikel...
+2025-04-16 20:45:31,309 - INFO - Menjalankan script: getLinks.py
+2025-04-16 20:46:08,387 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 20:46:08,390 - INFO - Memulai scraping judul...
+2025-04-16 20:46:08,390 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:48:17,082 - INFO - Script getTitle.py selesai tanpa error.
+2025-04-16 20:48:17,084 - INFO - Memulai proses cleaning data...
+2025-04-16 20:48:17,085 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:48:20,286 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 20:48:20,286 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 791, in read_json
+    json_reader = JsonReader(
+                  ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-04-16 20:48:20,290 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 20:48:20,290 - INFO - Seluruh proses selesai.
+2025-04-16 20:51:28,041 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-04-16 20:51:28,058 - INFO - Memulai seluruh rangkaian proses...
+2025-04-16 20:51:28,058 - INFO - Memulai proses scraping link artikel...
+2025-04-16 20:51:28,058 - INFO - Menjalankan script: getLinks.py
+2025-04-16 20:52:00,867 - INFO - Script getLinks.py selesai tanpa error.
+2025-04-16 20:52:00,868 - INFO - Memulai scraping judul...
+2025-04-16 20:52:00,869 - INFO - Menjalankan script: getTitle.py
+2025-04-16 20:53:54,802 - INFO - Script getTitle.py selesai tanpa error.
+2025-04-16 20:53:54,802 - INFO - Memulai proses cleaning data...
+2025-04-16 20:53:54,802 - INFO - Menjalankan script: cleaningdata.py
+2025-04-16 20:53:56,852 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-04-16 20:53:56,852 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\src\scrapping\cleaningdata.py", line 28, in <module>
+    df.to_json(output_json_path, orient="records", indent=4, force_ascii=False)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 2702, in to_json
+    return json.to_json(
+           ^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\json\_json.py", line 217, in to_json
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '..\..\data\cleaned'
+
+2025-04-16 20:53:56,852 - INFO - Scraping judul dan cleaning data selesai.
+2025-04-16 20:53:56,854 - INFO - Seluruh proses selesai.
+2025-04-16 20:57:12,026 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-16 20:57:12,044 - INFO - Menjalankan script: getTitle.py
+2025-04-16 21:05:29,762 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:22:51,368 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:22:51,391 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:26:22,136 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:26:27,759 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:26:27,772 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:29:32,243 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:29:38,745 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:29:38,766 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:32:18,839 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:32:23,476 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:32:23,493 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:38:13,770 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:38:22,250 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:38:22,265 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:38:28,995 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:38:28,995 - INFO - Menjalankan script: cleaningdata.py
+2025-04-17 09:38:30,470 - INFO - Script cleaningdata.py selesai.
+
+2025-04-17 09:39:34,685 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:39:34,713 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:39:37,762 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:39:37,762 - INFO - Menjalankan script: cleaningdata.py
+2025-04-17 09:39:39,247 - INFO - Script cleaningdata.py selesai.
+
+2025-04-17 09:40:46,886 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:40:46,902 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:42:53,934 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:42:53,934 - INFO - Menjalankan script: cleaningdata.py
+2025-04-17 09:42:59,594 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:42:59,612 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:43:42,203 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:43:49,533 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:43:49,556 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:46:32,940 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:46:38,528 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:46:38,549 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:50:14,718 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:50:30,164 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:50:30,179 - INFO - Menjalankan script: getTitle.py
+2025-04-17 09:59:14,132 - INFO - Script getTitle.py selesai.
+
+2025-04-17 09:59:22,375 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 09:59:22,395 - INFO - Menjalankan script: getTitle.py
+2025-04-17 10:05:01,123 - INFO - Script getTitle.py selesai.
+
+2025-04-17 22:17:19,400 - INFO - Menerima permintaan untuk streaming scraping judul dan cleaning.
+2025-04-17 22:17:19,429 - INFO - Menjalankan script: getTitle.py
+2025-04-17 22:37:39,923 - INFO - Script getTitle.py selesai.
+

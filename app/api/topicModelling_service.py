@@ -1,13 +1,14 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 import subprocess
 import sys
 import os
-from fastapi import HTTPException
+from pathlib import Path
 
 router = APIRouter()
 
-# Definisikan input_path langsung di sini
-input_path = input_path = r"C:\Users\USER\Documents\Kumara\Topic-Modelling-Article-Titles\data\raw\scraped_articles.json"
+# Menghitung path relatif dari lokasi file ini
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # arahkan ke root project
+input_path = BASE_DIR / "data" / "raw" / "scraped_articles.json"
 
 def run_preprocessing(input_path: str):
     try:
