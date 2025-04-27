@@ -5,6 +5,7 @@ from pathlib import Path
 from threading import Lock, local
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import random
+import datetime
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -122,8 +123,11 @@ def save_article_separately(article_data, output_dir):
     try:
         output_dir = Path(output_dir)
         output_dir.mkdir(parents=True, exist_ok=True)
-        file_count = len(list(output_dir.glob("scraped_articles_*.json"))) + 1
-        output_file = output_dir / f"scraped_articles_{file_count}.json"
+
+        # Gunakan timestamp + random biar benar-benar unik
+        timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
+        random_suffix = random.randint(1000, 9999)
+        output_file = output_dir / f"scraped_article_{timestamp}_{random_suffix}.json"
 
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(article_data, f, ensure_ascii=False, indent=4)
