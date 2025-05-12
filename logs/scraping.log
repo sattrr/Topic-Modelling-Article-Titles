@@ -2423,3 +2423,28 @@ OSError: Cannot save file into a non-existent directory: '..\..\data\cleaned'
 2025-04-17 22:37:39,923 - INFO - Script getTitle.py selesai.
 
 >>>>>>> abiyyu-v-crawling
+2025-05-04 20:40:26,756 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-05-04 20:40:26,756 - INFO - Base directory: C:\Users\Satriock\Documents\Code\AI\MLOps\Topic Modelling\Topic-Modelling-Article-Titles
+2025-05-04 20:40:26,756 - INFO - Scrapping directory: C:\Users\Satriock\Documents\Code\AI\MLOps\Topic Modelling\Topic-Modelling-Article-Titles\src\scrapping
+2025-05-04 20:40:26,757 - INFO - Isi folder scrapping: ['cleaningdata.py', 'getLinks.py', 'getTitle.py']
+2025-05-04 20:40:26,758 - INFO - Background task berhasil ditambahkan.
+2025-05-04 20:40:26,815 - INFO - Memulai seluruh rangkaian proses...
+2025-05-04 20:40:26,815 - INFO - Memulai proses scraping link artikel...
+2025-05-04 20:40:26,816 - INFO - Menjalankan script: getLinks.py
+2025-05-04 20:41:00,769 - INFO - Ditemukan 13 link artikel unik:
+2025-05-04 20:41:00,770 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639
+2025-05-04 20:41:00,771 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639
+2025-05-04 20:41:00,772 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639
+2025-05-04 20:41:00,772 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639
+2025-05-04 20:41:00,773 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639
+2025-05-04 20:41:00,773 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639
+2025-05-04 20:41:00,774 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639
+2025-05-04 20:41:00,777 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-05-04 20:41:00,778 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639
+2025-05-04 20:41:00,779 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639
+2025-05-04 20:41:00,780 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639
+2025-05-04 20:41:00,781 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639
+2025-05-04 20:41:00,782 - INFO - https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639
+2025-05-04 20:41:00,783 - INFO - Berhasil menyimpan 13 link ke C:\Users\Satriock\Documents\Code\AI\MLOps\Topic Modelling\Topic-Modelling-Article-Titles\data\raw\article_links.json
+2025-05-04 20:41:01,969 - ERROR - Script getLinks.py gagal dijalankan.
+

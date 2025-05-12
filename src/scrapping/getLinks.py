@@ -36,7 +36,7 @@ def read_json(json_path):
 
 def scrape_ieee_links():
     driver = setup_driver()
-    try:
+    try:    
         target_url = "https://ieeexplore.ieee.org/xpl/issues?punumber=6287639&isnumber=10820123"
         driver.get(target_url)
 

@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - TZ=Asia/Jakarta
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "3"

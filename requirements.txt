@@ -3,15 +3,14 @@ uvicorn
 pandas==2.2.2
 numpy
 scikit-learn
-selenium==4.1.0
+selenium==4.11.2
 beautifulsoup4==4.10.0
-webdriver-manager==3.4.2
+webdriver-manager==3.8.6
 bertopic
 umap-learn
 sentence-transformers
 matplotlib
-<<<<<<< HEAD
 seaborn
-=======
-seaborn
->>>>>>> abiyyu-v-crawling
+nltk
+mlflow
+fake-useragent

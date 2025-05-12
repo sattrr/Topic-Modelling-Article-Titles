@@ -19,10 +19,7 @@ RAW_DATA_DIR = BASE_DIR / "data" / "raw"
 CLEAN_DATA_DIR = BASE_DIR / "data" / "cleaned"
 CLUSTERED_DIR = CLEAN_DATA_DIR / "clustered"
 TOPICMODELLING_DIR = CLEAN_DATA_DIR / "topic-modelling"
-<<<<<<< HEAD
 LOG_DIR = BASE_DIR / "logs"
-=======
->>>>>>> abiyyu-v-crawling
 DATA_PATH = CLEAN_DATA_DIR / "cleaned_articles.json"
 
 CLUSTERED_DIR.mkdir(parents=True, exist_ok=True)
@@ -135,7 +132,6 @@ def analyze_topics_per_cluster(df, n_clusters, save_dir):
     return topic_models
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     with mlflow.start_run():
         mlflow.log_param("n_clusters", 3)
         
@@ -146,20 +142,17 @@ if __name__ == "__main__":
         n_clusters = 3
         cluster_labels, centroids, silhouette = perform_clustering(features_pca, n_clusters)
         df["cluster"] = cluster_labels
-=======
-    df = load_articles(DATA_PATH)
+        df = load_articles(DATA_PATH)
 
-    tfidf_matrix, features_pca = vectorize_and_reduce(df)
+        tfidf_matrix, features_pca = vectorize_and_reduce(df)
 
-    n_clusters = 3
-    cluster_labels, centroids, silhouette = perform_clustering(features_pca, n_clusters)
-    df["cluster"] = cluster_labels
->>>>>>> abiyyu-v-crawling
+        n_clusters = 3
+        cluster_labels, centroids, silhouette = perform_clustering(features_pca, n_clusters)
+        df["cluster"] = cluster_labels
 
         print(f"\nSilhouette Score: {silhouette:.4f}")
         mlflow.log_metric("silhouette_score", silhouette)
 
-<<<<<<< HEAD
         save_clustered_data(df, CLUSTERED_DIR)
 
         plt.figure(figsize=(10, 6))
@@ -208,18 +201,16 @@ if __name__ == "__main__":
 
         mlflow.log_artifact(json_output_path)
         print(f"Hyperparameter dan coherence BERTopic berhasil disimpan ke: {json_output_path}")
-=======
-    save_clustered_data(df, CLUSTERED_DIR)
+        save_clustered_data(df, CLUSTERED_DIR)
 
-    plt.figure(figsize=(10, 6))
-    sns.scatterplot(x=features_pca[:, 0], y=features_pca[:, 1], hue=cluster_labels, palette="tab10", alpha=0.7)
-    plt.scatter(centroids[:, 0], centroids[:, 1], c='black', marker='X', s=300, label="Centroids")
-    plt.title("Visualisasi Cluster with KMeans")
-    plt.xlabel("PCA Component 1")
-    plt.ylabel("PCA Component 2")
-    plt.legend()
-    plt.savefig(TOPICMODELLING_DIR / "clustering_visualization.png")
-    plt.close()
+        plt.figure(figsize=(10, 6))
+        sns.scatterplot(x=features_pca[:, 0], y=features_pca[:, 1], hue=cluster_labels, palette="tab10", alpha=0.7)
+        plt.scatter(centroids[:, 0], centroids[:, 1], c='black', marker='X', s=300, label="Centroids")
+        plt.title("Visualisasi Cluster with KMeans")
+        plt.xlabel("PCA Component 1")
+        plt.ylabel("PCA Component 2")
+        plt.legend()
+        plt.savefig(TOPICMODELLING_DIR / "clustering_visualization.png")
+        plt.close()
 
-    topic_models = analyze_topics_per_cluster(df, n_clusters, TOPICMODELLING_DIR)
->>>>>>> abiyyu-v-crawling
+        topic_models = analyze_topics_per_cluster(df, n_clusters, TOPICMODELLING_DIR)

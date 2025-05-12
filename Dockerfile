@@ -1,8 +1,12 @@
-# Use a base image
 FROM ubuntu:20.04
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Jakarta
+
+RUN apt-get update && \
+    apt-get install -y \
+    tzdata \
+    software-properties-common \
     wget \
     curl \
     gnupg2 \
@@ -13,45 +17,35 @@ RUN apt-get update && apt-get install -y \
     libx11-xcb1 \
     libxcomposite1 \
     libxrandr2 \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libgtk-3-0 \
     xdg-utils \
-    && rm -rf /var/lib/apt/lists/*
-
-# Add Google Chrome's official repository to apt sources
-RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
-    echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" | tee /etc/apt/sources.list.d/google-chrome.list
-
-# Install Google Chrome stable
-RUN apt-get update && apt-get install -y google-chrome-stable && \
+    unzip && \
     rm -rf /var/lib/apt/lists/*
 
-# Check if Google Chrome is installed
-RUN google-chrome --version || (echo "Google Chrome installation failed" && exit 1)
+RUN add-apt-repository ppa:deadsnakes/ppa && apt-get update
 
-# Install ChromeDriver compatible with the installed version of Chrome
-RUN CHROME_VERSION=$(google-chrome --version | awk '{print $3}') && \
-    CHROME_MAJOR_VERSION=${CHROME_VERSION%%.*} && \
-    CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_MAJOR_VERSION}") && \
-    if [ -z "$CHROMEDRIVER_VERSION" ]; then echo "Failed to fetch ChromeDriver version"; exit 1; fi && \
-    wget -O /tmp/chromedriver.zip "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" && \
-    unzip /tmp/chromedriver.zip -d /usr/local/bin/ && \
-    chmod +x /usr/local/bin/chromedriver && \
-    rm /tmp/chromedriver.zip
+RUN apt-get install -y \
+    python3.10 \
+    python3.10-venv \
+    python3.10-distutils \
+    python3-pip && \
+    ln -sf /usr/bin/python3.10 /usr/bin/python3
 
-# Verify versions of Chrome and ChromeDriver
-RUN which google-chrome && google-chrome --version && chromedriver --version
+RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python3 && \
+    python3 --version && pip --version
 
-# Set the working directory for the app
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
+    apt-get update && apt-get install -y google-chrome-stable && \
+    rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
-# Copy and install Python dependencies
 COPY requirements.txt . 
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code
 COPY . .
 
-# Set the path for the chromedriver
-ENV PATH="/usr/local/bin/chromedriver:$PATH"
-
-# Run the app using uvicorn
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
