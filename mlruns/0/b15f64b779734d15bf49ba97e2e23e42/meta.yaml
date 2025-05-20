@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Satriock/Documents/Code/AI/MLOps/Topic%20Modelling/topic-modelling-article-titles/mlruns/0/b15f64b779734d15bf49ba97e2e23e42/artifacts
+end_time: 1747682530547
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b15f64b779734d15bf49ba97e2e23e42
+run_name: rumbling-skunk-900
+run_uuid: b15f64b779734d15bf49ba97e2e23e42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747682529738
+status: 4
+tags: []
+user_id: izzat

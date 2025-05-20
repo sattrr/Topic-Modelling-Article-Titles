@@ -5,6 +5,7 @@ import threading
 from pathlib import Path
 from fastapi import APIRouter, BackgroundTasks
 from starlette.responses import StreamingResponse
+from prometheus_client import Counter, Summary
 
 # Inisialisasi router
 router = APIRouter()
@@ -14,6 +15,9 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 SCRAPPING_DIR = BASE_DIR / "src" / "scrapping"
 LOGS_DIR = BASE_DIR / "logs"
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
+
+SCRAPING_DURATION = Summary("scraping_duration_seconds", "Scraping Duration")
+SCRAPED_LINKS_COUNT = Counter("scraped_links_total", "Number of links successfully scraped")
 
 # Fungsi untuk stream log output
 def stream_script(script_names: list):
@@ -60,7 +64,9 @@ def run_script(script_name: str) -> str:
     # Menggunakan Popen untuk non-blocking
     result = subprocess.run(["python", str(script_path)], capture_output=True, text=True)
 
-    if result.returncode == 0:
+    if result.returncode == 0 and "getLinks.py" in script_name:
+        scraped_count = result.stdout.count("http")
+        SCRAPED_LINKS_COUNT.inc(scraped_count)
         logger.info(f"Script {script_name} selesai tanpa error.")
     else:
         logger.error(f"Script {script_name} gagal dijalankan.")

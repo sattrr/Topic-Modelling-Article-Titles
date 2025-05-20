@@ -1629,3 +1629,387 @@ KeyboardInterrupt
 
 2025-04-16 16:50:23,143 - INFO - Scraping judul dan cleaning data selesai.
 2025-04-16 16:50:23,143 - INFO - Seluruh proses selesai.
+2025-05-20 00:11:20,574 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-05-20 00:11:20,578 - INFO - Memulai seluruh rangkaian proses...
+2025-05-20 00:11:20,579 - INFO - Memulai proses scraping link artikel...
+2025-05-20 00:11:20,579 - INFO - Menjalankan script: getLinks.py
+2025-05-20 00:11:20,651 - ERROR - Script getLinks.py gagal dijalankan.
+2025-05-20 00:11:20,652 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2025-05-20 00:11:20,653 - INFO - Memulai scraping judul...
+2025-05-20 00:11:20,653 - INFO - Menjalankan script: getTitle.py
+2025-05-20 00:11:20,718 - ERROR - Script getTitle.py gagal dijalankan.
+2025-05-20 00:11:20,718 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getTitle.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2025-05-20 00:11:20,718 - INFO - Memulai proses cleaning data...
+2025-05-20 00:11:20,719 - INFO - Menjalankan script: cleaningdata.py
+2025-05-20 00:11:20,779 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-05-20 00:11:20,779 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/cleaningdata.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2025-05-20 00:11:20,780 - INFO - Scraping judul dan cleaning data selesai.
+2025-05-20 00:11:20,780 - INFO - Seluruh proses selesai.
+2025-05-20 01:06:04,390 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-05-20 01:06:04,400 - INFO - Memulai seluruh rangkaian proses...
+2025-05-20 01:06:04,401 - INFO - Memulai proses scraping link artikel...
+2025-05-20 01:06:04,401 - INFO - Menjalankan script: getLinks.py
+2025-05-20 01:06:05,459 - ERROR - Script getLinks.py gagal dijalankan.
+2025-05-20 01:06:05,459 - ERROR - 
+
+====== WebDriver manager ======
+/bin/sh: line 1: google-chrome: command not found
+/bin/sh: line 1: google-chrome-stable: command not found
+Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 71, in <module>
+    scrape_ieee_links()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 37, in scrape_ieee_links
+    driver = setup_driver()
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 20, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/chrome.py", line 25, in __init__
+    self.driver = ChromeDriver(name=name,
+                  ~~~~~~~~~~~~^^^^^^^^^^^
+                               version=version,
+                               ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               latest_release_url=latest_release_url,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               chrome_type=chrome_type)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/driver.py", line 57, in __init__
+    self.browser_version = chrome_version(chrome_type)
+                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/utils.py", line 155, in chrome_version
+    raise ValueError(f'Could not get version for Chrome with this command: {cmd}')
+ValueError: Could not get version for Chrome with this command: google-chrome --version || google-chrome-stable --version
+
+2025-05-20 01:06:05,459 - INFO - Memulai scraping judul...
+2025-05-20 01:06:05,459 - INFO - Menjalankan script: getTitle.py
+2025-05-20 01:06:06,388 - ERROR - Script getTitle.py gagal dijalankan.
+2025-05-20 01:06:06,388 - ERROR - 
+
+====== WebDriver manager ======
+/bin/sh: line 1: google-chrome: command not found
+/bin/sh: line 1: google-chrome-stable: command not found
+Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getTitle.py", line 121, in <module>
+    driver = setup_driver()
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/chrome.py", line 25, in __init__
+    self.driver = ChromeDriver(name=name,
+                  ~~~~~~~~~~~~^^^^^^^^^^^
+                               version=version,
+                               ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               latest_release_url=latest_release_url,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               chrome_type=chrome_type)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/driver.py", line 57, in __init__
+    self.browser_version = chrome_version(chrome_type)
+                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/utils.py", line 155, in chrome_version
+    raise ValueError(f'Could not get version for Chrome with this command: {cmd}')
+ValueError: Could not get version for Chrome with this command: google-chrome --version || google-chrome-stable --version
+
+2025-05-20 01:06:06,388 - INFO - Memulai proses cleaning data...
+2025-05-20 01:06:06,388 - INFO - Menjalankan script: cleaningdata.py
+2025-05-20 01:06:07,044 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-05-20 01:06:07,044 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 791, in read_json
+    json_reader = JsonReader(
+        path_or_buf,
+    ...<16 lines>...
+        engine=engine,
+    )
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-05-20 01:06:07,045 - INFO - Scraping judul dan cleaning data selesai.
+2025-05-20 01:06:07,045 - INFO - Seluruh proses selesai.
+2025-05-20 02:08:52,628 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-05-20 02:08:52,632 - INFO - Memulai seluruh rangkaian proses...
+2025-05-20 02:08:52,632 - INFO - Memulai proses scraping link artikel...
+2025-05-20 02:08:52,632 - INFO - Menjalankan script: getLinks.py
+2025-05-20 02:08:54,232 - ERROR - Script getLinks.py gagal dijalankan.
+2025-05-20 02:08:54,232 - ERROR - 
+
+====== WebDriver manager ======
+Current google-chrome version is 136.0.7103
+Get LATEST driver version for 136.0.7103
+Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 71, in <module>
+    scrape_ieee_links()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 37, in scrape_ieee_links
+    driver = setup_driver()
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getLinks.py", line 20, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/chrome.py", line 34, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/manager.py", line 23, in _get_driver_path
+    driver_version = driver.get_version()
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/driver.py", line 43, in get_version
+    return self.get_latest_release_version()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/driver.py", line 67, in get_latest_release_version
+    validate_response(resp)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/utils.py", line 79, in validate_response
+    raise ValueError("There is no such driver by url {}".format(resp.url))
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_136.0.7103
+
+2025-05-20 02:08:54,232 - INFO - Memulai scraping judul...
+2025-05-20 02:08:54,232 - INFO - Menjalankan script: getTitle.py
+2025-05-20 02:08:56,074 - ERROR - Script getTitle.py gagal dijalankan.
+2025-05-20 02:08:56,074 - ERROR - 
+
+====== WebDriver manager ======
+Current google-chrome version is 136.0.7103
+Get LATEST driver version for 136.0.7103
+Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getTitle.py", line 121, in <module>
+    driver = setup_driver()
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/getTitle.py", line 29, in setup_driver
+    service = Service(ChromeDriverManager().install())
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/chrome.py", line 34, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/manager.py", line 23, in _get_driver_path
+    driver_version = driver.get_version()
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/driver.py", line 43, in get_version
+    return self.get_latest_release_version()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/driver.py", line 67, in get_latest_release_version
+    validate_response(resp)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/izzat/.local/lib/python3.13/site-packages/webdriver_manager/utils.py", line 79, in validate_response
+    raise ValueError("There is no such driver by url {}".format(resp.url))
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_136.0.7103
+
+2025-05-20 02:08:56,074 - INFO - Memulai proses cleaning data...
+2025-05-20 02:08:56,075 - INFO - Menjalankan script: cleaningdata.py
+2025-05-20 02:08:57,219 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-05-20 02:08:57,219 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 791, in read_json
+    json_reader = JsonReader(
+        path_or_buf,
+    ...<16 lines>...
+        engine=engine,
+    )
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-05-20 02:08:57,219 - INFO - Scraping judul dan cleaning data selesai.
+2025-05-20 02:08:57,219 - INFO - Seluruh proses selesai.
+2025-05-20 02:11:35,322 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-05-20 02:11:35,324 - INFO - Memulai seluruh rangkaian proses...
+2025-05-20 02:11:35,324 - INFO - Memulai proses scraping link artikel...
+2025-05-20 02:11:35,324 - INFO - Menjalankan script: getLinks.py
+2025-05-20 02:11:54,217 - INFO - Script getLinks.py selesai tanpa error.
+2025-05-20 02:11:54,217 - INFO - Memulai scraping judul...
+2025-05-20 02:11:54,217 - INFO - Menjalankan script: getTitle.py
+2025-05-20 02:14:25,698 - ERROR - Script getTitle.py gagal dijalankan.
+2025-05-20 02:14:25,698 - ERROR - 2025-05-20 02:11:57,296 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639
+2025-05-20 02:11:57,296 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:12:04,141 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:12:04,141 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:12:10,926 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:12:10,927 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639
+2025-05-20 02:12:10,927 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:12:17,412 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:12:17,413 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:12:23,544 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:12:23,544 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639
+2025-05-20 02:12:23,545 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:12:28,899 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:12:28,899 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:12:34,732 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:12:34,733 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639
+2025-05-20 02:12:34,733 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:12:40,906 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:12:40,906 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:12:46,019 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:12:46,020 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639
+2025-05-20 02:12:46,020 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:12:51,860 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:12:51,861 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:12:58,034 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:12:58,034 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639
+2025-05-20 02:12:58,034 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:13:03,921 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:13:03,921 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:13:08,808 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:13:08,808 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639
+2025-05-20 02:13:08,808 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:13:14,900 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:13:14,900 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:13:21,491 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:13:21,492 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-05-20 02:13:21,492 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:13:27,115 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:13:27,115 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:13:33,512 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:13:33,512 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639
+2025-05-20 02:13:33,512 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:13:38,599 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:13:38,599 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:13:43,659 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:13:43,659 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639
+2025-05-20 02:13:43,659 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:13:48,178 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:13:48,178 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:13:52,934 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:13:52,934 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639
+2025-05-20 02:13:52,934 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:13:58,512 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:13:58,512 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:14:04,974 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:14:04,974 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639
+2025-05-20 02:14:04,975 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:14:10,003 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:14:10,003 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:14:14,879 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 02:14:14,879 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639
+2025-05-20 02:14:14,879 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 02:14:20,569 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 02:14:20,570 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 02:14:25,184 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+
+2025-05-20 02:14:25,699 - INFO - Memulai proses cleaning data...
+2025-05-20 02:14:25,699 - INFO - Menjalankan script: cleaningdata.py
+2025-05-20 02:14:26,258 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-05-20 02:14:26,258 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 791, in read_json
+    json_reader = JsonReader(
+        path_or_buf,
+    ...<16 lines>...
+        engine=engine,
+    )
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-05-20 02:14:26,258 - INFO - Scraping judul dan cleaning data selesai.
+2025-05-20 02:14:26,259 - INFO - Seluruh proses selesai.
+2025-05-20 06:18:21,948 - INFO - Menerima permintaan untuk menjalankan seluruh rangkaian proses.
+2025-05-20 06:18:21,953 - INFO - Memulai seluruh rangkaian proses...
+2025-05-20 06:18:21,954 - INFO - Memulai proses scraping link artikel...
+2025-05-20 06:18:21,954 - INFO - Menjalankan script: getLinks.py
+2025-05-20 06:18:36,841 - INFO - Script getLinks.py selesai tanpa error.
+2025-05-20 06:18:36,841 - INFO - Memulai scraping judul...
+2025-05-20 06:18:36,841 - INFO - Menjalankan script: getTitle.py
+2025-05-20 06:21:07,934 - ERROR - Script getTitle.py gagal dijalankan.
+2025-05-20 06:21:07,935 - ERROR - 2025-05-20 06:18:39,770 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639
+2025-05-20 06:18:39,770 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:18:49,421 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:18:49,421 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9668973&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:18:55,957 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:18:55,957 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639
+2025-05-20 06:18:55,958 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:19:01,628 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:19:01,628 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8948470&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:19:06,772 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:19:06,773 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639
+2025-05-20 06:19:06,773 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:19:11,768 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:19:11,768 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7859429&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:19:18,011 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:19:18,011 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639
+2025-05-20 06:19:18,012 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:19:24,064 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:19:24,064 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10820123&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:19:29,841 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:19:29,842 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639
+2025-05-20 06:19:29,842 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:19:34,814 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:19:34,814 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7419931&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:19:39,959 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:19:39,959 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639
+2025-05-20 06:19:39,959 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:19:45,121 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:19:45,121 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6705689&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:19:51,064 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:19:51,065 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639
+2025-05-20 06:19:51,065 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:19:56,066 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:19:56,066 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10380310&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:20:01,125 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:20:01,125 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639
+2025-05-20 06:20:01,125 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:20:06,279 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:20:06,279 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8274985&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:20:11,395 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:20:11,395 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639
+2025-05-20 06:20:11,396 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:20:17,326 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:20:17,326 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10005208&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:20:25,412 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:20:25,413 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639
+2025-05-20 06:20:25,413 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:20:31,594 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:20:31,595 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9312710&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:20:36,710 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:20:36,710 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639
+2025-05-20 06:20:36,711 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:20:41,671 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:20:41,671 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8600701&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:20:46,736 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:20:46,737 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639
+2025-05-20 06:20:46,737 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:20:51,791 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:20:51,791 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7042252&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:20:56,920 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+2025-05-20 06:20:56,921 - INFO - Mulai scraping dari: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639
+2025-05-20 06:20:56,921 - INFO - 📄 Membuka halaman 1: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639&sortType=vol-only-newest&pageNumber=1
+2025-05-20 06:21:01,993 - INFO - ✅ 25 artikel dari halaman 1 berhasil disimpan.
+2025-05-20 06:21:01,993 - INFO - 📄 Membuka halaman 2: https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=6336544&punumber=6287639&sortType=vol-only-newest&pageNumber=2
+2025-05-20 06:21:07,066 - INFO - ✅ 25 artikel dari halaman 2 berhasil disimpan.
+
+2025-05-20 06:21:07,935 - INFO - Memulai proses cleaning data...
+2025-05-20 06:21:07,935 - INFO - Menjalankan script: cleaningdata.py
+2025-05-20 06:21:09,106 - ERROR - Script cleaningdata.py gagal dijalankan.
+2025-05-20 06:21:09,106 - ERROR - Traceback (most recent call last):
+  File "/home/izzat/projects/mlops_project/Topic-Modelling-Article-Titles/src/scrapping/cleaningdata.py", line 14, in <module>
+    df = pd.read_json(input_json_path)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 791, in read_json
+    json_reader = JsonReader(
+        path_or_buf,
+    ...<16 lines>...
+        engine=engine,
+    )
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+  File "/home/izzat/.local/lib/python3.13/site-packages/pandas/io/json/_json.py", line 960, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File ../../data/raw/scraped_articles.json does not exist
+
+2025-05-20 06:21:09,106 - INFO - Scraping judul dan cleaning data selesai.
+2025-05-20 06:21:09,106 - INFO - Seluruh proses selesai.
