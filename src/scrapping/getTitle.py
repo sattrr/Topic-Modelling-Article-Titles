@@ -23,13 +23,16 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data" / "raw"
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "output"  
+LOG_DIR = BASE_DIR / "logs"
 PROCESSED_ARTICLE_URLS_FILE = BASE_DIR / "data" / "raw" / "processed_article_urls.json"
 processed_article_urls = {}
 DATA_PATH = DATA_DIR / "article_links.json"
 OUTPUT_PATH = OUTPUT_DIR / "scraped_articles.json"
+log_file_path = LOG_DIR / "scraping.log"
 
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 # =========================
 # LOGGING SETUP
@@ -37,11 +40,16 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
+
 ch = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 ch.setFormatter(formatter)
+fh = logging.FileHandler(log_file_path, encoding="utf-8")
+fh.setFormatter(formatter)
+
 if not logger.hasHandlers():
     logger.addHandler(ch)
+    logger.addHandler(fh)
 
 # =========================
 # SELENIUM DRIVER SETUP
@@ -68,13 +76,13 @@ def setup_driver():
         options.add_argument("--lang=en-US")
         options.add_argument("--start-maximized")
         options.add_argument("--disable-blink-features=AutomationControlled")
-        #options.add_argument("--headless=new")
+        options.add_argument("--headless=new")
 
         driver = webdriver.Chrome(service=service, options=options)
-        logger.info("WebDriver berhasil diinisialisasi.")
+        logger.info("WebDriver Initialized.")
         return driver
     except Exception as e:
-        logger.error(f"Gagal setup WebDriver: {e}")
+        logger.error(f"Failed to setup WebDriver: {e}")
         raise
 
 # =========================
@@ -86,13 +94,13 @@ def read_json(json_path):
         with open(json_path, "r", encoding="utf-8") as file:
             data = json.load(file)
         if "URL" not in data or not data["URL"]:
-            raise ValueError("JSON tidak mengandung key 'URL' atau isinya kosong.")
+            raise ValueError("JSON doesn't have key 'URL' or empty.")
         return pd.DataFrame(data["URL"], columns=["URL"])
     except json.JSONDecodeError as e:
-        logger.error(f"Gagal decode JSON: {e}. Mengabaikan kesalahan dan lanjutkan.")
+        logger.error(f"Failed to decode JSON: {e}. Process Continued.")
         return pd.DataFrame(columns=["URL"])
     except Exception as e:
-        logger.critical(f"Kesalahan lainnya saat membaca JSON: {e}")
+        logger.critical(f"Another failed while reaading JSON: {e}")
         raise
 
 def read_existing_output(output_path):
@@ -105,14 +113,14 @@ def append_and_save(new_data, output_path):
     output_path = Path(output_path)
 
     if output_path.is_dir():
-        raise ValueError(f"output_path harus file, bukan folder: {output_path}")
+        raise ValueError(f"output_path must be file, not folder: {output_path}")
     
     existing_data = read_existing_output(output_path)
     combined_data = pd.concat([existing_data, new_data], ignore_index=True)
     output_dir = Path(output_path).parent
     output_dir.mkdir(parents=True, exist_ok=True)
     combined_data.to_json(output_path, orient="records", indent=4)
-    print(f"Data dari halaman ini berhasil ditambahkan ke: {output_path}")
+    print(f"Data from this page added to: {output_path}")
 
 def save_article_separately(article_data, output_dir):
     try:
@@ -125,9 +133,9 @@ def save_article_separately(article_data, output_dir):
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(article_data, f, ensure_ascii=False, indent=4)
         
-        logger.info(f"Data berhasil disimpan ke: {output_file}")
+        logger.info(f"Data saved into: {output_file}")
     except Exception as e:
-        logger.error(f"Gagal menyimpan artikel: {e}")
+        logger.error(f"Failed to save article: {e}")
 
 def load_processed_article_urls():
     if PROCESSED_ARTICLE_URLS_FILE.exists():
@@ -136,7 +144,7 @@ def load_processed_article_urls():
                 processed_article_urls = json.load(f)
             return processed_article_urls 
         except Exception as e:
-            logger.error(f"Gagal membaca daftar URL artikel yang sudah diproses: {e}")
+            logger.error(f"Failed to read processed article list: {e}")
             return {}
     return {}
 
@@ -144,22 +152,22 @@ def save_processed_article_urls():
     try:
         with open(PROCESSED_ARTICLE_URLS_FILE, "w", encoding="utf-8") as f:
             json.dump(processed_article_urls, f, ensure_ascii=False, indent=4)
-        logger.info("Daftar URL artikel yang sudah diproses berhasil disimpan.")
+        logger.info("Saved processed URL list.")
     except Exception as e:
-        logger.error(f"Gagal menyimpan URL artikel yang sudah diproses: {e}")
+        logger.error(f"Failed to save processed URL list: {e}")
 
 def scrape_article_details(driver, article_url):
     driver.get(article_url)
     
     try:
-        WebDriverWait(driver, 15).until(
+        WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CLASS_NAME, "document-title"))
         )
     except Exception as e:
-        logger.warning(f"Gagal memuat detail artikel: {article_url} - Error: {e}")
+        logger.warning(f"Failed to load details of article: {article_url} - Error: {e}")
         return pd.DataFrame()
 
-    time.sleep(1)
+    time.sleep(3)
     soup = BeautifulSoup(driver.page_source, "html.parser")
     
     title = soup.find("h1", class_="document-title")
@@ -198,21 +206,21 @@ def scrape_from_url(row, driver, output_path):
     base_url = row["URL"]
 
     try:
-        logger.info(f"Mulai scraping {base_url}")
+        logger.info(f"Scraping start: {base_url}")
         page_number = 1
         visited_page_urls = []
 
         while True:
-            url = f"{base_url}&sortType=vol-only-newest&pageNumber={page_number}"
-            logger.info(f"Membuka halaman {page_number}: {url}")
+            url = f"{base_url}&sortType=vol-only-newest&rowsPerPage=100&pageNumber={page_number}"
+            logger.info(f"Open page {page_number}: {url}")
             driver.get(url)
 
             try:
-                WebDriverWait(driver, 15).until(
-                    EC.presence_of_element_located((By.CLASS_NAME, "col"))
+                WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.CLASS_NAME, "List-results-items"))
                 )
             except Exception:
-                logger.warning(f"Halaman {page_number} gagal dimuat.")
+                logger.warning(f"Page {page_number} failed to load.")
                 break
 
             time.sleep(3)
@@ -225,29 +233,29 @@ def scrape_from_url(row, driver, output_path):
             ]))
 
             if not article_links:
-                logger.warning(f"Tidak ada artikel ditemukan di halaman {page_number}.")
+                logger.warning(f"No articles found in page {page_number}.")
                 break
 
-            logger.info(f"{len(article_links)} artikel ditemukan di halaman {page_number}")
+            logger.info(f"{len(article_links)} article found in page {page_number}")
 
             titles, years, authors = [], [], []
 
             for article_url in article_links:
-                if processed_article_urls.get(article_url) == "berhasil":
-                    logger.info(f"Sudah diproses: {article_url}")
+                if processed_article_urls.get(article_url) == "success":
+                    logger.info(f"Already processed: {article_url}")
                     continue
 
                 article_data = scrape_article_details(driver, article_url)
                 if not article_data.empty:
                     save_article_separately(article_data.to_dict(orient="records")[0], OUTPUT_DIR)
-                    processed_article_urls[article_url] = "berhasil"
+                    processed_article_urls[article_url] = "success"
                 else:
-                    processed_article_urls[article_url] = "gagal"
+                    processed_article_urls[article_url] = "fail"
 
                 save_processed_article_urls()
 
-                title = article_data["title"].values[0] if not article_data.empty else "Judul Tidak Ditemukan"
-                year = article_data["year"].values[0] if not article_data.empty else "Tahun Tidak Ditemukan"
+                title = article_data["title"].values[0] if not article_data.empty else "Title not found"
+                year = article_data["year"].values[0] if not article_data.empty else "Year not found"
                 author = article_data["authors"].values[0] if not article_data.empty else ""
 
                 titles.append(title)
@@ -265,22 +273,22 @@ def scrape_from_url(row, driver, output_path):
 
             next_btn_soup = soup.select_one("li.next-btn > button[class^='stats-Pagination_arrow_next_']")
             if next_btn_soup:
-                logger.info("Tombol Next (>) ditemukan, lanjut ke halaman berikutnya.")
+                logger.info("Next (>) button found, go to next page.")
                 page_number += 1
             else:
-                logger.info("Tombol Next (>) tidak ditemukan. Selesai scraping base URL ini.")
+                logger.info("Next (>) button not found. Finished scraping this base URL.")
                 break
 
-        processed_article_urls[base_url] = "berhasil"
+        processed_article_urls[base_url] = "success"
         save_processed_article_urls()
 
-        logger.info(f"Total {len(visited_page_urls)} halaman diproses dari base URL: {base_url}")
+        logger.info(f"{len(visited_page_urls)} page is processed from base URL: {base_url}")
 
         del visited_page_urls
 
     except Exception as e:
         logger.error(f"Error saat scraping {base_url}: {e}")
-        processed_article_urls[base_url] = "gagal"
+        processed_article_urls[base_url] = "fail"
         save_processed_article_urls()
 
 # =========================
@@ -292,21 +300,21 @@ def main():
         global processed_article_urls
         processed_article_urls = load_processed_article_urls()
         df = read_json(DATA_PATH)
-        logger.info(f"Total URL dalam data: {len(df)}")
+        logger.info(f"Number of URL: {len(df)}")
         df_unprocessed = df[~df["URL"].isin(processed_article_urls.keys())]
-        logger.info(f"Total URL yang belum diproses: {len(df_unprocessed)}")
+        logger.info(f"Number of URL not processed yet: {len(df_unprocessed)}")
         driver = setup_driver()
         try:
             for row in df_unprocessed.to_dict("records"):
                 scrape_from_url(row, driver, OUTPUT_PATH)
         finally:
             driver.quit()
-            logger.info("WebDriver ditutup.")
+            logger.info("WebDriver closed.")
 
         save_processed_article_urls()
 
     except Exception as e:
-        logger.critical(f"Program gagal dijalankan: {e}")
+        logger.critical(f"Program failed: {e}")
 
 if __name__ == "__main__":
     main()

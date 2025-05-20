@@ -54,7 +54,7 @@ def scrape_ieee_links():
                     base_link = "https://ieeexplore.ieee.org" + href if href.startswith("/xpl") else href
                     volume_links.add(base_link)
 
-        print(f"Ditemukan {len(volume_links)} link artikel unik:")
+        print(f"{len(volume_links)} unique article links:")
         for link in volume_links:
             print(link)
 
@@ -63,7 +63,7 @@ def scrape_ieee_links():
         with open(DATA_PATH, "w", encoding="utf-8") as file:
             json.dump({"URL": list(volume_links)}, file, indent=4)
 
-        print(f"Berhasil menyimpan {len(volume_links)} link ke {DATA_PATH}")
+        print(f"Saved {len(volume_links)} links into {DATA_PATH}")
     
     finally:
         driver.quit()
