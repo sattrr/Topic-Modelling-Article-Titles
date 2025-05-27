@@ -2,6 +2,8 @@ import subprocess
 import logging
 import sys
 import os
+import time
+from prometheus_client import Summary, Gauge
 from pathlib import Path
 from fastapi import APIRouter, BackgroundTasks, HTTPException
 from starlette.responses import StreamingResponse
@@ -24,6 +26,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+SCRAPING_DURATION = Summary("scraping_duration_seconds", "Waktu scraping keseluruhan")
+SCRAPED_ARTICLE_COUNT = Gauge("scraped_article_count", "Jumlah artikel hasil scraping")
+
+@SCRAPING_DURATION.time()
 def run_script(script_name: str) -> str:
     script_path = SCRAPPING_DIR / script_name
 
@@ -54,6 +60,14 @@ def run_script(script_name: str) -> str:
     else:
         logger.error(f"Script {script_name} gagal dijalankan.\n")
         raise HTTPException(status_code=500, detail=f"Script {script_name} gagal dijalankan.")
+
+    if script_name == "getLinks.py":
+        try:
+            with open("data/raw/article_links.json") as f:
+                data = json.load(f)
+                SCRAPED_ARTICLE_COUNT.set(len(data))
+        except:
+            pass
 
     return output
 

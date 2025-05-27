@@ -14,3 +14,4 @@ seaborn
 nltk
 mlflow
 fake-useragent
+prometheus_client

@@ -1,6 +1,8 @@
 from fastapi import APIRouter, HTTPException
 import subprocess
 import sys
+import time
+from prometheus_client import Summary, Gauge
 from pathlib import Path
 
 router = APIRouter()
@@ -8,11 +10,24 @@ router = APIRouter()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 input_path = BASE_DIR / "data" / "cleaned" / "cleaned_articles.json"
 
+MODELLING_DURATION = Summary("modelling_duration_seconds", "Durasi proses topic modelling")
+COHERENCE_SCORE = Gauge("coherence_score", "Coherence Score")
+SILHOUETTE_SCORE = Gauge("silhouette_score", "Silhouette Score")
+
+@MODELLING_DURATION.time()
 def run_topic_modelling(input_path: str):
     try:
         subprocess.run([sys.executable, 'src/modelling/TopicModelling.py', str(input_path)], check=True)
     except subprocess.CalledProcessError:
         raise HTTPException(status_code=500, detail="Topic Modelling failed")
+
+    try:
+        with open("logs/topic_info.json") as f:
+            scores = json.load(f)
+            COHERENCE_SCORE.set(scores.get("coherence_score", 0))
+            SILHOUETTE_SCORE.set(scores.get("silhouette_score", 0))
+    except:
+        pass
 
 @router.post("/run-topic-modelling/")
 async def run_topic_modelling_endpoint():

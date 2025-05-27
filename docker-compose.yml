@@ -2,14 +2,45 @@ version: "3.8"
 services:
   api:
     build: .
+    container_name: fastapi-app
     ports:
       - "8000:8000"
-    volumes:
-      - .:/app
+    # volumes:
+    #   - .:/app
     environment:
       - TZ=Asia/Jakarta
+    networks:
+      - monitor_net
     logging:
       driver: "json-file"
       options:
         max-size: "200k"
         max-file: "3"
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus_config:/etc/prometheus:Z
+    networks:
+      - monitor_net
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - monitor_net
+
+volumes:
+  grafana-storage:
+
+networks:
+  monitor_net:
+    external: true
+
