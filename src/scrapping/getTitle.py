@@ -223,7 +223,7 @@ def scrape_from_url(row, driver, output_path):
                 logger.warning(f"Page {page_number} failed to load.")
                 break
 
-            time.sleep(3)
+            time.sleep(4)
 
             soup = BeautifulSoup(driver.page_source, "html.parser")
             article_links = list(set([
