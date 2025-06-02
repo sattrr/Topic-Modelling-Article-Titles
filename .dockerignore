@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Data outputs (raw and cleaned data)
+data/
+mlruns/
+
+# Local config and secrets
+*.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker and Compose artifacts
+docker-compose.override.yml
+
+# Grafana and Prometheus persistent data
+grafana_data/
+prometheus_data/
