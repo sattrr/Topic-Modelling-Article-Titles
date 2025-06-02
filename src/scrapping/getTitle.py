@@ -11,7 +11,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import urlencode, urlparse, parse_qs, urlunparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -49,26 +48,25 @@ if not logger.hasHandlers():
 
 def setup_driver():
     try:
-        service = Service(ChromeDriverManager(driver_version="135.0.7049.115").install())
+        # Use system-installed ChromeDriver (same as getLinks.py)
+        service = Service("/usr/local/bin/chromedriver")
         options = Options()
-        ua = UserAgent()
-        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-
+        
+        # Use consistent options with getLinks.py
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--enable-unsafe-swiftshader")
+        options.add_argument("--disable-cache")
+        options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--window-size=1200,800")
+        options.add_argument("--lang=en-US")
         options.add_argument("--ignore-certificate-errors")
         options.add_argument("--ignore-ssl-errors")
         options.add_argument("--disable-web-security")
         options.add_argument("--allow-running-insecure-content")
-        options.add_argument("--disable-gpu")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--disable-cache")
-        options.add_argument("--enable-unsafe-swiftshader")
-        options.add_argument(f"--user-agent={user_agent}")
-        options.add_argument("--window-size=1200,800") 
-        options.add_argument("--lang=en-US")
-        options.add_argument("--start-maximized")
-        options.add_argument("--disable-blink-features=AutomationControlled")
-        #options.add_argument("--headless=new")
 
         driver = webdriver.Chrome(service=service, options=options)
         logger.info("WebDriver berhasil diinisialisasi.")

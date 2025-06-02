@@ -1,12 +1,11 @@
-version: "3.8"
 services:
   api:
     build: .
     container_name: fastapi-app
     ports:
       - "8000:8000"
-    # volumes:
-    #   - .:/app
+    volumes:
+      - .:/app:z
     environment:
       - TZ=Asia/Jakarta
     networks:
@@ -24,6 +23,7 @@ services:
       - 9090:9090
     volumes:
       - ./prometheus_config:/etc/prometheus:Z
+      - prometheus-storage:/prometheus
     networks:
       - monitor_net
 
@@ -39,6 +39,7 @@ services:
 
 volumes:
   grafana-storage:
+  prometheus-storage:
 
 networks:
   monitor_net:

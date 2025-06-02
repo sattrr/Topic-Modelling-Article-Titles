@@ -3,6 +3,7 @@ import logging
 import sys
 import os
 import time
+import json
 from prometheus_client import Summary, Gauge
 from pathlib import Path
 from fastapi import APIRouter, BackgroundTasks, HTTPException
@@ -13,6 +14,9 @@ router = APIRouter()
 BASE_DIR = Path(__file__).resolve().parents[2]
 SCRAPPING_DIR = BASE_DIR / "src" / "scrapping"
 LOGS_DIR = BASE_DIR / "logs"
+DATA_DIR = BASE_DIR / "data" / "raw"
+OUTPUT_DIR = DATA_DIR / "output"
+CLEANED_DIR = BASE_DIR / "data" / "cleaned"
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
 log_file_path = LOGS_DIR / "scraping.log"
@@ -26,10 +30,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-SCRAPING_DURATION = Summary("scraping_duration_seconds", "Waktu scraping keseluruhan")
-SCRAPED_ARTICLE_COUNT = Gauge("scraped_article_count", "Jumlah artikel hasil scraping")
+# Prometheus metrics
+SCRAPING_DURATION = Summary("scraping_duration_seconds", "Waktu scraping artikel (getTitle)")
+SCRAPED_ARTICLE_COUNT = Gauge("scraped_article_count", "Jumlah artikel hasil scraping (sebelum cleaning)")
+CLEANED_ARTICLE_COUNT = Gauge("cleaned_article_count", "Jumlah artikel setelah cleaning")
 
-@SCRAPING_DURATION.time()
 def run_script(script_name: str) -> str:
     script_path = SCRAPPING_DIR / script_name
 
@@ -38,22 +43,43 @@ def run_script(script_name: str) -> str:
         raise HTTPException(status_code=400, detail=f"Script {script_name} tidak ditemukan.")
 
     logger.info(f"Menjalankan script: {script_name}")
-    process = subprocess.Popen(
-        [sys.executable, str(script_path)],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        text=True,
-        bufsize=1,
-        universal_newlines=True
-    )
+    
+    # Only measure scraping duration for getTitle.py
+    if script_name == "getTitle.py":
+        with SCRAPING_DURATION.time():
+            process = subprocess.Popen(
+                [sys.executable, str(script_path)],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                bufsize=1,
+                universal_newlines=True
+            )
 
-    output = ""
-    for line in iter(process.stdout.readline, ''):
-        logger.info(line.strip())
-        output += line
+            output = ""
+            for line in iter(process.stdout.readline, ''):
+                logger.info(line.strip())
+                output += line
 
-    process.stdout.close()
-    process.wait()
+            process.stdout.close()
+            process.wait()
+    else:
+        process = subprocess.Popen(
+            [sys.executable, str(script_path)],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            bufsize=1,
+            universal_newlines=True
+        )
+
+        output = ""
+        for line in iter(process.stdout.readline, ''):
+            logger.info(line.strip())
+            output += line
+
+        process.stdout.close()
+        process.wait()
 
     if process.returncode == 0:
         logger.info(f"Script {script_name} selesai tanpa error.\n")
@@ -61,13 +87,46 @@ def run_script(script_name: str) -> str:
         logger.error(f"Script {script_name} gagal dijalankan.\n")
         raise HTTPException(status_code=500, detail=f"Script {script_name} gagal dijalankan.")
 
-    if script_name == "getLinks.py":
+    # Update metrics after successful execution
+    if script_name == "getTitle.py":
         try:
-            with open("data/raw/article_links.json") as f:
-                data = json.load(f)
-                SCRAPED_ARTICLE_COUNT.set(len(data))
-        except:
-            pass
+            # Count total scraped articles from output directory
+            total_scraped = 0
+            if OUTPUT_DIR.exists():
+                for json_file in OUTPUT_DIR.glob("scraped_articles_*.json"):
+                    try:
+                        with open(json_file, 'r', encoding='utf-8') as f:
+                            article_data = json.load(f)
+                            if isinstance(article_data, dict):
+                                total_scraped += 1
+                            elif isinstance(article_data, list):
+                                total_scraped += len(article_data)
+                    except Exception as e:
+                        logger.error(f"Error reading {json_file}: {e}")
+                        continue
+            
+            SCRAPED_ARTICLE_COUNT.set(total_scraped)
+            logger.info(f"Updated scraped article count: {total_scraped}")
+        except Exception as e:
+            logger.error(f"Error updating scraped article count metric: {e}")
+    
+    elif script_name == "cleaningdata.py":
+        try:
+            # Count cleaned articles from cleaned_articles.json
+            cleaned_file = CLEANED_DIR / "cleaned_articles.json"
+            total_cleaned = 0
+            if cleaned_file.exists():
+                with open(cleaned_file, 'r', encoding='utf-8') as f:
+                    cleaned_data = json.load(f)
+                    if isinstance(cleaned_data, list):
+                        total_cleaned = len(cleaned_data)
+                    elif isinstance(cleaned_data, dict):
+                        total_cleaned = 1
+            
+            CLEANED_ARTICLE_COUNT.set(total_cleaned)
+            logger.info(f"Updated cleaned article count: {total_cleaned}")
+        except Exception as e:
+            logger.error(f"Error updating cleaned article count metric: {e}")
 
     return output
 
@@ -98,7 +157,7 @@ async def run_all(background_tasks: BackgroundTasks):
 
     logger.info(f"Base directory: {BASE_DIR}")
     logger.info(f"Scrapping directory: {SCRAPPING_DIR}")
-    logger.info(f"Isi folder scrapping: {os.listdir(SCRAPPING_DIR)}")
+    logger.info(f"Isi folder scrapping: {os.listdir(SCRAPPING_DIR) if SCRAPPING_DIR.exists() else 'Directory not found'}")
 
     try:
         background_tasks.add_task(run_all_processes)
@@ -118,8 +177,14 @@ async def scrape_links():
 
 @router.post("/scrape-titles/")
 async def scrape_titles():
-    logger.info("Memulai scraping judul dan cleaning...")
+    logger.info("Memulai scraping judul")
+    output = run_script("getTitle.py")
+    logger.info("Scraping judul selesai.")
+    return StreamingResponse(iter([output]), media_type="text/plain")
 
-    output = run_title_and_cleaning()
-
+@router.post("/cleaning-only/")
+async def run_cleaning_only():
+    logger.info("Menjalankan proses cleaning data saja...")
+    output = run_script("cleaningdata.py")
+    logger.info("Cleaning data selesai.")
     return StreamingResponse(iter([output]), media_type="text/plain")

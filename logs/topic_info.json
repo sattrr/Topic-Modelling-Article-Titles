@@ -1,35 +1,23 @@
 {
-    "0": {
-        "min_topic_size": 2,
-        "vectorizer_model": "CountVectorizer(ngram_range=(1, 2), stop_words='english')",
-        "umap_model": {
-            "n_neighbors": 19,
-            "n_components": 5,
-            "min_dist": 0.1,
-            "metric": "cosine"
+    "silhouette_score": 0.5116526894684985,
+    "n_clusters": 3,
+    "total_articles": 416,
+    "cluster_info": {
+        "0": {
+            "size": 142,
+            "coherence_score": 0.10380952380952382,
+            "topics_count": 22
         },
-        "coherence_score": 0.0008658008658008658
+        "1": {
+            "size": 21,
+            "coherence_score": 0.5,
+            "topics_count": 3
+        },
+        "2": {
+            "size": 253,
+            "coherence_score": 0.09714285714285714,
+            "topics_count": 36
+        }
     },
-    "1": {
-        "min_topic_size": 2,
-        "vectorizer_model": "CountVectorizer(ngram_range=(1, 2), stop_words='english')",
-        "umap_model": {
-            "n_neighbors": 19,
-            "n_components": 5,
-            "min_dist": 0.1,
-            "metric": "cosine"
-        },
-        "coherence_score": 0.06666666666666667
-    },
-    "2": {
-        "min_topic_size": 2,
-        "vectorizer_model": "CountVectorizer(ngram_range=(1, 2), stop_words='english')",
-        "umap_model": {
-            "n_neighbors": 19,
-            "n_components": 5,
-            "min_dist": 0.1,
-            "metric": "cosine"
-        },
-        "coherence_score": 0.06666666666666667
-    }
+    "coherence_score": 0.23365079365079366
 }
