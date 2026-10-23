@@ -1,0 +1,4 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.terminal.useEnvFile": true
+}

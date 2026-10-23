@@ -1,35 +1,10 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*.so
-.pyc
-
-# Virtual environment
 venv/
+_pycache_/
+.prometheus/
+*.prom
+logs/
+scripts/
 .env
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Notebook output (optional)
-notebooks/**/*.ipynb
-
-# Data folders 
-data/raw/
-data/cleaned/
-data/TF-IDF/
-data/clustered/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE/editor settings
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Docker
-*.tar
+models/
+data/
+mlruns/
