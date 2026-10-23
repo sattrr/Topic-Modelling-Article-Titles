@@ -5,3 +5,4 @@ joblib
 huggingface_hub
 scikit-learn
 altair
+python-dotenv
