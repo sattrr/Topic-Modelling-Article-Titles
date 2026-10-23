@@ -27,8 +27,8 @@ os.environ["SSL_CERT_FILE"] = ""
 os.environ["CURL_CA_BUNDLE"] = ""
 # os.environ["HTTPX_TIMEOUT"] = "60.0"
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_URL = st.secrets["supabase"]["url"]
+SUPABASE_KEY = st.secrets["supabase"]["key"]
 
 st.set_page_config(
     page_title="Topic Modelling - Article Titles",
