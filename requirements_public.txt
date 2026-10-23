@@ -1,6 +1,0 @@
-streamlit
-supabase
-pandas
-joblib
-huggingface_hub
-bertopic

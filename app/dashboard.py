@@ -1,463 +1,178 @@
+import altair as alt
 import streamlit as st
 import pandas as pd
-import time
-import sys
+import json
 import os
-import requests
-import mlflow
+import ssl
+import httpx
 from pathlib import Path
-from mlflow.tracking import MlflowClient
+from dotenv import load_dotenv
+from supabase import Client, create_client
+from supabase.lib.client_options import ClientOptions
 
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+BASE_DIR = Path(__file__).resolve().parent.parent
+CLEAN_DATA_DIR = BASE_DIR / "data" / "cleaned"
+JSON_PATH = CLEAN_DATA_DIR / "cleaned_articles_combined.json"
 
-API_BASE = os.getenv("API_BASE", "http://localhost:8000")
-GRAFANA_URL = "http://localhost:3001"
-DASHBOARD_ID = "adf8j6j"
+load_dotenv()
 
-# BASE_DIR = Path(__file__).resolve().parent.parent
-# MODELLING_DIR = BASE_DIR / "src" / "modelling"
-# SCRAPING_DIR = BASE_DIR / "src" / "scrapping"
+try:
+    ssl._create_default_https_context = ssl._create_unverified_context
+except AttributeError:
+    ssl.SSLContext.verify_mode = property(
+        lambda self: ssl.CERT_NONE, lambda self, newval: None
+    )
+
+os.environ["SSL_CERT_FILE"] = ""
+os.environ["CURL_CA_BUNDLE"] = ""
+# os.environ["HTTPX_TIMEOUT"] = "60.0"
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 st.set_page_config(
-    page_title="Topic Modelling Dashboard",
+    page_title="Topic Modelling - Article Titles",
     page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="expanded", 
+    layout="wide"
 )
+st.title("📊 Topic Modelling Article Titles")
 
-st.title("Topic Modelling Dashboard")
+@st.cache_resource
+def get_supabase():
+    return create_client(SUPABASE_URL, SUPABASE_KEY)
+
+@st.cache_data(ttl=3600)
+def load_topics():
+    supabase = get_supabase()
+    resp = supabase.table("topics").select("*").order("num_docs", desc=True).execute()
+    return pd.DataFrame(resp.data)
+
+@st.cache_data(ttl=3600)
+def load_latest_run():
+    supabase = get_supabase()
+    resp = (supabase.table("modelling_runs")
+            .select("*")
+            .order("created_at", desc=True)
+            .limit(1)
+            .execute())
+    return resp.data[0] if resp.data else None
+
+@st.cache_data(ttl=3600)
+def get_total_articles_count():
+    supabase = get_supabase()
+    resp = (
+        supabase.table("articles").select("*", count="exact", head=True).execute()
+    )
+    return resp.count if resp.count is not None else 0
+
+@st.cache_data(ttl=3600)
+def load_articles(topic_id=None, source=None, limit=100):
+    supabase = get_supabase()
+    query = supabase.table("articles").select("*")
+    if topic_id is not None:
+        query = query.eq("topic_id", topic_id)
+    if source:
+        query = query.eq("source", source)
+    resp = query.limit(limit).execute()
+    return pd.DataFrame(resp.data)
 
 menu = st.sidebar.radio(
     "Menu",
-    ["Scraping", "Modelling", "Analytics"]
+    ["Overview", "Topics", "Articles"]
 )
 
-def get_mlflow_experiments() -> pd.DataFrame:
-    client = MlflowClient("http://localhost:5000")
-    experiments = client.search_experiments()
-    
-    runs = []
-    for exp in experiments:
-        for run in client.search_runs(exp.experiment_id):
-            runs.append({
-                "run_id":         run.info.run_id[:8],
-                "status":         run.info.status,
-                "start_time":     pd.to_datetime(run.info.start_time, unit="ms"),
-                "n_clusters":     run.data.params.get("n_clusters", "-"),
-                "num_articles":   run.data.params.get("num_articles", "-"),
-                "silhouette":     run.data.metrics.get("silhouette_score", 0),
-                "coherence":      run.data.metrics.get("coherence_score", 0),
-                "num_topics":     run.data.metrics.get("num_topics", 0),
-            })
-    return pd.DataFrame(runs)
-
-if menu == "Scraping":
-    st.header("Scraping Article Titles")
-    st.write("Enter url link to scrape")
-
-    url = st.text_input("URL", placeholder="https://journal.example.com/...")
-
-    if st.button("Run Scraping", type="primary"):
-        with st.spinner("Scraping in progress..."):
-            try:
-                links_resp = requests.post(
-                    f"{API_BASE}/scraping/scrape-links",
-                    json={"url": url},
-                    timeout=120
-                )
-                links_resp.raise_for_status()
-                links_data = links_resp.json()
-
-                st.success(f"Found {links_data['total']} volume links.")
-                titles_resp = requests.post(
-                    f"{API_BASE}/scraping/scrape-titles",
-                    json={"url": url},
-                    timeout=600,
-                    stream=True
-                )
-                titles_resp.raise_for_status()
-
-                log_box = st.empty()
-                log_lines = []
-                for line in titles_resp.iter_lines():
-                    if line:
-                        log_lines.append(line.decode("utf-8") if isinstance(line, bytes) else line)
-                        log_box.code("\n".join(log_lines[-20:]))
-
-                st.success("Scraping completed")
-                st.session_state["scraped_url"] = url
-
-            except requests.exceptions.HTTPError as e:
-                detail = e.response.json().get("detail", str(e) if e.response else str(e))
-                st.error(f"API error: {detail}")
-            except requests.exceptions.ConnectionError:
-                st.error(f"Could not connect to API at {API_BASE}. Make sure the backend is running.")
-            except requests.exceptions.Timeout:
-                st.error("Request timed out. Scraping is taking too long.. check the backend logs.")
-        
-    if st.session_state.get("scraping_done"):
-        st.info(f"Data ready from: {st.session_state.get('scraped_url')}")
-        st.caption("Scraping done. Go to the Modelling menu to run topic modelling")
-
-elif menu == "Modelling":
-    st.header("Topic Modelling with BERTopic")
-
-    def check_scraping_files() -> dict:
-        try:
-            resp = requests.get(f"{API_BASE}/scraping/scrape-status/", timeout=5)
-            if resp.status_code == 200:
-                return resp.json()
-        except:
-            pass
-
-        return {}
-
-    try:
-        files_resp = requests.get(f"{API_BASE}/modelling/data-status/", timeout=5)
-        files_resp.raise_for_status()
-        data_status = files_resp.json()
-    except:
-        data_status = {
-            "scraped_arxiv": False,
-            "scraped_ieee": False,
-            "cleaned_combined": False,
-        }
-
-    st.subheader("Data Status")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        if data_status.get("scraped_arxiv"):
-            st.success("arXiv scraped")
-        else:
-            st.warning("arXiv not scraped")
-    with col2:
-        if data_status.get("scraped_ieee"):
-            st.success("IEEE scraped")
-        else:
-            st.warning("IEEE not scraped")
-    with col3:
-        if data_status.get("cleaned_combined"):
-            st.success("Combined data ready")
-        else:
-            st.info("Not preprocessed yet")
-
-    st.divider()
-    st.subheader("Upload Data (Optional)")
-    st.caption("Upload json file if you don't want to scrape again.")
-
-    col_up1, col_up2 = st.columns(2)
-
-    with col_up1:
-        uploaded_arxiv = st.file_uploader(
-            "Upload arXiv JSON",
-            type=["json"],
-            key="upload_arxiv",
-            help="File JSON hasil scraping arXiv"
-        )
-        if uploaded_arxiv:
-            if st.button("Save arXiv File"):
-                try:
-                    resp = requests.post(
-                        f"{API_BASE}/modelling/upload-data/",
-                        files={"file": (uploaded_arxiv.name, uploaded_arxiv, "application/json")},
-                        data={"source": "arxiv"},
-                        timeout=60
-                    )
-                    resp.raise_for_status()
-                    st.success(f"arXiv file uploaded: {resp.json().get('message')}")
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Upload failed: {e}")
-
-    with col_up2:
-        uploaded_ieee = st.file_uploader(
-            "Upload IEEE JSON",
-            type=["json"],
-            key="upload_ieee",
-            help="File JSON hasil scraping IEEE"
-        )
-        if uploaded_ieee:
-            if st.button("Save IEEE File"):
-                try:
-                    resp = requests.post(
-                        f"{API_BASE}/modelling/upload-data/",
-                        files={"file": (uploaded_ieee.name, uploaded_ieee, "application/json")},
-                        data={"source": "ieee"},
-                        timeout=60
-                    )
-                    resp.raise_for_status()
-                    st.success(f"IEEE file uploaded: {resp.json().get('message')}")
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Upload failed: {e}")
-
-    st.divider()
-    st.subheader("Run Topic Modelling")
-
-    has_data = (
-        data_status.get("scraped_arxiv") or
-        data_status.get("scraped_ieee") or
-        uploaded_arxiv is not None or
-        uploaded_ieee is not None
+if menu == "Overview":
+    run = load_latest_run()
+    # st.write("Debug Latest Run Data:", run)
+    total_articles = (
+        get_total_articles_count()
     )
 
-    if not has_data:
-        st.error(
-            "No data available. "
-            "Perform scraping in the **Scraping** menu first, "
-            "or upload a JSON file above."
+    num_topics = run.get("num_topics", 0) if run else 0
+    silhouette_score = run.get("silhouette_score", 0.0) if run else 0.0
+    coherence_score = run.get("coherence_score", 0.0) if run else 0.0
+
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.metric("Total Articles", f"{total_articles:,}")
+    with col2:
+        st.metric("Topics Found", num_topics)
+    with col3:
+        st.metric("Silhouette Score", f"{silhouette_score:.4f}")
+    with col4:
+        st.metric("Coherence Score", f"{coherence_score:.4f}")
+    
+    st.subheader("Source Breakdown")
+
+    if run:
+        breakdown = run.get("source_breakdown", {})
+
+        if isinstance(breakdown, str):
+            try:
+                breakdown = json.loads(breakdown)
+            except Exception:
+                breakdown = {}
+
+        if breakdown and isinstance(breakdown, dict):
+            df = pd.DataFrame(breakdown.items(), columns=["Category", "Articles"])
+            chart = (
+                alt.Chart(df)
+                .mark_bar()
+                .encode(
+                    x=alt.X("Category", sort="-y"),
+                    y="Articles",
+                    color=alt.Color(
+                        "Category",
+                        legend=None,
+                        scale=alt.Scale(
+                            range=["red", "blue"]
+                        ),
+                    ),
+                )
+            )
+            st.altair_chart(chart, use_container_width=True)
+        else:
+            st.info("Source breakdown data is empty or invalid.")
+    else:
+        st.info("No data available yet.")
+
+elif menu == "Topics":
+    df_topics = load_topics()
+    if not df_topics.empty:
+        st.subheader(f"{len(df_topics)} Topics Found")
+
+        st.bar_chart(df_topics.head(20).set_index("topic_id")["num_docs"])
+
+        df_topics["keywords"] = df_topics["topic_words"].apply(
+            lambda x: ", ".join(json.loads(x)) if x else ""
         )
+        st.dataframe(
+            df_topics[["topic_id", "keywords", "num_docs"]],
+            use_container_width=True
+        )
+    else:
+        st.info("No topics available.")
+
+elif menu == "Articles":
+    df_topics = load_topics()
 
     col1, col2 = st.columns(2)
     with col1:
-        use_arxiv = st.checkbox("arXiv", value=data_status.get("scraped_arxiv", False))
+        topic_options = ["All"] + [
+            str(int(t)) for t in df_topics["topic_id"].dropna().tolist()
+        ]
+        selected_topic = st.selectbox("Select Topic", options=topic_options)
     with col2:
-        use_ieee = st.checkbox("IEEE", value=data_status.get("scraped_ieee", False))
+        selected_source = st.selectbox("Filter by Source", ["All", "arxiv", "ieee"])
 
-    n_clusters = st.slider("Number of clusters", min_value=2, max_value=20, value=3)
+    topic_id = None if selected_topic == "All" else int(selected_topic)
+    source   = None if selected_source == "All" else selected_source
 
-    if st.button(
-        "Run Modelling",
-        type="primary",
-        disabled=not has_data
-    ):
-        try:
-            resp = requests.post(
-                f"{API_BASE}/modelling/run-topic-modelling/",
-                json={
-                    "n_clusters": n_clusters,
-                    "use_arxiv": use_arxiv,
-                    "use_ieee": use_ieee
-                },
-                timeout=30
-            )
-            resp.raise_for_status()
-            data = resp.json()
-            st.session_state["modelling_job_id"] = data["job_id"]
-            st.success(f"Job started: `{data['job_id']}`")
-        except Exception as e:
-            st.error(f"Error: {e}")
-
-    if st.session_state.get("modelling_job_id"):
-        job_id = st.session_state["modelling_job_id"]
-
-        if st.button("Refresh Status"):
-            try:
-                resp = requests.get(
-                    f"{API_BASE}/modelling/run-topic-modelling/status/{job_id}",
-                    timeout=10
-                )
-                job = resp.json()
-
-                steps = {"preprocessing": 1, "modelling": 2, "done": 2}
-                current = steps.get(job.get("step", ""), 0)
-                st.progress(current / 2, text=f"Step {current}/2")
-
-                if job["status"] == "done":
-                    st.success(f"{job['message']}")
-                    st.session_state["modelling_result"] = job["result"]
-                    st.session_state["scraping_done"] = True
-                elif job["status"] == "failed":
-                    st.error(f"{job['message']}")
-                else:
-                    st.info(f"{job['message']}")
-
-            except Exception as e:
-                st.error(f"Error: {e}")
-
-    if st.session_state.get("modelling_result"):
-        result = st.session_state["modelling_result"]
-
-        tab1, tab2 = st.tabs(["Visualisation", "Topic Table"])
-
-        with tab1:
-            st.subheader("Cluster Visualization")
-            viz_path = Path("data/cleaned/topic-modelling/clustering_visualization.png")
-            if viz_path.exists():
-                st.image(str(viz_path))
-            else:
-                st.info("Cluster visualization not available.")
-
-            st.subheader("Topic Bar Chart")
-            bar_path = Path("data/cleaned/topic-modelling/topics_barchart.html")
-            if bar_path.exists():
-                with open(bar_path, "r", encoding="utf-8") as f:
-                    st.components.v1.html(f.read(), height=500, scrolling=True)
-            else:
-                st.info("Topic bar chart not available.")
-
-            st.subheader("Topic Map")
-            map_path = Path("data/cleaned/topic-modelling/topics_map.html")
-            if map_path.exists():
-                with open(map_path, "r", encoding="utf-8") as f:
-                    st.components.v1.html(f.read(), height=500, scrolling=True)
-            else:
-                st.info("Topic map not available.")
-
-        with tab2:
-            st.subheader("Topic Info")
-
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.metric("Total Articles", result.get("num_articles", 0))
-            with col2:
-                st.metric("Topics Found", result.get("num_topics", 0))
-            with col3:
-                st.metric("Coherence Score", f"{result.get('coherence_score', 0):.4f}")
-
-            st.divider()
-
-            top_topics = result.get("top_topics", [])
-            if top_topics:
-                df_topics = pd.DataFrame(top_topics)
-                st.dataframe(df_topics, use_container_width=True)
-
-                st.download_button(
-                    "Download Topic Info CSV",
-                    df_topics.to_csv(index=False).encode("utf-8"),
-                    "topic_info.csv",
-                    "text/csv"
-                )
-            else:
-                st.info("No topic info available.")
-
-            st.divider()
-            st.subheader("KMeans Cluster Breakdown")
-            clusters = result.get("clusters", {})
-            if clusters:
-                df_clusters = pd.DataFrame([
-                    {"cluster_id": k, "num_articles": v.get("num_articles", 0)}
-                    for k, v in clusters.items()
-                ])
-                st.dataframe(df_clusters, use_container_width=True)
-
-elif menu == "Analytics":
-    st.header("Analytics")
-    tab1, tab2 = st.tabs(["MLflow", "Grafana"])
-
-    with tab1:
-        st.subheader("Experiment History")
-        try:
-            df_runs = get_mlflow_experiments()
-            if df_runs.empty:
-                st.info("No experiments found in MLflow. Run topic modelling first.")
-            else:
-                st.dataframe(df_runs, use_container_width=True)
-                if "silhouette" in df_runs.columns and "coherence" in df_runs.columns:
-                    st.line_chart(
-                        df_runs.set_index("start_time")[["silhouette", "coherence"]]
-                    )
-
-                finished_runs = df_runs[df_runs["status"] == "FINISHED"]
-
-                if not finished_runs.empty:
-                    best = finished_runs.loc[finished_runs["silhouette"].idxmax()]
-                    
-                    try:
-                        sil_val = float(best['silhouette'])
-                        coh_val = float(best['coherence'])
-                    except (ValueError, TypeError):
-                        sil_val, coh_val = 0.0, 0.0
-
-                    st.success(
-                        f"Best run: `{best['run_id']}` — "
-                        f"silhouette: {sil_val:.4f}, "
-                        f"coherence: {coh_val:.4f}, "
-                        f"topics: {best['num_topics']}"
-                    )
-                else:
-                    st.warning("No finished runs found in MLflow. Run topic modelling first.")
-                    
-        except Exception as e:
-            st.error(f"Can't access MLflow: {e}")
-            st.caption("Make sure the MLflow server is running: `mlflow ui --port 5000`")
-
-    with tab2:
-        st.subheader("System Metrics")
-
-        def get_metric(query: str) -> str:
-            try:
-                resp = requests.get(
-                    "http://localhost:9090/api/v1/query",
-                    params={"query": query},
-                    timeout=5
-                )
-                data = resp.json()
-
-                if data.get("status") != "success":
-                    return "N/A"
-
-                result = data.get("data", {}).get("result", [])
-                
-                if not result:
-                    return "N/A"
-                    
-                value = result[0].get("value", [])
-                if len(value) < 2:
-                    return "N/A"
-                    
-                return str(value[1])
-
-            except Exception:
-                return "N/A"
-
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("Total Links Scraped", get_metric("scraped_links_total"))
-        with col2:
-            val = get_metric("silhouette_score")
-            st.metric("Silhouette Score", f"{float(val):.4f}" if val != "N/A" else "N/A")
-        with col3:
-            val = get_metric("coherence_score")
-            st.metric("Coherence Score", f"{float(val):.4f}" if val != "N/A" else "N/A")
-
-        st.divider()
-
-        st.subheader("Metrics History")
-        try:
-            import time
-
-            end_time = int(time.time())
-            start_time = end_time - 3600
-
-            resp = requests.get(
-                "http://localhost:9090/api/v1/query_range",
-                params={
-                    "query": "scraped_links_total",
-                    "start": str(start_time),
-                    "end": str(end_time),
-                    "step": "60"
-                },
-                timeout=5
-            )
-            
-            response_json = resp.json()
-            
-            if response_json.get("status") == "success":
-                result_list = response_json.get("data", {}).get("result", [])
-                 
-                if result_list and "values" in result_list[0]:
-                    values = result_list[0]["values"]
-                    df_metrics = pd.DataFrame(values, columns=["timestamp", "value"])
-                    df_metrics["timestamp"] = pd.to_datetime(df_metrics["timestamp"], unit="s")
-                    df_metrics["value"] = df_metrics["value"].astype(float)
-                    st.line_chart(df_metrics.set_index("timestamp")["value"])
-                else:
-                    st.info("No metrics data found in Prometheus. Make sure the FastAPI backend is running and scraping data.")
-            else:
-                error_reason = response_json.get("error", "Unknown error from Prometheus API")
-                st.error(f"Prometheus API Error: {error_reason}")
-                
-        except Exception as e:
-            st.warning(f"Can't fetch data from Prometheus: {e}")
-
-
-        st.divider()
-
-        st.subheader("Grafana Dashboard")
-        st.components.v1.iframe(
-            "http://192.168.1.240:3001/d/adf8j6j/topic-modelling-monitor"
-            "?orgId=1&refresh=30s&kiosk",
-            height=1000,
-            scrolling=False
+    df_articles = load_articles(topic_id, source)
+    if not df_articles.empty:
+        st.dataframe(
+            df_articles[["title", "authors", "year", "source", "topic_id"]],
+            use_container_width=True
         )
+    else:
+        st.info("No articles found.")
